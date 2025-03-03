@@ -17,3 +17,20 @@ Welcome to **100 AI Machine Learning Deep Learning Projects** – a curated coll
 - **Hybrid Solutions:**  
   Integrations across multiple AI domains to solve complex, real-world problems.
 
+  Follow me on LinkedIn : [![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adilshamim8)
+
+  ***This list is regularly updated***
+  
+
+  
+
+
+
+
+
+
+
+  ***Additional projects will be announced shortly...!!!***
+
+  
+
