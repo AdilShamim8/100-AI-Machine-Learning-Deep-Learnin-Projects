@@ -19,14 +19,15 @@ Welcome to **100 AI Machine Learning Deep Learning Projects** – a curated coll
 
 Follow me on LinkedIn : [![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adilshamim8)
 
-***This list is regularly updated***
+***This list is regularly updated-***
 
 | Sr No | Name                                                         | Link                                                         |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 1     | Machine Learning Housing Corp                                | [Link](https://github.com/AdilShamim8/Machine_Learning_Housing_Corp) |
 | 2     | Book Recommender System                                      | [Link](https://github.com/AdilShamim8/Book-Recommender-System) |
-| 3     | Cat vs Dog Image Classification                              | [Link](https://github.com/AdilShamim8/Cat_Vs_Dog_Image_Classification_Project)        |
+| 3     | Cat vs Dog Image Classification                              | [Link](https://github.com/AdilShamim8/Cat_Vs_Dog_Image_Classification_Project)   |
 | 4     | Laptop-price-predictor-regression                            | [Link](https://github.com/AdilShamim8/Laptop-price-predictor-regression-project) | 
+
 ***Additional projects will be announced shortly...!!!***
 
   
