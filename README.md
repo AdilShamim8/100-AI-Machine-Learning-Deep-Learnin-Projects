@@ -29,8 +29,6 @@ Follow me on LinkedIn : [![](https://img.shields.io/badge/LinkedIn-0077B5?style=
 | 4     | Laptop-price-predictor-regression                            | [Link](https://github.com/AdilShamim8/Laptop-price-predictor-regression-project) | 
 | 5     | LLM Project                                                  | [Link](https://github.com/AdilShamim8/LLM_Project) | 
 | 6     | Email Spam Classifier                                        | [Link](https://github.com/AdilShamim8/Email-Spam-Classifier) | 
-
-
 ***Additional projects will be announced shortly...!!!***
 
   
