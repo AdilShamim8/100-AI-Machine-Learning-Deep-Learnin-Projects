@@ -6,7 +6,7 @@ Welcome to **100 AI Machine Learning Deep Learning Projects** – a curated coll
   Traditional algorithms, ensemble methods, and advanced statistical modeling.
   
 - **Deep Learning:**  
-  Neural networks including CNNs, RNNs, GANs, transformers, and other modern architectures.
+  Neural networks, including CNNs, RNNs, GANs, transformers, and other modern architectures.
   
 - **Computer Vision:**  
   Real-time image processing, object detection, segmentation, and anomaly detection.
@@ -29,6 +29,7 @@ Follow me on LinkedIn : [![](https://img.shields.io/badge/LinkedIn-0077B5?style=
 | 4     | Laptop-price-predictor-regression                            | [Link](https://github.com/AdilShamim8/Laptop-price-predictor-regression-project) | 
 | 5     | LLM Project                                                  | [Link](https://github.com/AdilShamim8/LLM_Project) | 
 | 6     | Email Spam Classifier                                        | [Link](https://github.com/AdilShamim8/Email-Spam-Classifier) | 
+| 7     | Movie Recommender System                                     | [Link](https://github.com/AdilShamim8/Movie-Recommender-System) | 
 ***Additional projects will be announced shortly...!!!***
 
   
