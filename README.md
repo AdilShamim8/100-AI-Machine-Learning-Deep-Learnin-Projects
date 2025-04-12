@@ -23,13 +23,14 @@ Follow me on LinkedIn : [![](https://img.shields.io/badge/LinkedIn-0077B5?style=
 
 | Sr No | Name                                                         | Link                                                         |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 1     | Machine Learning Housing Corp                                | [Link](https://github.com/AdilShamim8/Machine_Learning_Housing_Corp) |
+| 1     | Titanic - Machine Learning from Disaster                     | [Link](https://github.com/AdilShamim8/Titanic-Machine-Learning-from-Disaster) |
 | 2     | Book Recommender System                                      | [Link](https://github.com/AdilShamim8/Book-Recommender-System) |
 | 3     | Cat vs Dog Image Classification                              | [Link](https://github.com/AdilShamim8/Cat_Vs_Dog_Image_Classification_Project)   |
 | 4     | Laptop-price-predictor-regression                            | [Link](https://github.com/AdilShamim8/Laptop-price-predictor-regression-project) | 
 | 5     | LLM Project                                                  | [Link](https://github.com/AdilShamim8/LLM_Project) | 
 | 6     | Email Spam Classifier                                        | [Link](https://github.com/AdilShamim8/Email-Spam-Classifier) | 
 | 7     | Movie Recommender System                                     | [Link](https://github.com/AdilShamim8/Movie-Recommender-System) | 
+| 8     | Machine Learning Housing Corp                                | [Link](https://github.com/AdilShamim8/Machine_Learning_Housing_Corp) |
 ***Additional projects will be announced shortly...!!!***
 
   
