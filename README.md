@@ -23,16 +23,27 @@ Follow me on LinkedIn : [![](https://img.shields.io/badge/LinkedIn-0077B5?style=
 
 | Sr No | Name                                                         | Link                                                         |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 1     | Pose Detection                                               | [Link](https://github.com/AdilShamim8/Posture-detection) |
-| 2     | Echo AI                                                      | [Link](https://github.com/AdilShamim8/Echo_AI) |
-| 3     | Titanic - Machine Learning from Disaster                     | [Link](https://github.com/AdilShamim8/Titanic-Machine-Learning-from-Disaster) |
-| 4     | Book Recommender System                                      | [Link](https://github.com/AdilShamim8/Book-Recommender-System) |
-| 5     | Cat vs Dog Image Classification                              | [Link](https://github.com/AdilShamim8/Cat_Vs_Dog_Image_Classification_Project)   |
-| 6     | Laptop-price-predictor-regression                            | [Link](https://github.com/AdilShamim8/Laptop-price-predictor-regression-project) | 
-| 7     | LLM Project                                                  | [Link](https://github.com/AdilShamim8/LLM_Project) | 
-| 8     | Email Spam Classifier                                        | [Link](https://github.com/AdilShamim8/Email-Spam-Classifier) | 
-| 9     | Movie Recommender System                                     | [Link](https://github.com/AdilShamim8/Movie-Recommender-System) | 
-| 10    | Machine Learning Housing Corp                                | [Link](https://github.com/AdilShamim8/Machine_Learning_Housing_Corp) |
+| 1     | ML-Roadmap-and-Notes                                         | [Link](https://github.com/AdilShamim8/ML-Roadmap-and-Notes)  |
+| 2     | Prices Predictor System                                      | [Link](https://github.com/AdilShamim8/Prices_Predictor_System) |
+| 3     | Stock Price Prediction                                       | [Link](https://github.com/AdilShamim8/Stock_Price_Prediction) |
+| 4     | Sentiment Analysis                                           | [Link](https://github.com/AdilShamim8/Sentiment-analysis) |
+| 5     | Pose Detection                                               | [Link](https://github.com/AdilShamim8/Posture-detection) |
+| 6     | Toolly Studio                                                | [Link](https://github.com/AdilShamim8/Toolly_Studio) |
+| 7     | Gesture Volume Control                                       | [Link](https://github.com/AdilShamim8/Gesture-Volume-Control) |
+| 8     | Pose Detection                                               | [Link](https://github.com/AdilShamim8/Posture-detection) |
+| 9     | Resume Screening                                             | [Link](https://github.com/AdilShamim8/Resume-Screening) |
+| 10    | Echo AI                                                      | [Link](https://github.com/AdilShamim8/Echo_AI) |
+| 11    | Titanic - Machine Learning from Disaster                     | [Link](https://github.com/AdilShamim8/Titanic-Machine-Learning-from-Disaster) |
+| 12    | Book Recommender System                                      | [Link](https://github.com/AdilShamim8/Book-Recommender-System) |
+| 13    | Cat vs Dog Image Classification                              | [Link](https://github.com/AdilShamim8/Cat_Vs_Dog_Image_Classification_Project)   |
+| 14    | Laptop-price-predictor-regression                            | [Link](https://github.com/AdilShamim8/Laptop-price-predictor-regression-project) | 
+| 15    | Email Spam Classifier                                        | [Link](https://github.com/AdilShamim8/Email-Spam-Classifier) | 
+| 16    | Movie Recommender System                                     | [Link](https://github.com/AdilShamim8/Movie-Recommender-System) | 
+| 17    | Machine Learning Housing Corp                                | [Link](https://github.com/AdilShamim8/Machine_Learning_Housing_Corp) |
+| 18    | Olympic History Analysis                                     | [Link](https://github.com/AdilShamim8/Olympic_History_Analysis) |
+| 19    | Study_Abroad Dataset & Notebook                              | [Link](https://github.com/AdilShamim8/Study_Abroad) |
+| 20    | COVID-19 Global Impact Analysis                              | [Link](https://github.com/AdilShamim8/COVID-19_Global_Impact_Analysis) |
+| 21    | Toolly                                                       | [Link](https://github.com/AdilShamim8/Toolly) |
 ***Additional projects will be announced shortly...!!!***
 
   
