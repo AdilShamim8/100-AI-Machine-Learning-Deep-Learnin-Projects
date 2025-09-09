@@ -18,6 +18,8 @@ Welcome to **100 AI Machine Learning Deep Learning Projects** – a curated coll
   Integrations across multiple AI domains to solve complex, real-world problems.
 
 Follow me on LinkedIn : [![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adilshamim8)
+Follow me on Kaggle: [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/adilshamim8)
+
 
 ***This list is regularly updated -***
 
