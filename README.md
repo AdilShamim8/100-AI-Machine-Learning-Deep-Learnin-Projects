@@ -43,7 +43,8 @@ Follow me on LinkedIn : [![](https://img.shields.io/badge/LinkedIn-0077B5?style=
 | 18    | Olympic History Analysis                                     | [Link](https://github.com/AdilShamim8/Olympic_History_Analysis) |
 | 19    | Study_Abroad Dataset & Notebook                              | [Link](https://github.com/AdilShamim8/Study_Abroad) |
 | 20    | COVID-19 Global Impact Analysis                              | [Link](https://github.com/AdilShamim8/COVID-19_Global_Impact_Analysis) |
-| 21    | Toolly                                                       | [Link](https://github.com/AdilShamim8/Toolly) |
+| 21    | Data Science Salary Predictor                                | [Link](https://github.com/AdilShamim8/Data-Science-Salary-Predictor) |
+| 22    | Toolly                                                       | [Link](https://github.com/AdilShamim8/Toolly) |
 ***Additional projects will be announced shortly...!!!***
 
   
