@@ -39,7 +39,7 @@ Follow me on Kaggle: [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style
 | 12    | Echo AI                                                      | [Link](https://github.com/AdilShamim8/Echo_AI) |
 | 13    | Book Recommender System                                      | [Link](https://github.com/AdilShamim8/Book-Recommender-System) |
 | 14    | Cat vs Dog Image Classification                              | [Link](https://github.com/AdilShamim8/Cat_Vs_Dog_Image_Classification_Project)   |
-| 15    | Laptop-price-predictor-regression                            | [Link](https://github.com/AdilShamim8/Laptop-price-predictor-regression-project) | 
+| 15    | Laptop price predictor regression                            | [Link](https://github.com/AdilShamim8/Laptop-price-predictor-regression-project) | 
 | 16    | Email Spam Classifier                                        | [Link](https://github.com/AdilShamim8/Email-Spam-Classifier) | 
 | 17    | Movie Recommender System                                     | [Link](https://github.com/AdilShamim8/Movie-Recommender-System) | 
 | 18    | Machine Learning Housing Corp                                | [Link](https://github.com/AdilShamim8/Machine_Learning_Housing_Corp) |
@@ -47,7 +47,9 @@ Follow me on Kaggle: [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style
 | 20    | Study_Abroad Dataset & Notebook                              | [Link](https://github.com/AdilShamim8/Study_Abroad) |
 | 21    | COVID-19 Global Impact Analysis                              | [Link](https://github.com/AdilShamim8/COVID-19_Global_Impact_Analysis) |
 | 22    | Data Science Salary Predictor                                | [Link](https://github.com/AdilShamim8/Data-Science-Salary-Predictor) |
-| 23    | Toolly                                                       | [Link](https://github.com/AdilShamim8/Toolly) |
+| 23    | Vendor Performance Analysis                                  | [Link](https://github.com/AdilShamim8/Vendor-Performance-Analysis) |
+| 24    | Pose Detection with Face Overlays                            | [Link](https://github.com/AdilShamim8/Posture-detection) |
+| 25    | Toolly                                                       | [Link](https://github.com/AdilShamim8/Toolly) |
 ***Additional projects will be announced shortly...!!!***
 
   
