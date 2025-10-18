@@ -37,18 +37,17 @@ Follow me on Kaggle: [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style
 | 10    | Pose Detection                                               | [Link](https://github.com/AdilShamim8/Posture-detection) |
 | 11    | Resume Screening                                             | [Link](https://github.com/AdilShamim8/Resume-Screening) |
 | 12    | Echo AI                                                      | [Link](https://github.com/AdilShamim8/Echo_AI) |
-| 13    | Titanic - Machine Learning from Disaster                     | [Link](https://github.com/AdilShamim8/Titanic-Machine-Learning-from-Disaster) |
-| 14    | Book Recommender System                                      | [Link](https://github.com/AdilShamim8/Book-Recommender-System) |
-| 15    | Cat vs Dog Image Classification                              | [Link](https://github.com/AdilShamim8/Cat_Vs_Dog_Image_Classification_Project)   |
-| 16    | Laptop-price-predictor-regression                            | [Link](https://github.com/AdilShamim8/Laptop-price-predictor-regression-project) | 
-| 17    | Email Spam Classifier                                        | [Link](https://github.com/AdilShamim8/Email-Spam-Classifier) | 
-| 18    | Movie Recommender System                                     | [Link](https://github.com/AdilShamim8/Movie-Recommender-System) | 
-| 19    | Machine Learning Housing Corp                                | [Link](https://github.com/AdilShamim8/Machine_Learning_Housing_Corp) |
-| 20    | Olympic History Analysis                                     | [Link](https://github.com/AdilShamim8/Olympic_History_Analysis) |
-| 21    | Study_Abroad Dataset & Notebook                              | [Link](https://github.com/AdilShamim8/Study_Abroad) |
-| 22    | COVID-19 Global Impact Analysis                              | [Link](https://github.com/AdilShamim8/COVID-19_Global_Impact_Analysis) |
-| 23    | Data Science Salary Predictor                                | [Link](https://github.com/AdilShamim8/Data-Science-Salary-Predictor) |
-| 24    | Toolly                                                       | [Link](https://github.com/AdilShamim8/Toolly) |
+| 13    | Book Recommender System                                      | [Link](https://github.com/AdilShamim8/Book-Recommender-System) |
+| 14    | Cat vs Dog Image Classification                              | [Link](https://github.com/AdilShamim8/Cat_Vs_Dog_Image_Classification_Project)   |
+| 15    | Laptop-price-predictor-regression                            | [Link](https://github.com/AdilShamim8/Laptop-price-predictor-regression-project) | 
+| 16    | Email Spam Classifier                                        | [Link](https://github.com/AdilShamim8/Email-Spam-Classifier) | 
+| 17    | Movie Recommender System                                     | [Link](https://github.com/AdilShamim8/Movie-Recommender-System) | 
+| 18    | Machine Learning Housing Corp                                | [Link](https://github.com/AdilShamim8/Machine_Learning_Housing_Corp) |
+| 19    | Olympic History Analysis                                     | [Link](https://github.com/AdilShamim8/Olympic_History_Analysis) |
+| 20    | Study_Abroad Dataset & Notebook                              | [Link](https://github.com/AdilShamim8/Study_Abroad) |
+| 21    | COVID-19 Global Impact Analysis                              | [Link](https://github.com/AdilShamim8/COVID-19_Global_Impact_Analysis) |
+| 22    | Data Science Salary Predictor                                | [Link](https://github.com/AdilShamim8/Data-Science-Salary-Predictor) |
+| 23    | Toolly                                                       | [Link](https://github.com/AdilShamim8/Toolly) |
 ***Additional projects will be announced shortly...!!!***
 
   
