@@ -48,7 +48,9 @@ Follow me on Kaggle: [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style
 | 22    | Data Science Salary Predictor                                | [Link](https://github.com/AdilShamim8/Data-Science-Salary-Predictor) |
 | 23    | Vendor Performance Analysis                                  | [Link](https://github.com/AdilShamim8/Vendor-Performance-Analysis) |
 | 24    | Pose Detection with Face Overlays                            | [Link](https://github.com/AdilShamim8/Posture-detection) |
-| 25    | Toolly                                                       | [Link](https://github.com/AdilShamim8/Toolly) |
+| 25    | Bengali SMS Classifier                                       | [Link](https://github.com/AdilShamim8/Bengali_sms_classifier) |
+| 26    | Toolly                                                       | [Link](https://github.com/AdilShamim8/Toolly) |
+
 ***Additional projects will be announced shortly...!!!***
 
   
