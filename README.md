@@ -102,36 +102,10 @@ If you find this repository useful, please consider giving it a ⭐!
 <!-- Header Banner -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=100%20AI%20%2B%20ML%20%2B%20DL%20Projects&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=A%20decade%20of%20real-world%20AI%20experience%20in%20one%20repository&descAlignY=58&descSize=16" />
 
-<!-- Badges Row -->
-<p align="center">
-  <a href="https://github.com/AdilShamim8/100-AI-Machine-Learning-Deep-Learnin-Projects/stargazers">
-    <img src="https://img.shields.io/github/stars/AdilShamim8/100-AI-Machine-Learning-Deep-Learnin-Projects?style=for-the-badge&logo=github&color=FFD700&labelColor=1a1a2e" alt="Stars"/>
-  </a>
-  <a href="https://github.com/AdilShamim8/100-AI-Machine-Learning-Deep-Learnin-Projects/forks">
-    <img src="https://img.shields.io/github/forks/AdilShamim8/100-AI-Machine-Learning-Deep-Learnin-Projects?style=for-the-badge&logo=github&color=00C9FF&labelColor=1a1a2e" alt="Forks"/>
-  </a>
-  <a href="https://github.com/AdilShamim8/100-AI-Machine-Learning-Deep-Learnin-Projects/issues">
-    <img src="https://img.shields.io/github/issues/AdilShamim8/100-AI-Machine-Learning-Deep-Learnin-Projects?style=for-the-badge&logo=github&color=FF6B6B&labelColor=1a1a2e" alt="Issues"/>
-  </a>
-  <a href="https://github.com/AdilShamim8/100-AI-Machine-Learning-Deep-Learnin-Projects/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/AdilShamim8/100-AI-Machine-Learning-Deep-Learnin-Projects?style=for-the-badge&color=92E050&labelColor=1a1a2e" alt="License"/>
-  </a>
-  <img src="https://img.shields.io/badge/Projects-26%2B-blueviolet?style=for-the-badge&labelColor=1a1a2e" alt="Projects"/>
-  <img src="https://img.shields.io/badge/Updated-Regularly-brightgreen?style=for-the-badge&labelColor=1a1a2e" alt="Updated"/>
-</p>
+##  Connect with Me
 
-<!-- Connect Badges -->
-<p align="center">
-  <a href="https://www.linkedin.com/in/adilshamim8">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://www.kaggle.com/adilshamim8">
-    <img src="https://img.shields.io/badge/Kaggle-Follow-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle"/>
-  </a>
-  <a href="https://github.com/AdilShamim8">
-    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-</p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Adil%20Shamim-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adilshamim8)
+[![Kaggle](https://img.shields.io/badge/Kaggle-Adil%20Shamim-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/adilshamim8)
 
 </div>
 
