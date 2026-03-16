@@ -1,16 +1,5 @@
 #  100 AI, Machine Learning & Deep Learning Projects
 
-<div align="center">
-
-[![GitHub Repo stars](https://img.shields.io/github/stars/AdilShamim8/100-AI-Machine-Learning-Deep-Learnin-Projects?style=for-the-badge)](https://github.com/AdilShamim8/100-AI-Machine-Learning-Deep-Learnin-Projects/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/AdilShamim8/100-AI-Machine-Learning-Deep-Learnin-Projects?style=for-the-badge)](https://github.com/AdilShamim8/100-AI-Machine-Learning-Deep-Learnin-Projects/network)
-[![GitHub last commit](https://img.shields.io/github/last-commit/AdilShamim8/100-AI-Machine-Learning-Deep-Learnin-Projects?style=for-the-badge)](https://github.com/AdilShamim8/100-AI-Machine-Learning-Deep-Learnin-Projects/commits)
-[![GitHub repo size](https://img.shields.io/github/repo-size/AdilShamim8/100-AI-Machine-Learning-Deep-Learnin-Projects?style=for-the-badge)](https://github.com/AdilShamim8/100-AI-Machine-Learning-Deep-Learnin-Projects)
-
-</div>
-
----
-
 ##  Overview
 
 Welcome to **100 AI, Machine Learning, and Deep Learning Projects** — a curated collection of practical AI projects built and refined through real-world experience.
