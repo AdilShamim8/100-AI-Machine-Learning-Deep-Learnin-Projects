@@ -1,102 +1,3 @@
-#  100 AI, Machine Learning & Deep Learning Projects
-
-##  Overview
-
-Welcome to **100 AI, Machine Learning, and Deep Learning Projects** — a curated collection of practical AI projects built and refined through real-world experience.
-
-This repository is designed for:
-
--  Beginners learning by building
--  ML/AI enthusiasts exploring practical implementations
--  Professionals looking for applied project references
-
----
-
-##  What You’ll Find
-
-- **Machine Learning**  
-  Traditional algorithms, ensemble models, and statistical methods.
-
-- **Deep Learning**  
-  CNNs, RNNs, GANs, Transformers, and modern neural architectures.
-
-- **Computer Vision**  
-  Object detection, segmentation, real-time image processing, and anomaly detection.
-
-- **Natural Language Processing (NLP)**  
-  Sentiment analysis, contextual embeddings, text analytics, and language modeling.
-
-- **Hybrid AI Solutions**  
-  Projects combining multiple AI domains for real-world applications.
-
----
-
-## 🌟 Star History
-
-<a href="https://www.star-history.com/?repos=AdilShamim8%2F100-AI-Machine-Learning-Deep-Learnin-Projects&type=date&legend=top-left">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=AdilShamim8/100-AI-Machine-Learning-Deep-Learnin-Projects&type=date&theme=dark&legend=top-left" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=AdilShamim8/100-AI-Machine-Learning-Deep-Learnin-Projects&type=date&legend=top-left" />
-    <img alt="Star History Chart" src="https://api.star-history.com/image?repos=AdilShamim8/100-AI-Machine-Learning-Deep-Learnin-Projects&type=date&legend=top-left" />
-  </picture>
-</a>
-
----
-
-##  Connect with Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Adil%20Shamim-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adilshamim8)
-[![Kaggle](https://img.shields.io/badge/Kaggle-Adil%20Shamim-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/adilshamim8)
-
----
-
-##  Project List
-
-> This list is regularly updated.
-
-| # | Project Name | Repository |
-|---|---|---|
-| 1 | ML Roadmap and Notes | [View](https://github.com/AdilShamim8/ML-Roadmap-and-Notes) |
-| 2 | GenAI Roadmap with Notes Using LangChain | [View](https://github.com/AdilShamim8/GenAI-Roadmap-with-Notes-Using-LangChain) |
-| 3 | Prompt Engineering | [View](https://github.com/AdilShamim8/Prompt-Engineering) |
-| 4 | Prices Predictor System | [View](https://github.com/AdilShamim8/Prices_Predictor_System) |
-| 5 | Stock Price Prediction | [View](https://github.com/AdilShamim8/Stock_Price_Prediction) |
-| 6 | Sentiment Analysis | [View](https://github.com/AdilShamim8/Sentiment-analysis) |
-| 7 | Pose Detection | [View](https://github.com/AdilShamim8/Posture-detection) |
-| 8 | Toolly Studio | [View](https://github.com/AdilShamim8/Toolly_Studio) |
-| 9 | Gesture Volume Control | [View](https://github.com/AdilShamim8/Gesture-Volume-Control) |
-| 10 | Resume Screening | [View](https://github.com/AdilShamim8/Resume-Screening) |
-| 11 | Echo AI | [View](https://github.com/AdilShamim8/Echo_AI) |
-| 12 | Book Recommender System | [View](https://github.com/AdilShamim8/Book-Recommender-System) |
-| 13 | Cat vs Dog Image Classification | [View](https://github.com/AdilShamim8/Cat_Vs_Dog_Image_Classification_Project) |
-| 14 | Laptop Price Predictor Regression | [View](https://github.com/AdilShamim8/Laptop-price-predictor-regression-project) |
-| 15 | Email Spam Classifier | [View](https://github.com/AdilShamim8/Email-Spam-Classifier) |
-| 16 | Movie Recommender System | [View](https://github.com/AdilShamim8/Movie-Recommender-System) |
-| 17 | Machine Learning Housing Corp | [View](https://github.com/AdilShamim8/Machine_Learning_Housing_Corp) |
-| 18 | Olympic History Analysis | [View](https://github.com/AdilShamim8/Olympic_History_Analysis) |
-| 19 | Study Abroad Dataset & Notebook | [View](https://github.com/AdilShamim8/Study_Abroad) |
-| 20 | COVID-19 Global Impact Analysis | [View](https://github.com/AdilShamim8/COVID-19_Global_Impact_Analysis) |
-| 21 | Data Science Salary Predictor | [View](https://github.com/AdilShamim8/Data-Science-Salary-Predictor) |
-| 22 | Vendor Performance Analysis | [View](https://github.com/AdilShamim8/Vendor-Performance-Analysis) |
-| 23 | Pose Detection with Face Overlays | [View](https://github.com/AdilShamim8/Posture-detection) |
-| 24 | Bengali SMS Classifier | [View](https://github.com/AdilShamim8/Bengali_sms_classifier) |
-| 25 | Toolly | [View](https://github.com/AdilShamim8/Toolly) |
-
----
-
-
-## 📣 Upcoming
-
-Additional projects will be announced shortly.
-
-If you find this repository useful, please consider giving it a ⭐!
-
-
-
-
-
-
-
 <div align="center">
 
 <!-- Header Banner -->
@@ -184,34 +85,34 @@ Whether you're just entering the AI space or a seasoned practitioner looking for
 |---|---------|-------------|------|
 | 04 | [Prices Predictor System](https://github.com/AdilShamim8/Prices_Predictor_System) | End-to-end price prediction system with feature pipelines | `ML` `Regression` `MLOps` |
 | 05 | [Stock Price Prediction](https://github.com/AdilShamim8/Stock_Price_Prediction) | Time-series forecasting for equity price movements | `LSTM` `Time-Series` `Finance` |
-| 15 | [Laptop Price Predictor](https://github.com/AdilShamim8/Laptop-price-predictor-regression-project) | Regression model to estimate laptop prices from specs | `Regression` `EDA` `ML` |
-| 18 | [ML Housing Corp](https://github.com/AdilShamim8/Machine_Learning_Housing_Corp) | Housing price prediction inspired by *Hands-On ML* | `Regression` `Scikit-Learn` |
-| 22 | [Data Science Salary Predictor](https://github.com/AdilShamim8/Data-Science-Salary-Predictor) | Predict DS/ML salaries from job market data | `ML` `Regression` `Career` |
+| 06 | [Laptop Price Predictor](https://github.com/AdilShamim8/Laptop-price-predictor-regression-project) | Regression model to estimate laptop prices from specs | `Regression` `EDA` `ML` |
+| 07 | [ML Housing Corp](https://github.com/AdilShamim8/Machine_Learning_Housing_Corp) | Housing price prediction inspired by *Hands-On ML* | `Regression` `Scikit-Learn` |
+| 08 | [Data Science Salary Predictor](https://github.com/AdilShamim8/Data-Science-Salary-Predictor) | Predict DS/ML salaries from job market data | `ML` `Regression` `Career` |
 
 ### Natural Language Processing
 
 | # | Project | Description | Tags |
 |---|---------|-------------|------|
-| 06 | [Sentiment Analysis](https://github.com/AdilShamim8/Sentiment-analysis) | Multi-class sentiment classification on review data | `NLP` `Classification` `BERT` |
-| 11 | [Resume Screening](https://github.com/AdilShamim8/Resume-Screening) | Automated resume parser and job-fit classifier | `NLP` `Classification` `HR-Tech` |
-| 16 | [Email Spam Classifier](https://github.com/AdilShamim8/Email-Spam-Classifier) | NLP pipeline to detect spam and phishing emails | `NLP` `Classification` `TF-IDF` |
-| 25 | [Bengali SMS Classifier](https://github.com/AdilShamim8/Bengali_sms_classifier) | Spam detection for the Bengali language | `NLP` `Bengali` `Low-Resource` |
+| 09 | [Sentiment Analysis](https://github.com/AdilShamim8/Sentiment-analysis) | Multi-class sentiment classification on review data | `NLP` `Classification` `BERT` |
+| 10 | [Resume Screening](https://github.com/AdilShamim8/Resume-Screening) | Automated resume parser and job-fit classifier | `NLP` `Classification` `HR-Tech` |
+| 11 | [Email Spam Classifier](https://github.com/AdilShamim8/Email-Spam-Classifier) | NLP pipeline to detect spam and phishing emails | `NLP` `Classification` `TF-IDF` |
+| 12 | [Bengali SMS Classifier](https://github.com/AdilShamim8/Bengali_sms_classifier) | Spam detection for the Bengali language | `NLP` `Bengali` `Low-Resource` |
 
 ### Recommender Systems
 
 | # | Project | Description | Tags |
 |---|---------|-------------|------|
 | 13 | [Book Recommender System](https://github.com/AdilShamim8/Book-Recommender-System) | Collaborative filtering-based book recommendation engine | `RecSys` `Collaborative` `CF` |
-| 17 | [Movie Recommender System](https://github.com/AdilShamim8/Movie-Recommender-System) | Content-based and hybrid movie recommendation system | `RecSys` `Content-Based` |
+| 14 | [Movie Recommender System](https://github.com/AdilShamim8/Movie-Recommender-System) | Content-based and hybrid movie recommendation system | `RecSys` `Content-Based` |
 
 ### Computer Vision
 
 | # | Project | Description | Tags |
 |---|---------|-------------|------|
-| 07 | [Pose Detection](https://github.com/AdilShamim8/Posture-detection) | Real-time human pose estimation and posture analysis | `CV` `MediaPipe` `Real-Time` |
-| 09 | [Gesture Volume Control](https://github.com/AdilShamim8/Gesture-Volume-Control) | Control system volume using hand gestures via webcam | `CV` `MediaPipe` `HCI` |
-| 14 | [Cat vs Dog Classification](https://github.com/AdilShamim8/Cat_Vs_Dog_Image_Classification_Project) | CNN-based binary image classifier | `CNN` `Image-Classification` `DL` |
-| 24 | [Pose Detection with Face Overlays](https://github.com/AdilShamim8/Posture-detection) | Extended pose detection with dynamic face overlay effects | `CV` `Pose` `MediaPipe` |
+| 15 | [Pose Detection](https://github.com/AdilShamim8/Posture-detection) | Real-time human pose estimation and posture analysis | `CV` `MediaPipe` `Real-Time` |
+| 16 | [Gesture Volume Control](https://github.com/AdilShamim8/Gesture-Volume-Control) | Control system volume using hand gestures via webcam | `CV` `MediaPipe` `HCI` |
+| 17 | [Cat vs Dog Classification](https://github.com/AdilShamim8/Cat_Vs_Dog_Image_Classification_Project) | CNN-based binary image classifier | `CNN` `Image-Classification` `DL` |
+| 18 | [Pose Detection with Face Overlays](https://github.com/AdilShamim8/Posture-detection) | Extended pose detection with dynamic face overlay effects | `CV` `Pose` `MediaPipe` |
 
 ### Data Analysis & Visualization
 
@@ -226,8 +127,8 @@ Whether you're just entering the AI space or a seasoned practitioner looking for
 
 | # | Project | Description | Tags |
 |---|---------|-------------|------|
-| 08 | [Toolly Studio](https://github.com/AdilShamim8/Toolly_Studio) | A studio suite of developer and AI productivity tools | `Tools` `Productivity` |
-| 12 | [Echo AI](https://github.com/AdilShamim8/Echo_AI) | Conversational AI assistant with contextual memory | `LLM` `Chatbot` `GenAI` |
+| 24 | [Toolly Studio](https://github.com/AdilShamim8/Toolly_Studio) | A studio suite of developer and AI productivity tools | `Tools` `Productivity` |
+| 25 | [Echo AI](https://github.com/AdilShamim8/Echo_AI) | Conversational AI assistant with contextual memory | `LLM` `Chatbot` `GenAI` |
 | 26 | [Toolly](https://github.com/AdilShamim8/Toolly) | Lightweight utility toolkit for ML workflows | `Tools` `Utilities` `ML` |
 
 
