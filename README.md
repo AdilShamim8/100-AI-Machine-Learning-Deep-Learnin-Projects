@@ -10,7 +10,6 @@
 
 </div>
 
----
 
 ##  About This Repository
 
@@ -67,9 +66,9 @@ Whether you're just entering the AI space or a seasoned practitioner looking for
   </a>
 </div>
 
----
 
-## ##  Project List
+
+##  Project List
 
 > **This list is regularly updated** — new projects are added frequently. Watch the repo to stay notified!
 
