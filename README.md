@@ -1,5 +1,15 @@
 # 100 AI Machine Learning Deep Learning Projects
 
+## Star History
+
+<a href="https://www.star-history.com/?repos=AdilShamim8%2F100-AI-Machine-Learning-Deep-Learnin-Projects&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=AdilShamim8/100-AI-Machine-Learning-Deep-Learnin-Projects&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=AdilShamim8/100-AI-Machine-Learning-Deep-Learnin-Projects&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=AdilShamim8/100-AI-Machine-Learning-Deep-Learnin-Projects&type=date&legend=top-left" />
+ </picture>
+</a>
+
 Welcome to **100 AI Machine Learning Deep Learning Projects** – a curated collection of machine learning and deep learning projects refined over a decade of real-world experience in the field. This repository is designed for professionals and enthusiasts alike who are eager to explore advanced implementations, optimization techniques, and best practices in AI.
 
 - **Machine Learning:**  
