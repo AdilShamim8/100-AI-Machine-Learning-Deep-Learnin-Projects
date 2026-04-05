@@ -76,59 +76,67 @@ Whether you're just entering the AI space or a seasoned practitioner looking for
 |---|---------|-------------|------|
 | 01 | [ML Roadmap and Notes](https://github.com/AdilShamim8/ML-Roadmap-and-Notes) | Complete machine learning roadmap with structured notes | `ML` `Roadmap` `Beginner` |
 | 02 | [GenAI Roadmap with LangChain](https://github.com/AdilShamim8/GenAI-Roadmap-with-Notes-Using-LangChain) | Generative AI roadmap with hands-on LangChain notes | `GenAI` `LangChain` `LLM` |
-| 03 | [Prompt Engineering](https://github.com/AdilShamim8/Prompt-Engineering) | Techniques and best practices for effective LLM prompting | `LLM` `Prompting` `NLP` |
+| 03 | [Agentic AI Roadmap with LangGraph](https://github.com/AdilShamim8/Agentic-AI-Roadmap-with-Notes-Using-LangGraph) | End-to-end agentic AI roadmap with structured notes and LangGraph implementations | `GenAI` `LangGraph` `Agents` |
+| 04 | [ML Algorithm Library](https://github.com/AdilShamim8/ML-Algorithm-Library) | Pure-Python implementations of core ML algorithms from scratch | `ML` `Algorithms` `From-Scratch` |
+| 05 | [GPT-2 Rebuild — nanoGPT](https://github.com/AdilShamim8/GPT-2-Rebuild-nanoGPT) | Step-by-step reproduction of GPT-2 and nanoGPT from scratch following Karpathy's architecture | `DL` `Transformers` `LLM` |
+| 06 | [Prompt Engineering](https://github.com/AdilShamim8/Prompt-Engineering) | Techniques and best practices for effective LLM prompting | `LLM` `Prompting` `NLP` |
 
 ###  Prediction & Forecasting
 
 | # | Project | Description | Tags |
 |---|---------|-------------|------|
-| 04 | [Prices Predictor System](https://github.com/AdilShamim8/Prices_Predictor_System) | End-to-end price prediction system with feature pipelines | `ML` `Regression` `MLOps` |
-| 05 | [Stock Price Prediction](https://github.com/AdilShamim8/Stock_Price_Prediction) | Time-series forecasting for equity price movements | `LSTM` `Time-Series` `Finance` |
-| 06 | [Laptop Price Predictor](https://github.com/AdilShamim8/Laptop-price-predictor-regression-project) | Regression model to estimate laptop prices from specs | `Regression` `EDA` `ML` |
-| 07 | [ML Housing Corp](https://github.com/AdilShamim8/Machine_Learning_Housing_Corp) | Housing price prediction inspired by *Hands-On ML* | `Regression` `Scikit-Learn` |
-| 08 | [Data Science Salary Predictor](https://github.com/AdilShamim8/Data-Science-Salary-Predictor) | Predict DS/ML salaries from job market data | `ML` `Regression` `Career` |
+| 07 | [Prices Predictor System](https://github.com/AdilShamim8/Prices_Predictor_System) | End-to-end price prediction system with feature pipelines | `ML` `Regression` `MLOps` |
+| 08 | [Stock Price Prediction](https://github.com/AdilShamim8/Stock_Price_Prediction) | Time-series forecasting for equity price movements | `LSTM` `Time-Series` `Finance` |
+| 09 | [Laptop Price Predictor](https://github.com/AdilShamim8/Laptop-price-predictor-regression-project) | Regression model to estimate laptop prices from specs | `Regression` `EDA` `ML` |
+| 10 | [ML Housing Corp](https://github.com/AdilShamim8/Machine_Learning_Housing_Corp) | Housing price prediction inspired by *Hands-On ML* | `Regression` `Scikit-Learn` |
+| 11 | [Data Science Salary Predictor](https://github.com/AdilShamim8/Data-Science-Salary-Predictor) | Predict DS/ML salaries from job market data | `ML` `Regression` `Career` |
 
 ### Natural Language Processing
 
 | # | Project | Description | Tags |
 |---|---------|-------------|------|
-| 09 | [Sentiment Analysis](https://github.com/AdilShamim8/Sentiment-analysis) | Multi-class sentiment classification on review data | `NLP` `Classification` `BERT` |
-| 10 | [Resume Screening](https://github.com/AdilShamim8/Resume-Screening) | Automated resume parser and job-fit classifier | `NLP` `Classification` `HR-Tech` |
-| 11 | [Email Spam Classifier](https://github.com/AdilShamim8/Email-Spam-Classifier) | NLP pipeline to detect spam and phishing emails | `NLP` `Classification` `TF-IDF` |
-| 12 | [Bengali SMS Classifier](https://github.com/AdilShamim8/Bengali_sms_classifier) | Spam detection for the Bengali language | `NLP` `Bengali` `Low-Resource` |
+| 12 | [BUET-CSE-Fest-2026](https://github.com/AdilShamim8/BUET-CSE-Fest-2026) | Bengali ASR and speaker diarization system built for BUET CSE Fest 2026 | `ASR` `Bengali` `Diarization` |
+| 13 | [Sentiment Analysis](https://github.com/AdilShamim8/Sentiment-analysis) | Multi-class sentiment classification on review data | `NLP` `Classification` `BERT` |
+| 14 | [Resume Screening](https://github.com/AdilShamim8/Resume-Screening) | Automated resume parser and job-fit classifier | `NLP` `Classification` `HR-Tech` |
+| 15 | [Email Spam Classifier](https://github.com/AdilShamim8/Email-Spam-Classifier) | NLP pipeline to detect spam and phishing emails | `NLP` `Classification` `TF-IDF` |
+| 16 | [Bengali SMS Classifier](https://github.com/AdilShamim8/Bengali_sms_classifier) | Spam detection for the Bengali language | `NLP` `Bengali` `Low-Resource` |
 
 ### Recommender Systems
 
 | # | Project | Description | Tags |
 |---|---------|-------------|------|
-| 13 | [Book Recommender System](https://github.com/AdilShamim8/Book-Recommender-System) | Collaborative filtering-based book recommendation engine | `RecSys` `Collaborative` `CF` |
-| 14 | [Movie Recommender System](https://github.com/AdilShamim8/Movie-Recommender-System) | Content-based and hybrid movie recommendation system | `RecSys` `Content-Based` |
+| 17 | [Book Recommender System](https://github.com/AdilShamim8/Book-Recommender-System) | Collaborative filtering-based book recommendation engine | `RecSys` `Collaborative` `CF` |
+| 18 | [Movie Recommender System](https://github.com/AdilShamim8/Movie-Recommender-System) | Content-based and hybrid movie recommendation system | `RecSys` `Content-Based` |
 
 ### Computer Vision
 
 | # | Project | Description | Tags |
 |---|---------|-------------|------|
-| 15 | [Pose Detection](https://github.com/AdilShamim8/Posture-detection) | Real-time human pose estimation and posture analysis | `CV` `MediaPipe` `Real-Time` |
-| 16 | [Gesture Volume Control](https://github.com/AdilShamim8/Gesture-Volume-Control) | Control system volume using hand gestures via webcam | `CV` `MediaPipe` `HCI` |
-| 17 | [Cat vs Dog Classification](https://github.com/AdilShamim8/Cat_Vs_Dog_Image_Classification_Project) | CNN-based binary image classifier | `CNN` `Image-Classification` `DL` |
-| 18 | [Pose Detection with Face Overlays](https://github.com/AdilShamim8/Posture-detection) | Extended pose detection with dynamic face overlay effects | `CV` `Pose` `MediaPipe` |
+| 19 | [Pose Detection](https://github.com/AdilShamim8/Posture-detection) | Real-time human pose estimation and posture analysis | `CV` `MediaPipe` `Real-Time` |
+| 20 | [Gesture Volume Control](https://github.com/AdilShamim8/Gesture-Volume-Control) | Control system volume using hand gestures via webcam | `CV` `MediaPipe` `HCI` |
+| 21 | [Cat vs Dog Classification](https://github.com/AdilShamim8/Cat_Vs_Dog_Image_Classification_Project) | CNN-based binary image classifier | `CNN` `Image-Classification` `DL` |
+| 22 | [Pose Detection with Face Overlays](https://github.com/AdilShamim8/Posture-detection) | Extended pose detection with dynamic face overlay effects | `CV` `Pose` `MediaPipe` |
 
 ### Data Analysis & Visualization
 
 | # | Project | Description | Tags |
 |---|---------|-------------|------|
-| 19 | [Olympic History Analysis](https://github.com/AdilShamim8/Olympic_History_Analysis) | In-depth EDA on 120 years of Olympic Games data | `EDA` `Visualization` `Pandas` |
-| 20 | [Study Abroad Dataset](https://github.com/AdilShamim8/Study_Abroad) | Analysis and modeling on international student data | `EDA` `Statistics` |
-| 21 | [COVID-19 Global Impact Analysis](https://github.com/AdilShamim8/COVID-19_Global_Impact_Analysis) | Comprehensive analysis of pandemic spread and impact | `EDA` `Public-Health` `Viz` |
-| 23 | [Vendor Performance Analysis](https://github.com/AdilShamim8/Vendor-Performance-Analysis) | Supply chain vendor scoring and analytics dashboard | `EDA` `Business-Intelligence` |
+| 23 | [QuantScope](https://github.com/AdilShamim8/QuantScope) | Quantitative stock analysis platform for data-driven market research and financial decision making | `Finance` `EDA` `Quant` |
+| 24 | [Olympic History Analysis](https://github.com/AdilShamim8/Olympic_History_Analysis) | In-depth EDA on 120 years of Olympic Games data | `EDA` `Visualization` `Pandas` |
+| 25 | [Study Abroad Dataset](https://github.com/AdilShamim8/Study_Abroad) | Analysis and modeling on international student data | `EDA` `Statistics` |
+| 26 | [COVID-19 Global Impact Analysis](https://github.com/AdilShamim8/COVID-19_Global_Impact_Analysis) | Comprehensive analysis of pandemic spread and impact | `EDA` `Public-Health` `Viz` |
+| 27 | [Vendor Performance Analysis](https://github.com/AdilShamim8/Vendor-Performance-Analysis) | Supply chain vendor scoring and analytics dashboard | `EDA` `Business-Intelligence` |
 
 ### Tools & AI Applications
 
 | # | Project | Description | Tags |
 |---|---------|-------------|------|
-| 24 | [Toolly Studio](https://github.com/AdilShamim8/Toolly_Studio) | A studio suite of developer and AI productivity tools | `Tools` `Productivity` |
-| 25 | [Echo AI](https://github.com/AdilShamim8/Echo_AI) | Conversational AI assistant with contextual memory | `LLM` `Chatbot` `GenAI` |
-| 26 | [Toolly](https://github.com/AdilShamim8/Toolly) | Lightweight utility toolkit for ML workflows | `Tools` `Utilities` `ML` |
+| 28 | [Production-grade-RAG](https://github.com/AdilShamim8/Production-grade-RAG) | Production-ready RAG API built with FastAPI, LangChain, OpenAI, and Qdrant | `RAG` `FastAPI` `LangChain` `Qdrant` |
+| 29 | [NeuroBridge](https://github.com/AdilShamim8/NeuroBridge) | Middleware layer bridging LLMs with real-world applications for seamless agentic integration | `LLM` `Agents` `Middleware` |
+| 30 | [PaperMap](https://github.com/AdilShamim8/PaperMap) | Interactive library transforming landmark AI papers into visual educational experiences | `Education` `GenAI` `Interactive` |
+| 31 | [Toolly Studio](https://github.com/AdilShamim8/Toolly_Studio) | A studio suite of developer and AI productivity tools | `Tools` `Productivity` |
+| 32 | [Echo AI](https://github.com/AdilShamim8/Echo_AI) | Conversational AI assistant with contextual memory | `LLM` `Chatbot` `GenAI` |
+| 33 | [Toolly](https://github.com/AdilShamim8/Toolly) | Lightweight utility toolkit for ML workflows | `Tools` `Utilities` `ML` |
 
 
 
