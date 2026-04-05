@@ -137,7 +137,7 @@ Whether you're just entering the AI space or a seasoned practitioner looking for
 | 31 | [Toolly Studio](https://github.com/AdilShamim8/Toolly_Studio) | A studio suite of developer and AI productivity tools | `Tools` `Productivity` |
 | 32 | [Echo AI](https://github.com/AdilShamim8/Echo_AI) | Conversational AI assistant with contextual memory | `LLM` `Chatbot` `GenAI` |
 | 33 | [Toolly](https://github.com/AdilShamim8/Toolly) | Lightweight utility toolkit for ML workflows | `Tools` `Utilities` `ML` |
-| 34 | [Training Data Bot](https://github.com/AdilShamim8/Training_Data_Bot) | Automated bot for generating and managing training datasets for ML/AI models | `Bot` `Dataset` `Automation` `ML` |
+| 34 | [Training Data Bot](https://github.com/AdilShamim8/Training_Data_Bot) | Automated pipeline that converts raw documents (PDF, text, URLs) into clean, quality-scored LLM fine-tuning datasets | `LLM` `Fine-Tuning` `Dataset` `NLP` `Automation` |
 
 
 
