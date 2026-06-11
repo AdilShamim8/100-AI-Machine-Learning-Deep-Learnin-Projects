@@ -3,7 +3,7 @@
 <!-- Header Banner -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=100%20AI%20%2B%20ML%20%2B%20DL%20Projects&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=A%20decade%20of%20real-world%20AI%20experience%20in%20one%20repository&descAlignY=58&descSize=16" />
 
-##  Connect with Me
+## Connect with Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Adil%20Shamim-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adilshamim8)
 [![Kaggle](https://img.shields.io/badge/Kaggle-Adil%20Shamim-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/adilshamim8)
@@ -11,7 +11,7 @@
 </div>
 
 
-##  About This Repository
+## About This Repository
 
 > **A curated, production-grade collection of 100 AI, Machine Learning, and Deep Learning projects** — refined over a decade of hands-on experience across research, industry, and open-source development.
 
@@ -54,7 +54,7 @@ Whether you're just entering the AI space or a seasoned practitioner looking for
 
 ---
 
-## ⭐ Star History
+## ⭐Star History
 
 <div align="center">
   <a href="https://www.star-history.com/?repos=AdilShamim8%2F100-AI-Machine-Learning-Deep-Learnin-Projects&type=date&legend=top-left">
@@ -68,26 +68,30 @@ Whether you're just entering the AI space or a seasoned practitioner looking for
 
 
 
-##  Project List
+## Project List
 
 > **This list is regularly updated** — new projects are added frequently. Watch the repo to stay notified!
 
 | # | Project | Description | Tags |
 |---|---------|-------------|------|
 | 01 | [ML Roadmap and Notes](https://github.com/AdilShamim8/ML-Roadmap-and-Notes) | Complete machine learning roadmap with structured notes | `ML` `Roadmap` `Beginner` |
-| 02 | [GenAI Roadmap with LangChain](https://github.com/AdilShamim8/GenAI-Roadmap-with-Notes-Using-LangChain) | Generative AI roadmap with hands-on LangChain notes | `GenAI` `LangChain` `LLM` |
-| 03 | [Agentic AI Roadmap with LangGraph](https://github.com/AdilShamim8/Agentic-AI-Roadmap-with-Notes-Using-LangGraph) | End-to-end agentic AI roadmap with structured notes and LangGraph implementations | `GenAI` `LangGraph` `Agents` |
+| 02 | [GenAI Roadmap with LangChain](https://github.com/AdilShamim8/GenAI-Roadmap-with-Notes-and-Projects) | Generative AI roadmap with hands-on LangChain notes | `GenAI` `LangChain` `LLM` |
+| 03 | [Agentic AI Roadmap with LangGraph](https://github.com/AdilShamim8/Agentic-AI-Roadmap-with-Notes-and-Projects) | End-to-end agentic AI roadmap with structured notes and LangGraph implementations | `GenAI` `LangGraph` `Agents` |
 | 04 | [ML Algorithm Library](https://github.com/AdilShamim8/ML-Algorithm-Library) | Pure-Python implementations of core ML algorithms from scratch | `ML` `Algorithms` `From-Scratch` |
 | 05 | [GPT-2 Rebuild — nanoGPT](https://github.com/AdilShamim8/GPT-2-Rebuild-nanoGPT) | Step-by-step reproduction of GPT-2 and nanoGPT from scratch following Karpathy's architecture | `DL` `Transformers` `LLM` |
 | 06 | [Prompt Engineering](https://github.com/AdilShamim8/Prompt-Engineering) | Techniques and best practices for effective LLM prompting | `LLM` `Prompting` `NLP` |
+| 35 | [RAG Roadmap and Projects](https://github.com/AdilShamim8/RAG-Roadmap-with-Notes-and-Projects) | End-to-end learning path for RAG — from document processing to agentic systems and production deployment | `RAG` `LangChain` `Roadmap` |
+| 36 | [Build with Claude Code](https://github.com/AdilShamim8/Build-with-Claude-Code) | Deep notes, real assignments, and working solutions for mastering Claude Code and agentic loops | `Claude` `Agents` `LLM` |
+| 37 | [MathForAI](https://github.com/AdilShamim8/MathForAI) | Single-page curriculum site teaching the math foundations behind modern AI and machine learning | `Math` `Foundations` `Education` |
+| 38 | [ML/DS Course](https://github.com/AdilShamim8/ML_DS-course) | Documented 4-month intensive sprint covering ML and Data Science job-readiness | `ML` `Learning` `Career` |
 
-###  Prediction & Forecasting
+### Prediction & Forecasting
 
 | # | Project | Description | Tags |
 |---|---------|-------------|------|
 | 07 | [Prices Predictor System](https://github.com/AdilShamim8/Prices_Predictor_System) | End-to-end price prediction system with feature pipelines | `ML` `Regression` `MLOps` |
 | 08 | [Stock Price Prediction](https://github.com/AdilShamim8/Stock_Price_Prediction) | Time-series forecasting for equity price movements | `LSTM` `Time-Series` `Finance` |
-| 09 | [Laptop Price Predictor](https://github.com/AdilShamim8/Laptop-price-predictor-regression-project) | Regression model to estimate laptop prices from specs | `Regression` `EDA` `ML` |
+| 09 | [Laptop Price Predictor](https://github.com/AdilShamim8/Laptop-Price-Predictor) | Regression model to estimate laptop prices from specs | `Regression` `EDA` `ML` |
 | 10 | [ML Housing Corp](https://github.com/AdilShamim8/Machine_Learning_Housing_Corp) | Housing price prediction inspired by *Hands-On ML* | `Regression` `Scikit-Learn` |
 | 11 | [Data Science Salary Predictor](https://github.com/AdilShamim8/Data-Science-Salary-Predictor) | Predict DS/ML salaries from job market data | `ML` `Regression` `Career` |
 
@@ -131,13 +135,26 @@ Whether you're just entering the AI space or a seasoned practitioner looking for
 
 | # | Project | Description | Tags |
 |---|---------|-------------|------|
-| 28 | [Production-grade-RAG](https://github.com/AdilShamim8/Production-grade-RAG) | Production-ready RAG API built with FastAPI, LangChain, OpenAI, and Qdrant | `RAG` `FastAPI` `LangChain` `Qdrant` |
+| 28 | [Production-grade RAG](https://github.com/AdilShamim8/Production-grade-RAG) | Production-ready RAG API built with FastAPI, LangChain, OpenAI, and Qdrant | `RAG` `FastAPI` `LangChain` `Qdrant` |
 | 29 | [NeuroBridge](https://github.com/AdilShamim8/NeuroBridge) | Middleware layer bridging LLMs with real-world applications for seamless agentic integration | `LLM` `Agents` `Middleware` |
 | 30 | [PaperMap](https://github.com/AdilShamim8/PaperMap) | Interactive library transforming landmark AI papers into visual educational experiences | `Education` `GenAI` `Interactive` |
 | 31 | [Toolly Studio](https://github.com/AdilShamim8/Toolly_Studio) | A studio suite of developer and AI productivity tools | `Tools` `Productivity` |
 | 32 | [Echo AI](https://github.com/AdilShamim8/Echo_AI) | Conversational AI assistant with contextual memory | `LLM` `Chatbot` `GenAI` |
 | 33 | [Toolly](https://github.com/AdilShamim8/Toolly) | Lightweight utility toolkit for ML workflows | `Tools` `Utilities` `ML` |
 | 34 | [Training Data Bot](https://github.com/AdilShamim8/Training_Data_Bot) | Automated pipeline that converts raw documents (PDF, text, URLs) into clean, quality-scored LLM fine-tuning datasets | `LLM` `Fine-Tuning` `Dataset` `NLP` `Automation` |
+| 39 | [AI Engineering Research](https://github.com/AdilShamim8/AI-Engineering) | Research archive of real-world AI engineering interview assignments, take-home challenges, and hiring practices | `AI` `Career` `Research` |
+| 40 | [Kaggle Competitions](https://github.com/AdilShamim8/Kaggle_Competitions) | Collection of top-ranked competition solutions across ML, NLP, and time-series challenges | `Kaggle` `ML` `Competition` |
+| 41 | [Awesome AI/ML Startups](https://github.com/AdilShamim8/awesome-ai-ml-startups) | Monthly-updated community tracker of global AI/ML startups sourced from YC, Crunchbase, Forbes AI 50, and VC databases | `AI` `Startups` `Resource` |
+
+###  Production AI Systems
+
+| # | Project | Description | Tags |
+|---|---------|-------------|------|
+| 101 | [LLM Playground](https://github.com/AdilShamim8/LLM-Playground-101) | Production-level large language model training and deployment framework | `LLM` `Training` `MLOps` |
+| 102 | [Customer Support Chatbot](https://github.com/AdilShamim8/Customer-Support-Chatbot-102) | Production-ready AI customer support with RAG, hybrid search, reranking, and PEFT fine-tuning | `RAG` `Production` `LLM` |
+| 103 | [Ask the Web](https://github.com/AdilShamim8/Ask-the-Web-103) | Perplexity-like AI agent with ReACT/ReWOO/Reflexion reasoning, MCP & A2A protocols, and multi-agent orchestration | `Agents` `Search` `RAG` |
+| 104 | [Deep Research](https://github.com/AdilShamim8/Deep-Research-104) | Deep research AI using web search, OpenAI o3, and DeepSeek-R1 with inference-time scaling | `Research` `LLM` `Agents` |
+| 105 | [Multi-Modal Generation](https://github.com/AdilShamim8/Multi-Modal-105) | Production T2I and T2V synthesis with full VAE, GAN, DiT, and DDPM/DDIM/DPM-Solver++ implementation | `T2I` `T2V` `Diffusion` `DL` |
 
 
 
