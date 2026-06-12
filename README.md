@@ -5,7 +5,6 @@
 
 </div>
 
-
 ## About This Repository
 
 > **A curated, production-grade collection of 100 AI, Machine Learning, and Deep Learning projects** — refined over a decade of hands-on experience across research, industry, and open-source development.
@@ -175,7 +174,6 @@ Whether you're just entering the AI space or a seasoned practitioner looking for
 </p>
 
 <div align="center">
-
 **⭐ If this repository helps you, please give it a star — it keeps me motivated to build more! ⭐**
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" />
 
