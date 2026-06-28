@@ -61,7 +61,6 @@ Whether you're just entering the AI space or a seasoned practitioner looking for
 </div>
 
 
-
 ## Project List
 
 > **This list is regularly updated** — new projects are added frequently. Watch the repo to stay notified!
