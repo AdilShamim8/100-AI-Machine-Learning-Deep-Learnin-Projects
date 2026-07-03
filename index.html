@@ -1,0 +1,3689 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A premium atlas for browsing 100+ AI, Machine Learning, and Deep Learning projects by Adil Shamim — foundations, prediction, NLP, vision, recommender systems, data analysis, tools, and production AI." />
+  <title>100 AI + ML + DL Projects Atlas — Adil Shamim</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20rx%3D%227%22%20fill%3D%22%23080a0f%22/%3E%3Crect%20x%3D%220.5%22%20y%3D%220.5%22%20width%3D%2231%22%20height%3D%2231%22%20rx%3D%226.5%22%20fill%3D%22none%22%20stroke%3D%22%2322d3ee%22%20stroke-opacity%3D%220.55%22/%3E%3Ccircle%20cx%3D%229%22%20cy%3D%229%22%20r%3D%222.2%22%20fill%3D%22%2322d3ee%22/%3E%3Ccircle%20cx%3D%2223%22%20cy%3D%229%22%20r%3D%222.2%22%20fill%3D%22%2334d399%22/%3E%3Ccircle%20cx%3D%2216%22%20cy%3D%2216%22%20r%3D%222.6%22%20fill%3D%22%23fbbf24%22/%3E%3Ccircle%20cx%3D%229%22%20cy%3D%2223%22%20r%3D%222.2%22%20fill%3D%22%23fb7185%22/%3E%3Ccircle%20cx%3D%2223%22%20cy%3D%2223%22%20r%3D%222.2%22%20fill%3D%22%23a78bfa%22/%3E%3Cline%20x1%3D%229%22%20y1%3D%229%22%20x2%3D%2216%22%20y2%3D%2216%22%20stroke%3D%22%2322d3ee%22%20stroke-width%3D%220.9%22%20stroke-opacity%3D%220.7%22/%3E%3Cline%20x1%3D%2223%22%20y1%3D%229%22%20x2%3D%2216%22%20y2%3D%2216%22%20stroke%3D%22%2334d399%22%20stroke-width%3D%220.9%22%20stroke-opacity%3D%220.7%22/%3E%3Cline%20x1%3D%229%22%20y1%3D%2223%22%20x2%3D%2216%22%20y2%3D%2216%22%20stroke%3D%22%23fb7185%22%20stroke-width%3D%220.9%22%20stroke-opacity%3D%220.7%22/%3E%3Cline%20x1%3D%2223%22%20y1%3D%2223%22%20x2%3D%2216%22%20y2%3D%2216%22%20stroke%3D%22%23a78bfa%22%20stroke-width%3D%220.9%22%20stroke-opacity%3D%220.7%22/%3E%3C/svg%3E" />
+  <style>
+/* tailwind import removed for standalone */
+/* tw-animate import removed for standalone */
+
+@custom-variant dark (&:is(.dark *));
+
+/* @theme block removed */
+
+:root {
+  --radius: 0.625rem;
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.145 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0 0);
+  --primary: oklch(0.205 0 0);
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.97 0 0);
+  --secondary-foreground: oklch(0.205 0 0);
+  --muted: oklch(0.97 0 0);
+  --muted-foreground: oklch(0.556 0 0);
+  --accent: oklch(0.97 0 0);
+  --accent-foreground: oklch(0.205 0 0);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.922 0 0);
+  --input: oklch(0.922 0 0);
+  --ring: oklch(0.708 0 0);
+  --chart-1: oklch(0.646 0.222 41.116);
+  --chart-2: oklch(0.6 0.118 184.704);
+  --chart-3: oklch(0.398 0.07 227.392);
+  --chart-4: oklch(0.828 0.189 84.429);
+  --chart-5: oklch(0.769 0.188 70.08);
+  --sidebar: oklch(0.985 0 0);
+  --sidebar-foreground: oklch(0.145 0 0);
+  --sidebar-primary: oklch(0.205 0 0);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.97 0 0);
+  --sidebar-accent-foreground: oklch(0.205 0 0);
+  --sidebar-border: oklch(0.922 0 0);
+  --sidebar-ring: oklch(0.708 0 0);
+}
+
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.205 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.205 0 0);
+  --popover-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.922 0 0);
+  --primary-foreground: oklch(0.205 0 0);
+  --secondary: oklch(0.269 0 0);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.269 0 0);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.556 0 0);
+  --chart-1: oklch(0.488 0.243 264.376);
+  --chart-2: oklch(0.696 0.17 162.48);
+  --chart-3: oklch(0.769 0.188 70.08);
+  --chart-4: oklch(0.627 0.265 303.9);
+  --chart-5: oklch(0.645 0.246 16.439);
+  --sidebar: oklch(0.205 0 0);
+  --sidebar-foreground: oklch(0.985 0 0);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.269 0 0);
+  --sidebar-accent-foreground: oklch(0.985 0 0);
+  --sidebar-border: oklch(1 0 0 / 10%);
+  --sidebar-ring: oklch(0.556 0 0);
+}
+
+
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+
+
+/* ============================================================
+   AI/ML/DL Atlas — Dark Premium Theme (ported from reference)
+   ============================================================ */
+
+.atlas-root {
+  --bg: #080a0f;
+  --bg-2: #0b0f16;
+  --panel: #0f141c;
+  --panel-2: #141b25;
+  --panel-3: #18212d;
+  --text: #f4f7fb;
+  --muted: #9aa7b8;
+  --soft: #c7d2e0;
+  --border: #253041;
+  --border-strong: #334155;
+  --cyan: #22d3ee;
+  --green: #34d399;
+  --amber: #fbbf24;
+  --rose: #fb7185;
+  --violet: #a78bfa;
+  --shadow: 0 24px 80px rgba(0, 0, 0, 0.38);
+
+  min-height: 100vh;
+  color-scheme: dark;
+  background:
+    linear-gradient(rgba(37, 48, 65, 0.28) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(37, 48, 65, 0.22) 1px, transparent 1px),
+    linear-gradient(135deg, #080a0f, #0a0d13 38%, #101019 62%, #080a0f);
+  background-size: 44px 44px, 44px 44px, auto;
+  color: var(--text);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+}
+
+.atlas-root * {
+  box-sizing: border-box;
+}
+
+.atlas-root html {
+  scroll-behavior: smooth;
+}
+
+.atlas-root a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.atlas-root button {
+  color: inherit;
+  font: inherit;
+}
+
+.atlas-root img {
+  display: block;
+  max-width: 100%;
+}
+
+.atlas-root .app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---------- Top bar ---------- */
+.atlas-root .topbar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 14px 28px;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.16);
+  background: #080a0fe0;
+  -webkit-backdrop-filter: blur(18px);
+  backdrop-filter: blur(18px);
+}
+
+.atlas-root .brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 210px;
+}
+
+.atlas-root .brand-mark,
+.atlas-root .page-hero-icon {
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(34, 211, 238, 0.42);
+  background: #0b1720;
+  color: var(--cyan);
+}
+
+.atlas-root .brand-mark {
+  width: 38px;
+  height: 38px;
+  border-radius: 8px;
+}
+
+.atlas-root .brand strong,
+.atlas-root .brand small {
+  display: block;
+}
+
+.atlas-root .brand strong {
+  font-size: 0.95rem;
+}
+
+.atlas-root .brand small {
+  color: var(--muted);
+  font-size: 0.78rem;
+  margin-top: 2px;
+}
+
+.atlas-root .nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  flex: 1;
+}
+
+.atlas-root .nav-links a,
+.atlas-root .icon-link,
+.atlas-root .secondary-action,
+.atlas-root .primary-action,
+.atlas-root .inline-action,
+.atlas-root .card-actions a,
+.atlas-root .filter-row button {
+  min-height: 38px;
+  border-radius: 8px;
+  transition: border-color 0.16s ease, background 0.16s ease, color 0.16s ease,
+    transform 0.16s ease;
+}
+
+.atlas-root .nav-links a {
+  padding: 9px 12px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.atlas-root .nav-links a:hover,
+.atlas-root .nav-links a.active {
+  background: #22d3ee17;
+  color: var(--text);
+}
+
+.atlas-root .icon-link,
+.atlas-root .primary-action,
+.atlas-root .secondary-action,
+.atlas-root .inline-action,
+.atlas-root .card-actions a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.atlas-root .icon-link {
+  padding: 9px 12px;
+  border: 1px solid var(--border);
+  color: var(--soft);
+  cursor: pointer;
+  background: transparent;
+}
+
+.atlas-root .icon-link:hover,
+.atlas-root .secondary-action:hover,
+.atlas-root .inline-action:hover,
+.atlas-root .card-actions a:hover {
+  border-color: #22d3ee94;
+  color: var(--text);
+}
+
+.atlas-root main {
+  overflow: hidden;
+  flex: 1;
+}
+
+/* ---------- Layout bands ---------- */
+.atlas-root .hero-grid,
+.atlas-root .page-hero,
+.atlas-root .content-band,
+.atlas-root .split-section,
+.atlas-root .media-band,
+.atlas-root .catalog-toolbar,
+.atlas-root .stat-strip {
+  width: min(1180px, calc(100% - 40px));
+  margin-inline: auto;
+}
+
+/* ---------- Hero ---------- */
+.atlas-root .hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(420px, 1.1fr);
+  gap: 28px;
+  min-height: 620px;
+  align-items: center;
+  padding: 58px 0 36px;
+}
+
+.atlas-root .hero-copy h1,
+.atlas-root .page-hero h1 {
+  margin: 0;
+  max-width: 760px;
+  font-size: 4.25rem;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+}
+
+.atlas-root .hero-copy p:not(.eyebrow),
+.atlas-root .page-hero p:not(.eyebrow),
+.atlas-root .section-copy p,
+.atlas-root .framework-card p,
+.atlas-root .usecase-card p,
+.atlas-root .agent-card p,
+.atlas-root .category-card p {
+  color: var(--soft);
+  line-height: 1.7;
+}
+
+.atlas-root .hero-copy p:not(.eyebrow),
+.atlas-root .page-hero p:not(.eyebrow) {
+  max-width: 670px;
+  font-size: 1.05rem;
+}
+
+.atlas-root .eyebrow {
+  margin: 0 0 12px;
+  color: var(--green);
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.atlas-root .hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.atlas-root .primary-action,
+.atlas-root .secondary-action {
+  padding: 11px 16px;
+  border: 1px solid transparent;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.atlas-root .primary-action {
+  background: var(--text);
+  color: #081014;
+}
+
+.atlas-root .primary-action:hover {
+  transform: translateY(-1px);
+}
+
+.atlas-root .secondary-action {
+  border-color: var(--border);
+  background: #0f141cb8;
+  color: var(--soft);
+}
+
+/* ---------- Graph stage ---------- */
+.atlas-root .graph-stage {
+  position: relative;
+  min-height: 475px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background:
+    linear-gradient(rgba(96, 165, 250, 0.09) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(52, 211, 153, 0.08) 1px, transparent 1px),
+    linear-gradient(140deg, #0c1119, #121821 52%, #10141c);
+  background-size: 34px 34px, 34px 34px, auto;
+  box-shadow: var(--shadow);
+}
+
+.atlas-root .edge-layer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.atlas-root .graph-edge {
+  fill: none;
+  stroke: #60a5fa94;
+  stroke-width: 0.42;
+  stroke-dasharray: 9 9;
+  animation: edge-flow 7s linear infinite;
+}
+
+.atlas-root .edge-two { stroke: #34d39994; animation-delay: -1.5s; }
+.atlas-root .edge-three { stroke: #fbbf2499; animation-delay: -2.4s; }
+.atlas-root .edge-four { stroke: #fb718594; animation-delay: -3.1s; }
+.atlas-root .edge-five { stroke: #a78bfa8c; animation-delay: -4.3s; }
+
+@keyframes edge-flow {
+  to {
+    stroke-dashoffset: -90;
+  }
+}
+
+.atlas-root .graph-node {
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 130px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #080a0fdb;
+  color: var(--text);
+  font-size: 0.86rem;
+  font-weight: 800;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 16px 40px #00000047;
+  cursor: pointer;
+}
+
+.atlas-root .graph-node span {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: currentColor;
+  box-shadow: 0 0 24px currentColor;
+}
+
+.atlas-root .tone-cyan { color: var(--cyan); }
+.atlas-root .tone-green { color: var(--green); }
+.atlas-root .tone-amber { color: var(--amber); }
+.atlas-root .tone-rose { color: var(--rose); }
+.atlas-root .tone-violet { color: var(--violet); }
+
+.atlas-root .graph-node:hover {
+  border-color: currentColor;
+  background: #141b25f5;
+}
+
+.atlas-root .graph-console {
+  position: absolute;
+  right: 18px;
+  bottom: 18px;
+  display: grid;
+  gap: 2px;
+  min-width: 190px;
+  padding: 14px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #080a0fe0;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+.atlas-root .graph-console span,
+.atlas-root .graph-console small {
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.atlas-root .graph-console strong {
+  color: var(--green);
+  font-size: 1.15rem;
+}
+
+/* ---------- Stat strip ---------- */
+.atlas-root .stat-strip {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.atlas-root .stat-tile,
+.atlas-root .agent-card,
+.atlas-root .usecase-card,
+.atlas-root .category-card,
+.atlas-root .framework-card,
+.atlas-root .metadata-panel,
+.atlas-root .detail-aside,
+.atlas-root .explain-panel,
+.atlas-root .search-panel {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #0f141cc7;
+}
+
+.atlas-root .stat-tile {
+  display: grid;
+  gap: 6px;
+  padding: 18px;
+}
+
+.atlas-root .stat-tile svg {
+  color: var(--cyan);
+}
+
+.atlas-root .stat-tile strong {
+  font-size: 2rem;
+}
+
+.atlas-root .stat-tile span {
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+/* ---------- Sections ---------- */
+.atlas-root .split-section,
+.atlas-root .media-band,
+.atlas-root .content-band {
+  padding: 72px 0 0;
+}
+
+.atlas-root .split-section {
+  display: grid;
+  grid-template-columns: minmax(0, 0.88fr) minmax(360px, 1.12fr);
+  gap: 28px;
+  align-items: start;
+}
+
+.atlas-root .section-copy h2,
+.atlas-root .section-header h2,
+.atlas-root .detail-main h2,
+.atlas-root .detail-aside h2 {
+  margin: 0 0 12px;
+  font-size: 2rem;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+}
+
+.atlas-root .inline-action {
+  color: var(--cyan);
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.atlas-root .content-band {
+  padding-top: 56px;
+}
+
+/* ---------- Cards / grids ---------- */
+.atlas-root .section-header {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 18px;
+}
+
+.atlas-root .card-grid,
+.atlas-root .usecase-grid,
+.atlas-root .category-grid {
+  display: grid;
+  gap: 14px;
+}
+
+.atlas-root .card-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.atlas-root .usecase-grid,
+.atlas-root .category-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.atlas-root .agent-card,
+.atlas-root .usecase-card,
+.atlas-root .category-card,
+.atlas-root .framework-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 230px;
+  padding: 18px;
+}
+
+.atlas-root .agent-card:hover,
+.atlas-root .usecase-card:hover,
+.atlas-root .category-card:hover,
+.atlas-root .framework-card:hover {
+  border-color: #22d3ee70;
+  background: #141b25e6;
+  transform: translateY(-2px);
+}
+
+.atlas-root .card-topline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.atlas-root .card-topline small {
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.atlas-root .framework-pill,
+.atlas-root .tag-list span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 26px;
+  padding: 4px 8px;
+  border: 1px solid rgba(34, 211, 238, 0.34);
+  border-radius: 999px;
+  background: #22d3ee1f;
+  color: var(--cyan);
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+
+.atlas-root .framework-pill.cyan { background: #22d3ee24; color: var(--cyan); border-color: #22d3ee57; }
+.atlas-root .framework-pill.green { background: #34d39924; color: var(--green); border-color: #34d39957; }
+.atlas-root .framework-pill.amber { background: #fbbf2424; color: var(--amber); border-color: #fbbf2457; }
+.atlas-root .framework-pill.rose { background: #fb718524; color: var(--rose); border-color: #fb718557; }
+.atlas-root .framework-pill.violet { background: #a78bfa24; color: var(--violet); border-color: #a78bfa57; }
+
+.atlas-root .agent-card h3,
+.atlas-root .usecase-card h3,
+.atlas-root .category-card h3,
+.atlas-root .framework-card strong {
+  margin: 0;
+  color: var(--text);
+  line-height: 1.25;
+  font-size: 1.05rem;
+}
+
+.atlas-root .category-card strong {
+  margin: 0;
+  color: var(--text);
+  line-height: 1.25;
+  font-size: 1.1rem;
+  display: block;
+}
+
+.atlas-root .agent-card p,
+.atlas-root .usecase-card p,
+.atlas-root .category-card p,
+.atlas-root .framework-card p {
+  margin: 10px 0 14px;
+  font-size: 0.92rem;
+}
+
+.atlas-root .tag-list,
+.atlas-root .card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.atlas-root .tag-list span {
+  border-color: var(--border);
+  background: #94a3b81a;
+  color: var(--soft);
+}
+
+.atlas-root .card-actions a {
+  flex: 1;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  color: var(--soft);
+  font-size: 0.86rem;
+  cursor: pointer;
+  background: transparent;
+}
+
+.atlas-root .framework-card span {
+  color: var(--muted);
+  line-height: 1.6;
+  font-size: 0.85rem;
+}
+
+/* ---------- Page hero (sub-pages) ---------- */
+.atlas-root .page-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 120px;
+  gap: 24px;
+  align-items: center;
+  padding: 66px 0 28px;
+}
+
+.atlas-root .page-hero-icon {
+  width: 112px;
+  height: 112px;
+  border-radius: 8px;
+}
+
+/* ---------- Catalog toolbar ---------- */
+.atlas-root .catalog-toolbar {
+  display: grid;
+  grid-template-columns: minmax(240px, 0.9fr) minmax(0, 1.1fr);
+  gap: 12px;
+  padding-top: 18px;
+}
+
+.atlas-root .filter-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  overflow-x: auto;
+  padding: 6px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #0f141cbd;
+}
+
+.atlas-root .filter-row svg {
+  flex: 0 0 auto;
+  color: var(--muted);
+  margin-left: 6px;
+}
+
+.atlas-root .filter-row button {
+  flex: 0 0 auto;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  padding: 8px 11px;
+  white-space: nowrap;
+}
+
+.atlas-root .filter-row button:hover,
+.atlas-root .filter-row button.active {
+  border-color: #22d3ee70;
+  background: #22d3ee14;
+  color: var(--text);
+}
+
+.atlas-root .catalog-count {
+  margin-bottom: 14px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+/* ---------- Search panel ---------- */
+.atlas-root .search-panel {
+  padding: 14px;
+  box-shadow: var(--shadow);
+}
+
+.atlas-root .search-panel.compact {
+  width: 100%;
+  margin: 0;
+  box-shadow: none;
+}
+
+.atlas-root .search-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  min-height: 48px;
+  padding: 0 14px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #080a0fb8;
+  color: var(--muted);
+}
+
+.atlas-root .search-box input {
+  width: 100%;
+  min-width: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+}
+
+.atlas-root .search-results {
+  display: grid;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.atlas-root .result-row {
+  display: grid;
+  grid-template-columns: 10px minmax(0, 0.7fr) minmax(0, 1fr);
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  color: var(--soft);
+  cursor: pointer;
+}
+
+.atlas-root .result-row:hover {
+  background: #34d39914;
+}
+
+.atlas-root .result-row strong,
+.atlas-root .result-row small {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.atlas-root .result-row small {
+  color: var(--muted);
+}
+
+.atlas-root .mini-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: var(--cyan);
+}
+
+.atlas-root .mini-dot.cyan { background: var(--cyan); }
+.atlas-root .mini-dot.green { background: var(--green); }
+.atlas-root .mini-dot.amber { background: var(--amber); }
+.atlas-root .mini-dot.rose { background: var(--rose); }
+.atlas-root .mini-dot.violet { background: var(--violet); }
+
+/* ---------- Detail layout ---------- */
+.atlas-root .detail-layout {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.34fr) minmax(0, 0.66fr);
+  gap: 18px;
+  width: min(1180px, calc(100% - 40px));
+  margin: 26px auto 0;
+  align-items: start;
+  padding-bottom: 56px;
+}
+
+.atlas-root .detail-aside {
+  position: sticky;
+  top: 88px;
+  display: grid;
+  gap: 18px;
+  padding: 18px;
+}
+
+.atlas-root .detail-main {
+  display: grid;
+  gap: 18px;
+  min-width: 0;
+}
+
+.atlas-root .metadata-panel {
+  display: grid;
+  gap: 10px;
+  padding: 16px;
+}
+
+.atlas-root .metadata-panel h2,
+.atlas-root .detail-aside h2 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.atlas-root .meta-row {
+  display: grid;
+  grid-template-columns: minmax(80px, 0.38fr) minmax(0, 0.62fr);
+  gap: 10px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(148, 163, 184, 0.16);
+}
+
+.atlas-root .meta-row span {
+  color: var(--muted);
+}
+
+.atlas-root .meta-row strong {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  font-size: 0.92rem;
+}
+
+.atlas-root .check-list {
+  display: grid;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.atlas-root .check-list li {
+  display: grid;
+  grid-template-columns: 18px minmax(0, 1fr);
+  gap: 9px;
+  color: var(--soft);
+  line-height: 1.55;
+  font-size: 0.92rem;
+}
+
+.atlas-root .check-list svg {
+  color: var(--green);
+  margin-top: 3px;
+}
+
+.atlas-root .flow-trace {
+  display: grid;
+  gap: 8px;
+}
+
+.atlas-root .flow-step {
+  display: grid;
+  grid-template-columns: 32px minmax(0, 1fr);
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid rgba(148, 163, 184, 0.16);
+  border-radius: 8px;
+  background: #080a0f80;
+}
+
+.atlas-root .flow-step span {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  background: #22d3ee24;
+  color: var(--cyan);
+  font-weight: 900;
+}
+
+.atlas-root .flow-step strong {
+  font-size: 0.92rem;
+}
+
+.atlas-root .explain-panel,
+.atlas-root .related-band {
+  padding: 20px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #0f141ca8;
+}
+
+.atlas-root .explain-panel h2 {
+  margin: 0 0 12px;
+  font-size: 1.4rem;
+}
+
+.atlas-root .explain-panel p {
+  color: var(--soft);
+  line-height: 1.7;
+  margin: 0 0 12px;
+}
+
+.atlas-root .mini-card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+/* ---------- Code block ---------- */
+.atlas-root .code-block {
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #07090d;
+}
+
+.atlas-root .code-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 9px 10px;
+  border-bottom: 1px solid var(--border);
+  background: #141b25c7;
+  color: var(--muted);
+}
+
+.atlas-root .code-toolbar span,
+.atlas-root .code-toolbar button {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.atlas-root .code-toolbar button {
+  border: 1px solid var(--border);
+  background: #080a0f85;
+  color: var(--soft);
+  cursor: pointer;
+  padding: 6px 9px;
+  border-radius: 6px;
+}
+
+.atlas-root .code-toolbar button:hover {
+  border-color: #22d3ee80;
+  color: var(--text);
+}
+
+.atlas-root .code-block pre {
+  max-height: 380px;
+  margin: 0;
+  overflow: auto;
+  padding: 18px;
+  color: #d8e4f1;
+  font-size: 0.88rem;
+  line-height: 1.65;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+.atlas-root .code-block.compact pre {
+  max-height: 220px;
+}
+
+/* ---------- Connect section ---------- */
+.atlas-root .connect-band {
+  width: min(1180px, calc(100% - 40px));
+  margin: 72px auto 0;
+  padding: 32px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #0f141cc7;
+  text-align: center;
+}
+
+.atlas-root .connect-band h2 {
+  margin: 0 0 12px;
+  font-size: 1.8rem;
+}
+
+.atlas-root .connect-band p {
+  margin: 0 auto 24px;
+  max-width: 640px;
+  color: var(--soft);
+  line-height: 1.7;
+}
+
+.atlas-root .connect-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.atlas-root .connect-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--soft);
+  font-size: 0.9rem;
+  font-weight: 700;
+  transition: border-color 0.16s ease, color 0.16s ease, transform 0.16s ease;
+}
+
+.atlas-root .connect-link:hover {
+  border-color: #22d3ee94;
+  color: var(--text);
+  transform: translateY(-1px);
+}
+
+/* ---------- Star history ---------- */
+.atlas-root .star-history-band {
+  width: min(1180px, calc(100% - 40px));
+  margin: 56px auto 0;
+  text-align: center;
+}
+
+.atlas-root .star-history-band img {
+  width: 80%;
+  max-width: 800px;
+  margin: 16px auto 0;
+  border-radius: 8px;
+}
+
+/* ---------- Footer ---------- */
+.atlas-root .footer-band {
+  margin-top: 72px;
+  padding: 32px 28px;
+  border-top: 1px solid rgba(148, 163, 184, 0.16);
+  background: #080a0fe0;
+  text-align: center;
+}
+
+.atlas-root .footer-band p {
+  color: var(--muted);
+  font-size: 0.88rem;
+  margin: 0;
+}
+
+.atlas-root .footer-band a {
+  color: var(--cyan);
+  font-weight: 700;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 1060px) {
+  .atlas-root .hero-grid,
+  .atlas-root .split-section,
+  .atlas-root .media-band,
+  .atlas-root .detail-layout,
+  .atlas-root .catalog-toolbar {
+    grid-template-columns: 1fr;
+  }
+  .atlas-root .hero-grid {
+    min-height: auto;
+  }
+  .atlas-root .detail-aside {
+    position: static;
+  }
+  .atlas-root .card-grid,
+  .atlas-root .usecase-grid,
+  .atlas-root .category-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .atlas-root .topbar {
+    position: static;
+    align-items: stretch;
+    flex-direction: column;
+    padding: 14px 18px;
+  }
+  .atlas-root .brand {
+    min-width: 0;
+  }
+  .atlas-root .nav-links {
+    justify-content: flex-start;
+    overflow-x: auto;
+    padding-bottom: 4px;
+  }
+  .atlas-root .icon-link {
+    width: 100%;
+  }
+  .atlas-root .hero-grid,
+  .atlas-root .page-hero,
+  .atlas-root .content-band,
+  .atlas-root .split-section,
+  .atlas-root .media-band,
+  .atlas-root .catalog-toolbar,
+  .atlas-root .stat-strip,
+  .atlas-root .detail-layout,
+  .atlas-root .connect-band,
+  .atlas-root .star-history-band {
+    width: min(100% - 28px, 1180px);
+  }
+  .atlas-root .hero-copy h1,
+  .atlas-root .page-hero h1 {
+    font-size: 2.6rem;
+  }
+  .atlas-root .hero-copy p:not(.eyebrow),
+  .atlas-root .page-hero p:not(.eyebrow) {
+    font-size: 1rem;
+  }
+  .atlas-root .page-hero {
+    grid-template-columns: 1fr;
+  }
+  .atlas-root .page-hero-icon {
+    width: 82px;
+    height: 82px;
+  }
+  .atlas-root .graph-stage {
+    min-height: 410px;
+  }
+  .atlas-root .graph-node {
+    min-width: 118px;
+    padding: 9px 10px;
+    font-size: 0.78rem;
+  }
+  .atlas-root .stat-strip,
+  .atlas-root .card-grid,
+  .atlas-root .usecase-grid,
+  .atlas-root .category-grid,
+  .atlas-root .mini-card-grid {
+    grid-template-columns: 1fr;
+  }
+  .atlas-root .section-header {
+    align-items: start;
+    flex-direction: column;
+  }
+  .atlas-root .result-row {
+    grid-template-columns: 10px minmax(0, 1fr);
+  }
+  .atlas-root .result-row small {
+    grid-column: 2;
+  }
+  .atlas-root .connect-band {
+    padding: 24px 18px;
+  }
+  .atlas-root .star-history-band img {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .atlas-root *,
+  .atlas-root *::before,
+  .atlas-root *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* Custom scrollbar for filter row */
+.atlas-root .filter-row::-webkit-scrollbar {
+  height: 6px;
+}
+.atlas-root .filter-row::-webkit-scrollbar-track {
+  background: transparent;
+}
+.atlas-root .filter-row::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border-radius: 3px;
+}
+
+/* Code block scrollbar */
+.atlas-root .code-block pre::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.atlas-root .code-block pre::-webkit-scrollbar-track {
+  background: #0b0f16;
+}
+.atlas-root .code-block pre::-webkit-scrollbar-thumb {
+  background: #253041;
+  border-radius: 4px;
+}
+.atlas-root .code-block pre::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* ============================================================
+   PREMIUM ENHANCEMENTS — refined glassmorphism, glow, gradients
+   ============================================================ */
+
+/* Premium font smoothing + rendering */
+.atlas-root {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "ss01", "cv11", "cv02";
+}
+
+/* Premium layered background with ambient glows */
+.atlas-root {
+  position: relative;
+}
+
+.atlas-root::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 80% 50% at 15% 0%, rgba(34, 211, 238, 0.08), transparent 60%),
+    radial-gradient(ellipse 70% 50% at 85% 20%, rgba(167, 139, 250, 0.06), transparent 55%),
+    radial-gradient(ellipse 60% 50% at 50% 100%, rgba(52, 211, 153, 0.05), transparent 60%);
+}
+
+.atlas-root .app-shell {
+  position: relative;
+  z-index: 1;
+}
+
+/* ---------- Premium topbar ---------- */
+.atlas-root .topbar {
+  padding: 12px 28px;
+  background: rgba(8, 10, 15, 0.72);
+  border-bottom: 1px solid rgba(34, 211, 238, 0.12);
+  box-shadow: 0 1px 0 rgba(34, 211, 238, 0.04), 0 12px 40px rgba(0, 0, 0, 0.35);
+}
+
+.atlas-root .brand-mark {
+  background: linear-gradient(135deg, #0b1720 0%, #122030 100%);
+  border-color: rgba(34, 211, 238, 0.5);
+  box-shadow: 0 0 0 1px rgba(34, 211, 238, 0.1), 0 0 20px rgba(34, 211, 238, 0.18);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.atlas-root .brand:hover .brand-mark {
+  box-shadow: 0 0 0 1px rgba(34, 211, 238, 0.2), 0 0 28px rgba(34, 211, 238, 0.35);
+  transform: translateY(-1px);
+}
+
+.atlas-root .brand strong {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+/* ---------- Premium nav links ---------- */
+.atlas-root .nav-links a {
+  position: relative;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+}
+
+.atlas-root .nav-links a::after {
+  content: "";
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  bottom: 4px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--cyan), transparent);
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.atlas-root .nav-links a.active::after,
+.atlas-root .nav-links a:hover::after {
+  opacity: 0.7;
+}
+
+/* ---------- Premium hero headline ---------- */
+.atlas-root .hero-copy h1,
+.atlas-root .page-hero h1 {
+  background: linear-gradient(180deg, #ffffff 0%, #d8e4f1 60%, #9aa7b8 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  letter-spacing: -0.035em;
+  font-weight: 800;
+}
+
+.atlas-root .eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 10px;
+  border: 1px solid rgba(52, 211, 153, 0.28);
+  border-radius: 999px;
+  background: rgba(52, 211, 153, 0.08);
+  letter-spacing: 0.1em;
+  font-size: 0.7rem;
+}
+
+.atlas-root .eyebrow::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: var(--green);
+  box-shadow: 0 0 10px var(--green);
+  animation: pulse-dot 2.4s ease-in-out infinite;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.55; transform: scale(0.85); }
+}
+
+/* ---------- Premium primary action button ---------- */
+.atlas-root .primary-action {
+  position: relative;
+  background: linear-gradient(135deg, #f4f7fb 0%, #d8e4f1 100%);
+  color: #081014;
+  font-weight: 700;
+  letter-spacing: -0.005em;
+  box-shadow: 0 8px 24px rgba(244, 247, 251, 0.12), 0 0 0 1px rgba(244, 247, 251, 0.06);
+  overflow: hidden;
+}
+
+.atlas-root .primary-action::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, transparent 30%, rgba(34, 211, 238, 0.35) 50%, transparent 70%);
+  transform: translateX(-100%);
+  transition: transform 0.7s ease;
+}
+
+.atlas-root .primary-action:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(244, 247, 251, 0.18), 0 0 0 1px rgba(34, 211, 238, 0.25);
+}
+
+.atlas-root .primary-action:hover::before {
+  transform: translateX(100%);
+}
+
+.atlas-root .secondary-action {
+  background: linear-gradient(135deg, rgba(15, 20, 28, 0.78) 0%, rgba(20, 27, 37, 0.78) 100%);
+  border-color: rgba(34, 211, 238, 0.22);
+  font-weight: 600;
+}
+
+.atlas-root .secondary-action:hover {
+  border-color: rgba(34, 211, 238, 0.5);
+  background: linear-gradient(135deg, rgba(20, 27, 37, 0.85) 0%, rgba(24, 33, 45, 0.85) 100%);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(34, 211, 238, 0.15);
+  transform: translateY(-2px);
+}
+
+/* ---------- Premium graph stage ---------- */
+.atlas-root .graph-stage {
+  border-color: rgba(34, 211, 238, 0.18);
+  box-shadow: var(--shadow), inset 0 0 60px rgba(34, 211, 238, 0.04);
+}
+
+.atlas-root .graph-stage::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(ellipse at 70% 30%, rgba(34, 211, 238, 0.08), transparent 50%);
+  border-radius: 8px;
+}
+
+.atlas-root .graph-node {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  background: rgba(8, 10, 15, 0.85);
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.atlas-root .graph-node:hover {
+  transform: translate(-50%, -50%) scale(1.06);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5), 0 0 0 1px currentColor, 0 0 30px currentColor;
+}
+
+.atlas-root .graph-console {
+  background: rgba(8, 10, 15, 0.92);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-color: rgba(34, 211, 238, 0.22);
+}
+
+.atlas-root .graph-console strong {
+  text-shadow: 0 0 16px rgba(52, 211, 153, 0.5);
+}
+
+/* ---------- Premium stat tiles ---------- */
+.atlas-root .stat-tile {
+  position: relative;
+  background: linear-gradient(135deg, rgba(15, 20, 28, 0.9) 0%, rgba(20, 27, 37, 0.7) 100%);
+  border-color: rgba(37, 48, 65, 0.8);
+  overflow: hidden;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.atlas-root .stat-tile::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--cyan), transparent);
+  opacity: 0.4;
+}
+
+.atlas-root .stat-tile:hover {
+  transform: translateY(-3px);
+  border-color: rgba(34, 211, 238, 0.4);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(34, 211, 238, 0.1);
+}
+
+.atlas-root .stat-tile strong {
+  background: linear-gradient(180deg, #ffffff 0%, #c7d2e0 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.atlas-root .stat-tile svg {
+  filter: drop-shadow(0 0 8px rgba(34, 211, 238, 0.4));
+}
+
+/* ---------- Premium cards ---------- */
+.atlas-root .agent-card,
+.atlas-root .usecase-card,
+.atlas-root .category-card,
+.atlas-root .framework-card {
+  position: relative;
+  background: linear-gradient(135deg, rgba(15, 20, 28, 0.9) 0%, rgba(20, 27, 37, 0.6) 100%);
+  overflow: hidden;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.atlas-root .agent-card::before,
+.atlas-root .usecase-card::before,
+.atlas-root .category-card::before,
+.atlas-root .framework-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--cyan), transparent);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.atlas-root .agent-card::after,
+.atlas-root .usecase-card::after,
+.atlas-root .category-card::after,
+.atlas-root .framework-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(135deg, rgba(34, 211, 238, 0.25), transparent 40%, transparent 60%, rgba(167, 139, 250, 0.15));
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.atlas-root .agent-card:hover,
+.atlas-root .usecase-card:hover,
+.atlas-root .category-card:hover,
+.atlas-root .framework-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(34, 211, 238, 0.45);
+  background: linear-gradient(135deg, rgba(20, 27, 37, 0.95) 0%, rgba(24, 33, 45, 0.75) 100%);
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(34, 211, 238, 0.12);
+}
+
+.atlas-root .agent-card:hover::before,
+.atlas-root .usecase-card:hover::before,
+.atlas-root .category-card:hover::before,
+.atlas-root .framework-card:hover::before {
+  opacity: 1;
+}
+
+.atlas-root .agent-card:hover::after,
+.atlas-root .usecase-card:hover::after,
+.atlas-root .category-card:hover::after,
+.atlas-root .framework-card:hover::after {
+  opacity: 1;
+}
+
+.atlas-root .agent-card h3,
+.atlas-root .usecase-card h3,
+.atlas-root .category-card strong,
+.atlas-root .framework-card strong {
+  letter-spacing: -0.015em;
+  font-weight: 700;
+}
+
+/* ---------- Premium framework pills (glow per accent) ---------- */
+.atlas-root .framework-pill {
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.atlas-root .framework-pill.cyan {
+  box-shadow: 0 0 0 1px rgba(34, 211, 238, 0.2), 0 0 12px rgba(34, 211, 238, 0.18);
+}
+.atlas-root .framework-pill.green {
+  box-shadow: 0 0 0 1px rgba(52, 211, 153, 0.2), 0 0 12px rgba(52, 211, 153, 0.18);
+}
+.atlas-root .framework-pill.amber {
+  box-shadow: 0 0 0 1px rgba(251, 191, 36, 0.2), 0 0 12px rgba(251, 191, 36, 0.18);
+}
+.atlas-root .framework-pill.rose {
+  box-shadow: 0 0 0 1px rgba(251, 113, 133, 0.2), 0 0 12px rgba(251, 113, 133, 0.18);
+}
+.atlas-root .framework-pill.violet {
+  box-shadow: 0 0 0 1px rgba(167, 139, 250, 0.2), 0 0 12px rgba(167, 139, 250, 0.18);
+}
+
+/* ---------- Premium tag list ---------- */
+.atlas-root .tag-list span {
+  transition: border-color 0.2s ease, background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.atlas-root .agent-card:hover .tag-list span,
+.atlas-root .usecase-card:hover .tag-list span {
+  border-color: rgba(148, 163, 184, 0.35);
+}
+
+/* ---------- Premium section headers ---------- */
+.atlas-root .section-copy h2,
+.atlas-root .section-header h2,
+.atlas-root .detail-main h2,
+.atlas-root .detail-aside h2 {
+  background: linear-gradient(180deg, #ffffff 0%, #d8e4f1 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -0.025em;
+  font-weight: 800;
+}
+
+/* ---------- Premium inline action ---------- */
+.atlas-root .inline-action {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.atlas-root .inline-action::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -3px;
+  height: 1px;
+  background: linear-gradient(90deg, var(--cyan), transparent);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.atlas-root .inline-action:hover::after {
+  transform: scaleX(1);
+}
+
+.atlas-root .inline-action svg {
+  transition: transform 0.25s ease;
+}
+
+.atlas-root .inline-action:hover svg {
+  transform: translateX(3px);
+}
+
+/* ---------- Premium page hero icon ---------- */
+.atlas-root .page-hero-icon {
+  background: linear-gradient(135deg, #0b1720 0%, #122030 100%);
+  border-color: rgba(34, 211, 238, 0.45);
+  box-shadow: 0 0 0 1px rgba(34, 211, 238, 0.1), 0 0 40px rgba(34, 211, 238, 0.18), inset 0 0 20px rgba(34, 211, 238, 0.06);
+}
+
+.atlas-root .page-hero-icon svg {
+  filter: drop-shadow(0 0 12px rgba(34, 211, 238, 0.5));
+}
+
+/* ---------- Premium search panel ---------- */
+.atlas-root .search-box {
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.atlas-root .search-box:focus-within {
+  border-color: rgba(34, 211, 238, 0.55);
+  box-shadow: 0 0 0 4px rgba(34, 211, 238, 0.08), 0 0 24px rgba(34, 211, 238, 0.12);
+}
+
+.atlas-root .search-box svg {
+  color: var(--cyan);
+  filter: drop-shadow(0 0 6px rgba(34, 211, 238, 0.4));
+}
+
+/* ---------- Premium filter row ---------- */
+.atlas-root .filter-row {
+  background: rgba(15, 20, 28, 0.78);
+}
+
+.atlas-root .filter-row button {
+  font-weight: 600;
+  letter-spacing: -0.005em;
+}
+
+.atlas-root .filter-row button.active {
+  background: linear-gradient(135deg, rgba(34, 211, 238, 0.16) 0%, rgba(34, 211, 238, 0.08) 100%);
+  border-color: rgba(34, 211, 238, 0.45);
+  box-shadow: 0 0 0 1px rgba(34, 211, 238, 0.15), 0 0 12px rgba(34, 211, 238, 0.18);
+}
+
+/* ---------- Premium result rows ---------- */
+.atlas-root .result-row strong {
+  font-weight: 600;
+  letter-spacing: -0.005em;
+}
+
+/* ---------- Premium code block ---------- */
+.atlas-root .code-block {
+  border-color: rgba(37, 48, 65, 0.9);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3), inset 0 0 0 1px rgba(34, 211, 238, 0.04);
+}
+
+.atlas-root .code-toolbar {
+  background: linear-gradient(180deg, rgba(20, 27, 37, 0.92) 0%, rgba(15, 20, 28, 0.92) 100%);
+}
+
+.atlas-root .code-toolbar button:hover {
+  border-color: rgba(34, 211, 238, 0.55);
+  background: rgba(34, 211, 238, 0.08);
+}
+
+.atlas-root .code-block pre {
+  background: linear-gradient(180deg, #07090d 0%, #0a0e14 100%);
+}
+
+/* ---------- Premium metadata panel ---------- */
+.atlas-root .metadata-panel {
+  background: linear-gradient(135deg, rgba(15, 20, 28, 0.9) 0%, rgba(20, 27, 37, 0.6) 100%);
+}
+
+.atlas-root .meta-row strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+/* ---------- Premium detail aside ---------- */
+.atlas-root .detail-aside {
+  background: linear-gradient(180deg, rgba(15, 20, 28, 0.85) 0%, rgba(20, 27, 37, 0.7) 100%);
+}
+
+/* ---------- Premium flow steps ---------- */
+.atlas-root .flow-step {
+  transition: border-color 0.25s ease, transform 0.25s ease, background 0.25s ease;
+}
+
+.atlas-root .flow-step:hover {
+  border-color: rgba(34, 211, 238, 0.35);
+  background: rgba(34, 211, 238, 0.06);
+  transform: translateX(4px);
+}
+
+.atlas-root .flow-step span {
+  box-shadow: 0 0 0 1px rgba(34, 211, 238, 0.15), 0 0 12px rgba(34, 211, 238, 0.25);
+}
+
+/* ---------- Premium explain / related bands ---------- */
+.atlas-root .explain-panel,
+.atlas-root .related-band {
+  background: linear-gradient(135deg, rgba(15, 20, 28, 0.85) 0%, rgba(20, 27, 37, 0.65) 100%);
+  border-color: rgba(37, 48, 65, 0.8);
+}
+
+.atlas-root .explain-panel h2 {
+  letter-spacing: -0.02em;
+}
+
+/* ---------- Premium connect band ---------- */
+.atlas-root .connect-band {
+  background:
+    radial-gradient(ellipse at 50% 0%, rgba(34, 211, 238, 0.06), transparent 60%),
+    linear-gradient(135deg, rgba(15, 20, 28, 0.9) 0%, rgba(20, 27, 37, 0.7) 100%);
+  border-color: rgba(34, 211, 238, 0.18);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.3);
+}
+
+.atlas-root .connect-band h2 {
+  background: linear-gradient(180deg, #ffffff 0%, #d8e4f1 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -0.025em;
+}
+
+.atlas-root .connect-link {
+  background: rgba(15, 20, 28, 0.6);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.atlas-root .connect-link:hover {
+  background: rgba(34, 211, 238, 0.08);
+  border-color: rgba(34, 211, 238, 0.5);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(34, 211, 238, 0.15);
+}
+
+/* ---------- Premium footer ---------- */
+.atlas-root .footer-band {
+  background: rgba(8, 10, 15, 0.92);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-top: 1px solid rgba(34, 211, 238, 0.1);
+}
+
+.atlas-root .footer-band a {
+  transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+
+.atlas-root .footer-band a:hover {
+  text-shadow: 0 0 12px rgba(34, 211, 238, 0.5);
+}
+
+/* ---------- Premium icon link ---------- */
+.atlas-root .icon-link {
+  background: rgba(15, 20, 28, 0.6);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  font-weight: 600;
+}
+
+.atlas-root .icon-link:hover {
+  background: rgba(34, 211, 238, 0.08);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(34, 211, 238, 0.15);
+}
+
+/* ---------- Premium card actions ---------- */
+.atlas-root .card-actions a {
+  transition: border-color 0.2s ease, background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+  font-weight: 600;
+}
+
+.atlas-root .card-actions a:hover {
+  background: rgba(34, 211, 238, 0.08);
+  border-color: rgba(34, 211, 238, 0.45);
+  color: var(--text);
+}
+
+/* ---------- Premium scrollbar (page-level) ---------- */
+.atlas-root::-webkit-scrollbar,
+.atlas-root *::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.atlas-root::-webkit-scrollbar-track,
+.atlas-root *::-webkit-scrollbar-track {
+  background: #080a0f;
+}
+
+.atlas-root::-webkit-scrollbar-thumb,
+.atlas-root *::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #253041 0%, #334155 100%);
+  border-radius: 5px;
+  border: 2px solid #080a0f;
+}
+
+.atlas-root::-webkit-scrollbar-thumb:hover,
+.atlas-root *::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #22d3ee 0%, #34d399 100%);
+}
+
+/* ---------- Premium selection ---------- */
+.atlas-root ::selection {
+  background: rgba(34, 211, 238, 0.25);
+  color: #ffffff;
+}
+
+/* ---------- Premium fade-in entrance for content bands ---------- */
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.atlas-root .hero-grid,
+.atlas-root .stat-strip,
+.atlas-root .split-section,
+.atlas-root .content-band,
+.atlas-root .connect-band,
+.atlas-root .page-hero,
+.atlas-root .detail-layout {
+  animation: fade-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.atlas-root .stat-strip { animation-delay: 0.08s; }
+.atlas-root .split-section { animation-delay: 0.12s; }
+.atlas-root .content-band { animation-delay: 0.16s; }
+
+/* ---------- Premium card stagger ---------- */
+.atlas-root .card-grid > *,
+.atlas-root .category-grid > *,
+.atlas-root .usecase-grid > * {
+  animation: fade-up 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.atlas-root .card-grid > *:nth-child(1) { animation-delay: 0.04s; }
+.atlas-root .card-grid > *:nth-child(2) { animation-delay: 0.08s; }
+.atlas-root .card-grid > *:nth-child(3) { animation-delay: 0.12s; }
+.atlas-root .card-grid > *:nth-child(4) { animation-delay: 0.16s; }
+.atlas-root .card-grid > *:nth-child(5) { animation-delay: 0.2s; }
+.atlas-root .card-grid > *:nth-child(6) { animation-delay: 0.24s; }
+
+.atlas-root .category-grid > *:nth-child(1) { animation-delay: 0.04s; }
+.atlas-root .category-grid > *:nth-child(2) { animation-delay: 0.08s; }
+.atlas-root .category-grid > *:nth-child(3) { animation-delay: 0.12s; }
+.atlas-root .category-grid > *:nth-child(4) { animation-delay: 0.16s; }
+.atlas-root .category-grid > *:nth-child(5) { animation-delay: 0.2s; }
+.atlas-root .category-grid > *:nth-child(6) { animation-delay: 0.24s; }
+.atlas-root .category-grid > *:nth-child(7) { animation-delay: 0.28s; }
+.atlas-root .category-grid > *:nth-child(8) { animation-delay: 0.32s; }
+
+/* ---------- Premium reduced motion safety ---------- */
+@media (prefers-reduced-motion: reduce) {
+  .atlas-root *,
+  .atlas-root *::before,
+  .atlas-root *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* ============================================================
+   Scroll progress bar + back-to-top button
+   ============================================================ */
+
+.atlas-root .scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2px;
+  z-index: 50;
+  background: linear-gradient(90deg, var(--cyan) 0%, var(--green) 50%, var(--violet) 100%);
+  box-shadow: 0 0 12px rgba(34, 211, 238, 0.6), 0 0 24px rgba(34, 211, 238, 0.3);
+  transition: width 0.1s linear;
+  pointer-events: none;
+}
+
+.atlas-root .back-to-top {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 40;
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(34, 211, 238, 0.4);
+  border-radius: 12px;
+  background: rgba(8, 10, 15, 0.85);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  color: var(--cyan);
+  cursor: pointer;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(34, 211, 238, 0.15), 0 0 24px rgba(34, 211, 238, 0.18);
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), border-color 0.25s ease, box-shadow 0.25s ease;
+  animation: fade-up 0.3s ease both;
+}
+
+.atlas-root .back-to-top:hover {
+  transform: translateY(-3px);
+  border-color: rgba(34, 211, 238, 0.7);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(34, 211, 238, 0.25), 0 0 32px rgba(34, 211, 238, 0.3);
+}
+
+.atlas-root .back-to-top svg {
+  filter: drop-shadow(0 0 6px rgba(34, 211, 238, 0.5));
+}
+
+@media (max-width: 760px) {
+  .atlas-root .back-to-top {
+    right: 16px;
+    bottom: 16px;
+    width: 44px;
+    height: 44px;
+  }
+}
+
+/* ============================================================
+   Premium hero — tech marquee, graph overlays, corner badge
+   ============================================================ */
+
+/* ---------- Tech marquee (auto-scrolling chip row) ---------- */
+.atlas-root .tech-marquee {
+  position: relative;
+  width: 100%;
+  max-width: 620px;
+  margin-top: 32px;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+}
+
+.atlas-root .tech-marquee-track {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding-right: 8px;
+  animation: tech-marquee 28s linear infinite;
+  white-space: nowrap;
+}
+
+.atlas-root .tech-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 11px;
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  border-radius: 999px;
+  background: rgba(15, 20, 28, 0.7);
+  color: var(--soft);
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+  transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease;
+}
+
+.atlas-root .tech-chip:hover {
+  border-color: rgba(34, 211, 238, 0.45);
+  color: var(--text);
+  background: rgba(34, 211, 238, 0.08);
+}
+
+@keyframes tech-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* Pause marquee on hover */
+.atlas-root .tech-marquee:hover .tech-marquee-track {
+  animation-play-state: paused;
+}
+
+/* ---------- Graph stage premium overlays ---------- */
+.atlas-root .graph-grid-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(34, 211, 238, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(34, 211, 238, 0.06) 1px, transparent 1px);
+  background-size: 28px 28px;
+  -webkit-mask-image: radial-gradient(ellipse at center, #000 30%, transparent 80%);
+  mask-image: radial-gradient(ellipse at center, #000 30%, transparent 80%);
+  opacity: 0.7;
+}
+
+/* ---------- Graph corner badge (live indicator) ---------- */
+.atlas-root .graph-corner-badge {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px 4px 8px;
+  border: 1px solid rgba(52, 211, 153, 0.3);
+  border-radius: 999px;
+  background: rgba(52, 211, 153, 0.08);
+  color: var(--green);
+  font-size: 0.68rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.atlas-root .graph-corner-badge svg {
+  filter: drop-shadow(0 0 6px rgba(52, 211, 153, 0.6));
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+/* ---------- Mobile: hide tech marquee to avoid clutter ---------- */
+@media (max-width: 760px) {
+  .atlas-root .tech-marquee {
+    display: none;
+  }
+}
+
+/* ============================================================
+   Premium card number badge (top-right of project cards)
+   ============================================================ */
+.atlas-root .agent-card .card-topline small,
+.atlas-root .usecase-card .card-topline small {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 8px;
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  border-radius: 6px;
+  background: rgba(8, 10, 15, 0.5);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.atlas-root .agent-card:hover .card-topline small,
+.atlas-root .usecase-card:hover .card-topline small {
+  border-color: rgba(34, 211, 238, 0.4);
+  color: var(--cyan);
+}
+
+/* ---------- Card "View" arrow that slides in on hover ---------- */
+.atlas-root .agent-card .card-cta-arrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 14px;
+  color: var(--cyan);
+  font-size: 0.82rem;
+  font-weight: 700;
+  opacity: 0;
+  transform: translateX(-6px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.atlas-root .agent-card:hover .card-cta-arrow {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.atlas-root .agent-card .card-cta-arrow svg {
+  transition: transform 0.25s ease;
+}
+
+.atlas-root .agent-card:hover .card-cta-arrow svg {
+  transform: translateX(3px);
+}
+
+/* ---------- Premium category card icon bubble ---------- */
+.atlas-root .category-card .category-icon-bubble {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid rgba(34, 211, 238, 0.25);
+  background: linear-gradient(135deg, rgba(15, 20, 28, 0.9) 0%, rgba(20, 27, 37, 0.6) 100%);
+  margin-bottom: 14px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.atlas-root .category-card:hover .category-icon-bubble {
+  transform: scale(1.08) rotate(-3deg);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(34, 211, 238, 0.2);
+}
+
+/* ---------- Premium footer star history image ---------- */
+.atlas-root .star-history-band img {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.atlas-root .star-history-band a:hover img {
+  transform: translateY(-2px);
+  box-shadow: 0 24px 50px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(34, 211, 238, 0.2);
+}
+
+/* ---------- Premium graph node — extra pop on the leading dot ---------- */
+.atlas-root .graph-node span {
+  position: relative;
+}
+
+.atlas-root .graph-node span::after {
+  content: "";
+  position: absolute;
+  inset: -4px;
+  border-radius: 999px;
+  border: 1px solid currentColor;
+  opacity: 0;
+  animation: node-ring 3s ease-out infinite;
+}
+
+@keyframes node-ring {
+  0% {
+    opacity: 0.6;
+    transform: scale(0.6);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(2.2);
+  }
+}
+
+/* Stagger the ring pulses across nodes */
+.atlas-root .graph-node:nth-child(2) span::after { animation-delay: 0.4s; }
+.atlas-root .graph-node:nth-child(3) span::after { animation-delay: 0.8s; }
+.atlas-root .graph-node:nth-child(4) span::after { animation-delay: 1.2s; }
+.atlas-root .graph-node:nth-child(5) span::after { animation-delay: 1.6s; }
+
+/* ---------- Premium 404 / empty-state polish ---------- */
+.atlas-root .catalog-count {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  letter-spacing: 0.02em;
+  opacity: 0.85;
+}
+
+/* ---------- Premium connect band — add a subtle animated gradient line at top ---------- */
+.atlas-root .connect-band::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 10%;
+  right: 10%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--cyan), var(--violet), transparent);
+  opacity: 0.5;
+}
+
+.atlas-root .connect-band {
+  position: relative;
+}
+
+/* ---------- Premium category icon bubble — per-tone colors ---------- */
+.atlas-root .category-icon-bubble.tone-cyan {
+  border-color: rgba(34, 211, 238, 0.35);
+  color: var(--cyan);
+  box-shadow: inset 0 0 16px rgba(34, 211, 238, 0.08), 0 0 12px rgba(34, 211, 238, 0.1);
+}
+.atlas-root .category-icon-bubble.tone-cyan svg {
+  filter: drop-shadow(0 0 8px rgba(34, 211, 238, 0.5));
+}
+
+.atlas-root .category-icon-bubble.tone-green {
+  border-color: rgba(52, 211, 153, 0.35);
+  color: var(--green);
+  box-shadow: inset 0 0 16px rgba(52, 211, 153, 0.08), 0 0 12px rgba(52, 211, 153, 0.1);
+}
+.atlas-root .category-icon-bubble.tone-green svg {
+  filter: drop-shadow(0 0 8px rgba(52, 211, 153, 0.5));
+}
+
+.atlas-root .category-icon-bubble.tone-amber {
+  border-color: rgba(251, 191, 36, 0.35);
+  color: var(--amber);
+  box-shadow: inset 0 0 16px rgba(251, 191, 36, 0.08), 0 0 12px rgba(251, 191, 36, 0.1);
+}
+.atlas-root .category-icon-bubble.tone-amber svg {
+  filter: drop-shadow(0 0 8px rgba(251, 191, 36, 0.5));
+}
+
+.atlas-root .category-icon-bubble.tone-rose {
+  border-color: rgba(251, 113, 133, 0.35);
+  color: var(--rose);
+  box-shadow: inset 0 0 16px rgba(251, 113, 133, 0.08), 0 0 12px rgba(251, 113, 133, 0.1);
+}
+.atlas-root .category-icon-bubble.tone-rose svg {
+  filter: drop-shadow(0 0 8px rgba(251, 113, 133, 0.5));
+}
+
+.atlas-root .category-icon-bubble.tone-violet {
+  border-color: rgba(167, 139, 250, 0.35);
+  color: var(--violet);
+  box-shadow: inset 0 0 16px rgba(167, 139, 250, 0.08), 0 0 12px rgba(167, 139, 250, 0.1);
+}
+.atlas-root .category-icon-bubble.tone-violet svg {
+  filter: drop-shadow(0 0 8px rgba(167, 139, 250, 0.5));
+}
+
+  </style>
+</head>
+<body class="bg-[#080a0f]">
+  <div class="atlas-root">
+    <div class="app-shell" id="app"></div>
+  </div>
+  <script>
+    // ============================================================
+    // Data
+    // ============================================================
+    const DATA = {
+  "repo": {
+    "name": "100-AI-Machine-Learning-Deep-Learnin-Projects",
+    "owner": "AdilShamim8",
+    "url": "https://github.com/AdilShamim8/100-AI-Machine-Learning-Deep-Learnin-Projects",
+    "description": "A curated, production-grade collection of 100 AI, Machine Learning, and Deep Learning projects — refined over a decade of hands-on experience across research, industry, and open-source development.",
+    "stars": 178,
+    "forks": 15,
+    "author": {
+      "name": "Adil Shamim",
+      "website": "https://www.adilshamim.me/",
+      "medium": "https://adilshamim8.medium.com/",
+      "linkedin": "https://linkedin.com/in/adilshamim8",
+      "twitter": "https://twitter.com/adil_shamim8",
+      "kaggle": "https://www.kaggle.com/adilshamim8",
+      "leetcode": "https://leetcode.com/u/AdilShamim8"
+    }
+  },
+  "categories": [
+    {
+      "slug": "foundations",
+      "name": "Foundations & Roadmaps",
+      "description": "Structured learning paths and reference libraries for ML, GenAI, Agentic AI, RAG, and the math behind modern AI.",
+      "accent": "cyan",
+      "icon": "GraduationCap"
+    },
+    {
+      "slug": "prediction-forecasting",
+      "name": "Prediction & Forecasting",
+      "description": "End-to-end regression and time-series systems for prices, stocks, housing, and salary estimation.",
+      "accent": "amber",
+      "icon": "TrendingUp"
+    },
+    {
+      "slug": "nlp",
+      "name": "Natural Language Processing",
+      "description": "Text classification, sentiment analysis, resume screening, spam detection, and Bengali low-resource NLP.",
+      "accent": "violet",
+      "icon": "MessageSquare"
+    },
+    {
+      "slug": "recommender-systems",
+      "name": "Recommender Systems",
+      "description": "Collaborative filtering and content-based recommendation engines for books and movies.",
+      "accent": "rose",
+      "icon": "Sparkles"
+    },
+    {
+      "slug": "computer-vision",
+      "name": "Computer Vision",
+      "description": "Real-time pose estimation, gesture control, and CNN-based image classification pipelines.",
+      "accent": "green",
+      "icon": "Eye"
+    },
+    {
+      "slug": "data-analysis",
+      "name": "Data Analysis & Visualization",
+      "description": "EDA, dashboards, and quantitative analysis across finance, Olympics, public health, and supply chain.",
+      "accent": "cyan",
+      "icon": "BarChart3"
+    },
+    {
+      "slug": "tools-applications",
+      "name": "Tools & AI Applications",
+      "description": "Production-grade RAG APIs, conversational AI, paper visualizers, training-data pipelines, and resource trackers.",
+      "accent": "amber",
+      "icon": "Wrench"
+    },
+    {
+      "slug": "production-ai",
+      "name": "Production AI Systems",
+      "description": "Battle-tested systems: LLM training frameworks, RAG chatbots, agentic search, deep research, and multi-modal generation.",
+      "accent": "violet",
+      "icon": "Rocket"
+    }
+  ],
+  "projects": [
+    {
+      "id": "p01",
+      "number": 1,
+      "title": "ML Roadmap and Notes",
+      "description": "Complete machine learning roadmap with structured notes covering algorithms, math, and pipelines.",
+      "url": "https://github.com/AdilShamim8/ML-Roadmap-and-Notes",
+      "tags": [
+        "ML",
+        "Roadmap",
+        "Beginner"
+      ],
+      "category": "foundations",
+      "accent": "cyan"
+    },
+    {
+      "id": "p02",
+      "number": 2,
+      "title": "GenAI Roadmap with LangChain",
+      "description": "Generative AI roadmap with hands-on LangChain notes, agents, and prompt patterns.",
+      "url": "https://github.com/AdilShamim8/GenAI-Roadmap-with-Notes-and-Projects",
+      "tags": [
+        "GenAI",
+        "LangChain",
+        "LLM"
+      ],
+      "category": "foundations",
+      "accent": "cyan"
+    },
+    {
+      "id": "p03",
+      "number": 3,
+      "title": "Agentic AI Roadmap with LangGraph",
+      "description": "End-to-end agentic AI roadmap with structured notes and LangGraph implementations.",
+      "url": "https://github.com/AdilShamim8/Agentic-AI-Roadmap-with-Notes-and-Projects",
+      "tags": [
+        "GenAI",
+        "LangGraph",
+        "Agents"
+      ],
+      "category": "foundations",
+      "accent": "cyan"
+    },
+    {
+      "id": "p04",
+      "number": 4,
+      "title": "ML Algorithm Library",
+      "description": "Pure-Python implementations of core ML algorithms from scratch — no sklearn shortcuts.",
+      "url": "https://github.com/AdilShamim8/ML-Algorithm-Library",
+      "tags": [
+        "ML",
+        "Algorithms",
+        "From-Scratch"
+      ],
+      "category": "foundations",
+      "accent": "cyan"
+    },
+    {
+      "id": "p05",
+      "number": 5,
+      "title": "GPT-2 Rebuild — nanoGPT",
+      "description": "Step-by-step reproduction of GPT-2 and nanoGPT from scratch following Karpathy's architecture.",
+      "url": "https://github.com/AdilShamim8/GPT-2-Rebuild-nanoGPT",
+      "tags": [
+        "DL",
+        "Transformers",
+        "LLM"
+      ],
+      "category": "foundations",
+      "accent": "cyan"
+    },
+    {
+      "id": "p06",
+      "number": 6,
+      "title": "Prompt Engineering",
+      "description": "Techniques and best practices for effective LLM prompting across reasoning, retrieval, and tool use.",
+      "url": "https://github.com/AdilShamim8/Prompt-Engineering",
+      "tags": [
+        "LLM",
+        "Prompting",
+        "NLP"
+      ],
+      "category": "foundations",
+      "accent": "cyan"
+    },
+    {
+      "id": "p07",
+      "number": 7,
+      "title": "RAG Roadmap and Projects",
+      "description": "End-to-end learning path for RAG — from document processing to agentic systems and production deployment.",
+      "url": "https://github.com/AdilShamim8/RAG-Roadmap-with-Notes-and-Projects",
+      "tags": [
+        "RAG",
+        "LangChain",
+        "Roadmap"
+      ],
+      "category": "foundations",
+      "accent": "cyan"
+    },
+    {
+      "id": "p08",
+      "number": 8,
+      "title": "Build with Claude Code",
+      "description": "Deep notes, real assignments, and working solutions for mastering Claude Code and agentic loops.",
+      "url": "https://github.com/AdilShamim8/Build-with-Claude-Code",
+      "tags": [
+        "Claude",
+        "Agents",
+        "LLM"
+      ],
+      "category": "foundations",
+      "accent": "cyan"
+    },
+    {
+      "id": "p09",
+      "number": 9,
+      "title": "MathForAI",
+      "description": "Single-page curriculum site teaching the math foundations behind modern AI and machine learning.",
+      "url": "https://github.com/AdilShamim8/MathForAI",
+      "tags": [
+        "Math",
+        "Foundations",
+        "Education"
+      ],
+      "category": "foundations",
+      "accent": "cyan"
+    },
+    {
+      "id": "p10",
+      "number": 10,
+      "title": "Prices Predictor System",
+      "description": "End-to-end price prediction system with feature pipelines and model registry.",
+      "url": "https://github.com/AdilShamim8/Prices_Predictor_System",
+      "tags": [
+        "ML",
+        "Regression",
+        "MLOps"
+      ],
+      "category": "prediction-forecasting",
+      "accent": "amber"
+    },
+    {
+      "id": "p11",
+      "number": 11,
+      "title": "Stock Price Prediction",
+      "description": "Time-series forecasting for equity price movements using LSTM and sequence models.",
+      "url": "https://github.com/AdilShamim8/Stock_Price_Prediction",
+      "tags": [
+        "LSTM",
+        "Time-Series",
+        "Finance"
+      ],
+      "category": "prediction-forecasting",
+      "accent": "amber"
+    },
+    {
+      "id": "p12",
+      "number": 12,
+      "title": "Laptop Price Predictor",
+      "description": "Regression model to estimate laptop prices from hardware specifications.",
+      "url": "https://github.com/AdilShamim8/Laptop-Price-Predictor",
+      "tags": [
+        "Regression",
+        "EDA",
+        "ML"
+      ],
+      "category": "prediction-forecasting",
+      "accent": "amber"
+    },
+    {
+      "id": "p13",
+      "number": 13,
+      "title": "ML Housing Corp",
+      "description": "Housing price prediction inspired by Hands-On Machine Learning with Scikit-Learn.",
+      "url": "https://github.com/AdilShamim8/Machine_Learning_Housing_Corp",
+      "tags": [
+        "Regression",
+        "Scikit-Learn"
+      ],
+      "category": "prediction-forecasting",
+      "accent": "amber"
+    },
+    {
+      "id": "p14",
+      "number": 14,
+      "title": "Data Science Salary Predictor",
+      "description": "Predict DS/ML salaries from job market data with feature engineering on role and location.",
+      "url": "https://github.com/AdilShamim8/Data-Science-Salary-Predictor",
+      "tags": [
+        "ML",
+        "Regression",
+        "Career"
+      ],
+      "category": "prediction-forecasting",
+      "accent": "amber"
+    },
+    {
+      "id": "p15",
+      "number": 15,
+      "title": "BUET CSE Fest 2026 — Bengali ASR",
+      "description": "Bengali ASR and speaker diarization system built for BUET CSE Fest 2026.",
+      "url": "https://github.com/AdilShamim8/BUET-CSE-Fest-2026",
+      "tags": [
+        "ASR",
+        "Bengali",
+        "Diarization"
+      ],
+      "category": "nlp",
+      "accent": "violet"
+    },
+    {
+      "id": "p16",
+      "number": 16,
+      "title": "Sentiment Analysis",
+      "description": "Multi-class sentiment classification on review data with BERT fine-tuning.",
+      "url": "https://github.com/AdilShamim8/Sentiment-analysis",
+      "tags": [
+        "NLP",
+        "Classification",
+        "BERT"
+      ],
+      "category": "nlp",
+      "accent": "violet"
+    },
+    {
+      "id": "p17",
+      "number": 17,
+      "title": "Resume Screening",
+      "description": "Automated resume parser and job-fit classifier for HR-tech pipelines.",
+      "url": "https://github.com/AdilShamim8/Resume-Screening",
+      "tags": [
+        "NLP",
+        "Classification",
+        "HR-Tech"
+      ],
+      "category": "nlp",
+      "accent": "violet"
+    },
+    {
+      "id": "p18",
+      "number": 18,
+      "title": "Email Spam Classifier",
+      "description": "NLP pipeline to detect spam and phishing emails using TF-IDF and classical models.",
+      "url": "https://github.com/AdilShamim8/Email-Spam-Classifier",
+      "tags": [
+        "NLP",
+        "Classification",
+        "TF-IDF"
+      ],
+      "category": "nlp",
+      "accent": "violet"
+    },
+    {
+      "id": "p19",
+      "number": 19,
+      "title": "Bengali SMS Classifier",
+      "description": "Spam detection for the Bengali language on low-resource corpora.",
+      "url": "https://github.com/AdilShamim8/Bengali_sms_classifier",
+      "tags": [
+        "NLP",
+        "Bengali",
+        "Low-Resource"
+      ],
+      "category": "nlp",
+      "accent": "violet"
+    },
+    {
+      "id": "p20",
+      "number": 20,
+      "title": "Book Recommender System",
+      "description": "Collaborative filtering-based book recommendation engine with similarity scoring.",
+      "url": "https://github.com/AdilShamim8/Book-Recommender-System",
+      "tags": [
+        "RecSys",
+        "Collaborative",
+        "CF"
+      ],
+      "category": "recommender-systems",
+      "accent": "rose"
+    },
+    {
+      "id": "p21",
+      "number": 21,
+      "title": "Movie Recommender System",
+      "description": "Content-based and hybrid movie recommendation system with metadata features.",
+      "url": "https://github.com/AdilShamim8/Movie-Recommender-System",
+      "tags": [
+        "RecSys",
+        "Content-Based"
+      ],
+      "category": "recommender-systems",
+      "accent": "rose"
+    },
+    {
+      "id": "p22",
+      "number": 22,
+      "title": "Pose Detection",
+      "description": "Real-time human pose estimation and posture analysis with MediaPipe.",
+      "url": "https://github.com/AdilShamim8/Posture-detection",
+      "tags": [
+        "CV",
+        "MediaPipe",
+        "Real-Time"
+      ],
+      "category": "computer-vision",
+      "accent": "green"
+    },
+    {
+      "id": "p23",
+      "number": 23,
+      "title": "Gesture Volume Control",
+      "description": "Control system volume using hand gestures via webcam and MediaPipe tracking.",
+      "url": "https://github.com/AdilShamim8/Gesture-Volume-Control",
+      "tags": [
+        "CV",
+        "MediaPipe",
+        "HCI"
+      ],
+      "category": "computer-vision",
+      "accent": "green"
+    },
+    {
+      "id": "p24",
+      "number": 24,
+      "title": "Cat vs Dog Classification",
+      "description": "CNN-based binary image classifier trained on the Kaggle Dogs vs Cats dataset.",
+      "url": "https://github.com/AdilShamim8/Cat_Vs_Dog_Image_Classification_Project",
+      "tags": [
+        "CNN",
+        "Image-Classification",
+        "DL"
+      ],
+      "category": "computer-vision",
+      "accent": "green"
+    },
+    {
+      "id": "p25",
+      "number": 25,
+      "title": "Pose Detection with Face Overlays",
+      "description": "Extended pose detection with dynamic face overlay effects and visual feedback.",
+      "url": "https://github.com/AdilShamim8/Posture-detection",
+      "tags": [
+        "CV",
+        "Pose",
+        "MediaPipe"
+      ],
+      "category": "computer-vision",
+      "accent": "green"
+    },
+    {
+      "id": "p26",
+      "number": 26,
+      "title": "QuantScope",
+      "description": "Quantitative stock analysis platform for data-driven market research and financial decision making.",
+      "url": "https://github.com/AdilShamim8/QuantScope",
+      "tags": [
+        "Finance",
+        "EDA",
+        "Quant"
+      ],
+      "category": "data-analysis",
+      "accent": "cyan"
+    },
+    {
+      "id": "p27",
+      "number": 27,
+      "title": "Olympic History Analysis",
+      "description": "In-depth EDA on 120 years of Olympic Games data with team, medal, and athlete insights.",
+      "url": "https://github.com/AdilShamim8/Olympic_History_Analysis",
+      "tags": [
+        "EDA",
+        "Visualization",
+        "Pandas"
+      ],
+      "category": "data-analysis",
+      "accent": "cyan"
+    },
+    {
+      "id": "p28",
+      "number": 28,
+      "title": "Study Abroad Dataset",
+      "description": "Analysis and modeling on international student data with demographic breakdowns.",
+      "url": "https://github.com/AdilShamim8/Study_Abroad",
+      "tags": [
+        "EDA",
+        "Statistics"
+      ],
+      "category": "data-analysis",
+      "accent": "cyan"
+    },
+    {
+      "id": "p29",
+      "number": 29,
+      "title": "COVID-19 Global Impact Analysis",
+      "description": "Comprehensive analysis of pandemic spread and impact across countries and time.",
+      "url": "https://github.com/AdilShamim8/COVID-19_Global_Impact_Analysis",
+      "tags": [
+        "EDA",
+        "Public-Health",
+        "Viz"
+      ],
+      "category": "data-analysis",
+      "accent": "cyan"
+    },
+    {
+      "id": "p30",
+      "number": 30,
+      "title": "Vendor Performance Analysis",
+      "description": "Supply chain vendor scoring and analytics dashboard for procurement teams.",
+      "url": "https://github.com/AdilShamim8/Vendor-Performance-Analysis",
+      "tags": [
+        "EDA",
+        "Business-Intelligence"
+      ],
+      "category": "data-analysis",
+      "accent": "cyan"
+    },
+    {
+      "id": "p31",
+      "number": 31,
+      "title": "Production-grade RAG",
+      "description": "Production-ready RAG API built with FastAPI, LangChain, OpenAI, and Qdrant vector store.",
+      "url": "https://github.com/AdilShamim8/Production-grade-RAG",
+      "tags": [
+        "RAG",
+        "FastAPI",
+        "LangChain",
+        "Qdrant"
+      ],
+      "category": "tools-applications",
+      "accent": "amber"
+    },
+    {
+      "id": "p32",
+      "number": 32,
+      "title": "NeuroBridge",
+      "description": "Middleware layer bridging LLMs with real-world applications for seamless agentic integration.",
+      "url": "https://github.com/AdilShamim8/NeuroBridge",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Middleware"
+      ],
+      "category": "tools-applications",
+      "accent": "amber"
+    },
+    {
+      "id": "p33",
+      "number": 33,
+      "title": "PaperMap",
+      "description": "Interactive library transforming landmark AI papers into visual educational experiences.",
+      "url": "https://github.com/AdilShamim8/PaperMap",
+      "tags": [
+        "Education",
+        "GenAI",
+        "Interactive"
+      ],
+      "category": "tools-applications",
+      "accent": "amber"
+    },
+    {
+      "id": "p34",
+      "number": 34,
+      "title": "Toolly Studio",
+      "description": "A studio suite of developer and AI productivity tools in a single workspace.",
+      "url": "https://github.com/AdilShamim8/Toolly_Studio",
+      "tags": [
+        "Tools",
+        "Productivity"
+      ],
+      "category": "tools-applications",
+      "accent": "amber"
+    },
+    {
+      "id": "p35",
+      "number": 35,
+      "title": "Echo AI",
+      "description": "Conversational AI assistant with contextual memory and persistent dialogue state.",
+      "url": "https://github.com/AdilShamim8/Echo_AI",
+      "tags": [
+        "LLM",
+        "Chatbot",
+        "GenAI"
+      ],
+      "category": "tools-applications",
+      "accent": "amber"
+    },
+    {
+      "id": "p36",
+      "number": 36,
+      "title": "Toolly",
+      "description": "Lightweight utility toolkit for ML workflows, dataset prep, and quick experimentation.",
+      "url": "https://github.com/AdilShamim8/Toolly",
+      "tags": [
+        "Tools",
+        "Utilities",
+        "ML"
+      ],
+      "category": "tools-applications",
+      "accent": "amber"
+    },
+    {
+      "id": "p37",
+      "number": 37,
+      "title": "Training Data Bot",
+      "description": "Automated pipeline converting raw documents (PDF, text, URLs) into clean, quality-scored LLM fine-tuning datasets.",
+      "url": "https://github.com/AdilShamim8/Training_Data_Bot",
+      "tags": [
+        "LLM",
+        "Fine-Tuning",
+        "Dataset",
+        "NLP",
+        "Automation"
+      ],
+      "category": "tools-applications",
+      "accent": "amber"
+    },
+    {
+      "id": "p38",
+      "number": 38,
+      "title": "AI Engineering Research",
+      "description": "Research archive of real-world AI engineering interview assignments, take-home challenges, and hiring practices.",
+      "url": "https://github.com/AdilShamim8/AI-Engineering",
+      "tags": [
+        "AI",
+        "Career",
+        "Research"
+      ],
+      "category": "tools-applications",
+      "accent": "amber"
+    },
+    {
+      "id": "p39",
+      "number": 39,
+      "title": "Kaggle Competitions",
+      "description": "Collection of top-ranked competition solutions across ML, NLP, and time-series challenges.",
+      "url": "https://github.com/AdilShamim8/Kaggle_Competitions",
+      "tags": [
+        "Kaggle",
+        "ML",
+        "Competition"
+      ],
+      "category": "tools-applications",
+      "accent": "amber"
+    },
+    {
+      "id": "p40",
+      "number": 40,
+      "title": "Awesome AI/ML Startups",
+      "description": "Monthly-updated community tracker of global AI/ML startups sourced from YC, Crunchbase, Forbes AI 50, and VC databases.",
+      "url": "https://github.com/AdilShamim8/awesome-ai-ml-startups",
+      "tags": [
+        "AI",
+        "Startups",
+        "Resource"
+      ],
+      "category": "tools-applications",
+      "accent": "amber"
+    },
+    {
+      "id": "p101",
+      "number": 101,
+      "title": "LLM Playground",
+      "description": "Production-level large language model training and deployment framework.",
+      "url": "https://github.com/AdilShamim8/LLM-Playground-101",
+      "tags": [
+        "LLM",
+        "Training",
+        "MLOps"
+      ],
+      "category": "production-ai",
+      "accent": "violet"
+    },
+    {
+      "id": "p102",
+      "number": 102,
+      "title": "Customer Support Chatbot",
+      "description": "Production-ready AI customer support with RAG, hybrid search, reranking, and PEFT fine-tuning.",
+      "url": "https://github.com/AdilShamim8/Customer-Support-Chatbot-102",
+      "tags": [
+        "RAG",
+        "Production",
+        "LLM"
+      ],
+      "category": "production-ai",
+      "accent": "violet"
+    },
+    {
+      "id": "p103",
+      "number": 103,
+      "title": "Ask the Web",
+      "description": "Perplexity-like AI agent with ReACT/ReWOO/Reflexion reasoning, MCP & A2A protocols, and multi-agent orchestration.",
+      "url": "https://github.com/AdilShamim8/Ask-the-Web-103",
+      "tags": [
+        "Agents",
+        "Search",
+        "RAG"
+      ],
+      "category": "production-ai",
+      "accent": "violet"
+    },
+    {
+      "id": "p104",
+      "number": 104,
+      "title": "Deep Research",
+      "description": "Deep research AI using web search, OpenAI o3, and DeepSeek-R1 with inference-time scaling.",
+      "url": "https://github.com/AdilShamim8/Deep-Research-104",
+      "tags": [
+        "Research",
+        "LLM",
+        "Agents"
+      ],
+      "category": "production-ai",
+      "accent": "violet"
+    },
+    {
+      "id": "p105",
+      "number": 105,
+      "title": "Multi-Modal Generation",
+      "description": "Production T2I and T2V synthesis with full VAE, GAN, DiT, and DDPM/DDIM/DPM-Solver++ implementation.",
+      "url": "https://github.com/AdilShamim8/Multi-Modal-105",
+      "tags": [
+        "T2I",
+        "T2V",
+        "Diffusion",
+        "DL"
+      ],
+      "category": "production-ai",
+      "accent": "violet"
+    }
+  ]
+};
+
+    const REPO = DATA.repo;
+    const CATEGORIES = DATA.categories;
+    const PROJECTS = DATA.projects;
+
+    // ============================================================
+    // Icons (inline SVG)
+    // ============================================================
+    const ICONS = {
+  "Network": `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg>`,
+  "GraduationCap": `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg>`,
+  "TrendingUp": `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>`,
+  "MessageSquare": `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>`,
+  "Sparkles": `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/><path d="M20 3v4"/><path d="M22 5h-4"/><path d="M4 17v2"/><path d="M5 18H3"/></svg>`,
+  "Eye": `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"/><circle cx="12" cy="12" r="3"/></svg>`,
+  "BarChart3": `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v16a2 2 0 0 0 2 2h16"/><path d="M18 17V9"/><path d="M13 17V5"/><path d="M8 17v-3"/></svg>`,
+  "Wrench": `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>`,
+  "Rocket": `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg>`,
+  "Layers3": `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0l8.58-3.908a1 1 0 0 0 0-1.832z"/><path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"/><path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"/></svg>`,
+  "Code2": `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 16 4-4-4-4"/><path d="m6 8-4 4 4 4"/><path d="m14.5 4-5 16"/></svg>`,
+  "GitBranch": `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="6" x2="6" y1="3" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></svg>`,
+  "Star": `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`,
+  "Search": `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>`,
+  "ArrowRight": `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>`,
+  "ArrowUpRight": `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>`,
+  "CheckCircle2": `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>`,
+  "Github": `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>`,
+  "ExternalLink": `<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>`,
+  "BookOpen": `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>`,
+  "Twitter": `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>`,
+  "Trophy": `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>`,
+  "Link": `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>`,
+  "Copy": `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>`,
+  "Zap": `<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></svg>`,
+  "Filter": `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>`
+};
+
+    function icon(name, size) {
+      size = size || 18;
+      const svg = ICONS[name] || ICONS.Network;
+      // Override width/height via regex
+      return svg.replace(/width="\d+"/, 'width="' + size + '"').replace(/height="\d+"/, 'height="' + size + '"');
+    }
+
+    // ============================================================
+    // Helpers
+    // ============================================================
+    function pathFor(route) { return '#' + route; }
+
+    function getCategory(slug) {
+      return CATEGORIES.find(c => c.slug === slug);
+    }
+
+    function getProject(id) {
+      return PROJECTS.find(p => p.id === id);
+    }
+
+    function projectsByCategory(slug) {
+      return PROJECTS.filter(p => p.category === slug);
+    }
+
+    function relatedProjects(project, limit) {
+      limit = limit || 4;
+      return PROJECTS.filter(p => p.id !== project.id && p.category === project.category).slice(0, limit);
+    }
+
+    function slugify(value) {
+      return (value || 'item').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') || 'item';
+    }
+
+    function normalize(value) {
+      return (value || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+    }
+
+    function matchesQuery(item, query) {
+      if (!query) return true;
+      const haystack = normalize([item.title, item.description, item.category, (item.tags || []).join(' ')].join(' '));
+      return normalize(query).split(' ').filter(Boolean).every(part => haystack.includes(part));
+    }
+
+    function escapeHtml(s) {
+      return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]);
+    }
+
+    function deriveSteps(project) {
+      const tags = project.tags.join(' ').toLowerCase();
+      if (tags.includes('rag')) return ['Ingest', 'Embed', 'Retrieve', 'Generate', 'Respond'];
+      if (tags.includes('llm') || tags.includes('agents') || tags.includes('genai')) return ['Prompt', 'Plan', 'Tool', 'Model', 'Output'];
+      if (tags.includes('cv') || tags.includes('cnn') || tags.includes('mediapiipe')) return ['Capture', 'Preprocess', 'Detect', 'Postprocess', 'Render'];
+      if (tags.includes('nlp') || tags.includes('classification')) return ['Tokenize', 'Embed', 'Classify', 'Decode', 'Output'];
+      if (tags.includes('eda') || tags.includes('visualization')) return ['Load', 'Clean', 'Explore', 'Visualize', 'Report'];
+      if (tags.includes('regression') || tags.includes('time-series')) return ['Gather', 'Engineer', 'Train', 'Evaluate', 'Deploy'];
+      return ['Define', 'Gather', 'Build', 'Evaluate', 'Ship'];
+    }
+
+    function deriveFeatures(project) {
+      const tags = project.tags.join(' ').toLowerCase();
+      const features = [];
+      if (tags.includes('production') || tags.includes('mlops')) features.push('Production-grade architecture with monitoring and deployment story');
+      if (tags.includes('rag')) features.push('Retrieval-augmented generation with vector store and reranking');
+      if (tags.includes('llm')) features.push('Large language model integration with prompt engineering');
+      if (tags.includes('agents') || tags.includes('langgraph') || tags.includes('crewai')) features.push('Agentic workflow with tool use and multi-step reasoning');
+      if (tags.includes('cnn') || tags.includes('cv') || tags.includes('mediapiipe')) features.push('Computer vision pipeline with real-time inference');
+      if (tags.includes('nlp') || tags.includes('bert') || tags.includes('tf-idf')) features.push('NLP pipeline with tokenization, embeddings, and classification');
+      if (tags.includes('bengali')) features.push('Bengali low-resource language support');
+      if (tags.includes('eda') || tags.includes('visualization')) features.push('Exploratory data analysis with publication-ready visualizations');
+      if (tags.includes('regression') || tags.includes('time-series')) features.push('Regression or time-series model with feature engineering');
+      if (tags.includes('recsys') || tags.includes('collaborative')) features.push('Recommendation engine with similarity scoring');
+      if (tags.includes('roadmap')) features.push('Structured learning roadmap with notes and reference implementations');
+      if (tags.includes('from-scratch')) features.push('Pure-Python implementations — no library shortcuts');
+      if (features.length === 0) {
+        features.push('Self-contained project with README, code, and reproducible setup');
+        features.push('Open source under permissive licensing on GitHub');
+      }
+      return Array.from(new Set(features)).slice(0, 6);
+    }
+
+    // ============================================================
+    // Routing
+    // ============================================================
+    function getRoute() {
+      return window.location.hash.slice(1) || '/';
+    }
+
+    // ============================================================
+    // Render: Shell (topbar + main + footer)
+    // ============================================================
+    const ROUTE_LABELS = [
+      { path: '/', label: 'Atlas' },
+      { path: '/categories', label: 'Categories' },
+      { path: '/projects', label: 'Projects' },
+      { path: '/connect', label: 'Connect' },
+    ];
+
+    function renderShell(route, mainHtml) {
+      const navLinks = ROUTE_LABELS.map(item => {
+        const active = route === item.path || (item.path !== '/' && route.startsWith(item.path + '/'));
+        return `<a class="${active ? 'active' : ''}" href="${pathFor(item.path)}">${item.label}</a>`;
+      }).join('');
+
+      return `
+        <header class="topbar">
+          <a class="brand" href="${pathFor('/')}">
+            <span class="brand-mark">${icon('Network', 18)}</span>
+            <span>
+              <strong>AI/ML/DL Atlas</strong>
+              <small>100+ project map</small>
+            </span>
+          </a>
+          <nav class="nav-links" aria-label="Main navigation">
+            ${navLinks}
+          </nav>
+          <a class="icon-link" href="${REPO.url}" target="_blank" rel="noreferrer">
+            ${icon('Github', 18)}
+            <span>GitHub</span>
+          </a>
+        </header>
+        <main id="main-content">${mainHtml}</main>
+        ${renderFooter()}
+      `;
+    }
+
+    function renderFooter() {
+      return `
+        <footer class="footer-band">
+          <div class="star-history-band">
+            <p class="eyebrow">Star history</p>
+            <a href="https://www.star-history.com/?repos=AdilShamim8%2F100-AI-Machine-Learning-Deep-Learnin-Projects&type=date&legend=top-left" target="_blank" rel="noreferrer">
+              <img alt="Star History Chart" src="https://api.star-history.com/image?repos=AdilShamim8/100-AI-Machine-Learning-Deep-Learnin-Projects&type=date&legend=top-left" />
+            </a>
+          </div>
+          <p style="margin-top:24px">
+            Built by <a href="${REPO.author.website}" target="_blank" rel="noreferrer">Adil Shamim</a>
+            — source on <a href="${REPO.url}" target="_blank" rel="noreferrer">GitHub</a>.
+            If this repository helps you, please give it a star.
+          </p>
+        </footer>
+      `;
+    }
+
+    // ============================================================
+    // Render: Graph hero
+    // ============================================================
+    function renderGraphHero() {
+      const nodes = [
+        { label: 'Foundations', path: '/category/foundations', x: 14, y: 22, tone: 'cyan' },
+        { label: 'NLP', path: '/category/nlp', x: 54, y: 12, tone: 'violet' },
+        { label: 'Production AI', path: '/category/production-ai', x: 78, y: 48, tone: 'amber' },
+        { label: 'Computer Vision', path: '/category/computer-vision', x: 26, y: 64, tone: 'rose' },
+        { label: 'Browse all', path: '/projects', x: 56, y: 82, tone: 'green' },
+      ];
+
+      const techStack = ['Python','PyTorch','TensorFlow','Scikit-Learn','LangChain','LangGraph','Transformers','FastAPI','MediaPipe','OpenCV','Qdrant','Pandas'];
+      const techChips = [...techStack, ...techStack].map((t, i) => `<span class="tech-chip">${escapeHtml(t)}</span>`).join('');
+
+      const nodesHtml = nodes.map(n => `
+        <a class="graph-node tone-${n.tone}" href="${pathFor(n.path)}" style="left:${n.x}%;top:${n.y}%">
+          <span></span>${escapeHtml(n.label)}
+        </a>
+      `).join('');
+
+      return `
+        <section class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">A decade of AI engineering in one atlas</p>
+            <h1>100+ AI, ML &amp; DL Projects</h1>
+            <p>
+              A premium atlas for browsing, filtering, and jumping into a curated collection of
+              production-grade AI, Machine Learning, and Deep Learning projects — spanning classical
+              ML, modern deep learning, computer vision, NLP, generative AI, and full production systems.
+            </p>
+            <div class="hero-actions">
+              <a class="primary-action" href="${pathFor('/projects')}">${icon('Search', 18)} Browse all projects</a>
+              <a class="secondary-action" href="${pathFor('/categories')}">${icon('Layers3', 18)} Explore categories</a>
+            </div>
+            <div class="tech-marquee" aria-label="Tech stack used across projects">
+              <div class="tech-marquee-track">${techChips}</div>
+            </div>
+          </div>
+          <div class="graph-stage" aria-label="Interactive project atlas graph">
+            <div class="graph-grid-overlay" aria-hidden="true"></div>
+            <svg class="edge-layer" viewBox="0 0 100 100" preserveAspectRatio="none">
+              <path class="graph-edge edge-one" d="M15 24 C32 6, 44 10, 54 14" />
+              <path class="graph-edge edge-two" d="M55 15 C70 20, 79 31, 77 48" />
+              <path class="graph-edge edge-three" d="M76 49 C65 68, 53 76, 28 65" />
+              <path class="graph-edge edge-four" d="M26 63 C12 52, 9 36, 14 24" />
+              <path class="graph-edge edge-five" d="M54 15 C49 37, 50 58, 56 80" />
+            </svg>
+            ${nodesHtml}
+            <div class="graph-console">
+              <span>atlas_state</span>
+              <strong>ready</strong>
+              <small>projects: ${PROJECTS.length}</small>
+            </div>
+            <div class="graph-corner-badge" aria-hidden="true">
+              ${icon('Zap', 12)}
+              <span>live</span>
+            </div>
+          </div>
+        </section>
+      `;
+    }
+
+    // ============================================================
+    // Render: Stat strip
+    // ============================================================
+    function renderStatStrip() {
+      const stats = [
+        { label: 'Curated projects', value: PROJECTS.length, icon: 'Code2' },
+        { label: 'Categories', value: CATEGORIES.length, icon: 'Layers3' },
+        { label: 'GitHub stars', value: REPO.stars, icon: 'Star' },
+        { label: 'GitHub forks', value: REPO.forks, icon: 'GitBranch' },
+      ];
+      const tiles = stats.map(s => `
+        <article class="stat-tile">
+          ${icon(s.icon, 18)}
+          <strong>${s.value}</strong>
+          <span>${escapeHtml(s.label)}</span>
+        </article>
+      `).join('');
+      return `<section class="stat-strip" aria-label="Repository statistics">${tiles}</section>`;
+    }
+
+    // ============================================================
+    // Render: Section header
+    // ============================================================
+    function renderSectionHeader(eyebrow, title, action) {
+      const actionHtml = action
+        ? `<a class="inline-action" href="${pathFor(action.href)}">${escapeHtml(action.label)} ${icon('ArrowRight', 16)}</a>`
+        : '';
+      return `
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">${escapeHtml(eyebrow)}</p>
+            <h2>${escapeHtml(title)}</h2>
+          </div>
+          ${actionHtml}
+        </div>
+      `;
+    }
+
+    // ============================================================
+    // Render: Project card
+    // ============================================================
+    function renderProjectCard(project) {
+      const category = getCategory(project.category);
+      const catName = (category && category.name.split(' ')[0]) || 'Project';
+      const tags = project.tags.slice(0, 4).map(t => `<span>${escapeHtml(t)}</span>`).join('');
+      const num = String(project.number).padStart(2, '0');
+      return `
+        <a class="agent-card" href="${pathFor('/project/' + project.id)}">
+          <div class="card-topline">
+            <span class="framework-pill ${project.accent}">${escapeHtml(catName)}</span>
+            <small>#${num}</small>
+          </div>
+          <h3>${escapeHtml(project.title)}</h3>
+          <p>${escapeHtml(project.description)}</p>
+          <div class="tag-list">${tags}</div>
+          <span class="card-cta-arrow">View project ${icon('ArrowRight', 14)}</span>
+        </a>
+      `;
+    }
+
+    // ============================================================
+    // Render: Category card
+    // ============================================================
+    function renderCategoryCard(category, count) {
+      return `
+        <a class="category-card framework-card" href="${pathFor('/category/' + category.slug)}">
+          <div class="card-topline">
+            <span class="framework-pill ${category.accent}">${count} projects</span>
+            <small><span class="mini-dot ${category.accent}" style="display:inline-block"></span></small>
+          </div>
+          <div class="category-icon-bubble tone-${category.accent}">
+            ${icon(category.icon, 20)}
+          </div>
+          <strong>${escapeHtml(category.name)}</strong>
+          <p>${escapeHtml(category.description)}</p>
+          <div class="tag-list">
+            <span class="framework-pill ${category.accent}">View projects</span>
+          </div>
+        </a>
+      `;
+    }
+
+    // ============================================================
+    // Render: Connect band
+    // ============================================================
+    function renderConnectBand() {
+      const links = [
+        { label: 'Website', href: REPO.author.website, icon: 'Link' },
+        { label: 'Medium', href: REPO.author.medium, icon: 'BookOpen' },
+        { label: 'LinkedIn', href: REPO.author.linkedin, icon: 'ExternalLink' },
+        { label: 'Twitter', href: REPO.author.twitter, icon: 'Twitter' },
+        { label: 'Kaggle', href: REPO.author.kaggle, icon: 'Trophy' },
+        { label: 'LeetCode', href: REPO.author.leetcode, icon: 'Code2' },
+      ];
+      const linksHtml = links.map(l => `
+        <a class="connect-link" href="${l.href}" target="_blank" rel="noreferrer">
+          ${icon(l.icon, 16)} ${escapeHtml(l.label)}
+        </a>
+      `).join('');
+      return `
+        <section class="connect-band">
+          <p class="eyebrow">Stay in touch</p>
+          <h2>Connect with the author</h2>
+          <p>
+            Follow along as new AI, ML, and DL projects are added to the atlas. Whether you want to
+            collaborate, ask a question, or just keep up with the latest releases, every channel below is open.
+          </p>
+          <div class="connect-grid">${linksHtml}</div>
+        </section>
+      `;
+    }
+
+    // ============================================================
+    // Render: Page hero (sub-pages)
+    // ============================================================
+    function renderPageHero(eyebrow, title, description, iconName) {
+      return `
+        <section class="page-hero">
+          <div>
+            <p class="eyebrow">${escapeHtml(eyebrow)}</p>
+            <h1>${escapeHtml(title)}</h1>
+            <p>${escapeHtml(description)}</p>
+          </div>
+          <span class="page-hero-icon">${icon(iconName, 48)}</span>
+        </section>
+      `;
+    }
+
+    // ============================================================
+    // Render: Code block (with copy button)
+    // ============================================================
+    function renderCodeBlock(code, compact) {
+      const id = 'code-' + Math.random().toString(36).slice(2, 9);
+      return `
+        <div class="code-block${compact ? ' compact' : ''}" data-code-id="${id}">
+          <div class="code-toolbar">
+            <span>${icon('Code2', 14)} bash</span>
+            <button onclick="copyCode('${id}')">${icon('Copy', 14)} <span class="copy-label">Copy</span></button>
+          </div>
+          <pre><code id="${id}">${escapeHtml(code)}</code></pre>
+        </div>
+      `;
+    }
+
+    function copyCode(id) {
+      const el = document.getElementById(id);
+      if (!el) return;
+      const text = el.textContent;
+      const btn = document.querySelector(`[data-code-id="${id}"] button`);
+      const label = btn && btn.querySelector('.copy-label');
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(text).then(() => {
+          if (label) { label.textContent = 'Copied'; setTimeout(() => label.textContent = 'Copy', 1500); }
+        });
+      } else {
+        // fallback
+        const ta = document.createElement('textarea');
+        ta.value = text; document.body.appendChild(ta); ta.select();
+        try { document.execCommand('copy'); if (label) { label.textContent = 'Copied'; setTimeout(() => label.textContent = 'Copy', 1500); } } catch(e) {}
+        document.body.removeChild(ta);
+      }
+    }
+
+    // ============================================================
+    // Pages
+    // ============================================================
+    function renderHomePage() {
+      const featuredProjects = PROJECTS.slice(0, 6);
+      const featuredCategories = CATEGORIES.slice(0, 4);
+      const productionProjects = projectsByCategory('production-ai');
+
+      return `
+        ${renderGraphHero()}
+        ${renderStatStrip()}
+
+        <section class="split-section">
+          <div class="section-copy">
+            <p class="eyebrow">Start here</p>
+            <h2>Browse by category or jump straight to a project</h2>
+            <p>
+              The atlas is organized into ${CATEGORIES.length} categories — from foundational roadmaps and
+              classical ML all the way to production-grade AI systems. Every project has its own detail page
+              with metadata, tags, related projects, and a direct link to the source repository.
+            </p>
+            <a class="inline-action" href="${pathFor('/categories')}">Open categories ${icon('ArrowRight', 16)}</a>
+          </div>
+          <div class="category-grid">
+            ${featuredCategories.map(c => renderCategoryCard(c, projectsByCategory(c.slug).length)).join('')}
+          </div>
+        </section>
+
+        <section class="content-band">
+          ${renderSectionHeader('Featured projects', 'A snapshot of the catalog', { label: 'View all projects', href: '/projects' })}
+          <div class="card-grid">
+            ${featuredProjects.map(p => renderProjectCard(p)).join('')}
+          </div>
+        </section>
+
+        <section class="content-band">
+          ${renderSectionHeader('Production AI systems', 'Battle-tested real-world deployments', { label: 'View production AI', href: '/category/production-ai' })}
+          <div class="card-grid">
+            ${productionProjects.map(p => renderProjectCard(p)).join('')}
+          </div>
+        </section>
+
+        ${renderConnectBand()}
+      `;
+    }
+
+    function renderCategoriesPage() {
+      const cards = CATEGORIES.map(c => renderCategoryCard(c, projectsByCategory(c.slug).length)).join('');
+      return `
+        ${renderPageHero('Browse the catalog', 'Project categories',
+          `The atlas spans ${CATEGORIES.length} categories covering foundations, prediction, NLP, vision, recommender systems, data analysis, tools, and production AI. Pick a category to dive into its projects.`,
+          'Layers3')}
+        <section class="content-band">
+          <div class="category-grid">${cards}</div>
+        </section>
+      `;
+    }
+
+    function renderProjectsPage() {
+      const filters = ['<button class="active" data-filter="all">All</button>']
+        .concat(CATEGORIES.map(c => `<button data-filter="${c.slug}">${escapeHtml(c.name.split(' ')[0])}</button>`))
+        .join('');
+
+      const cards = PROJECTS.map(p => renderProjectCard(p)).join('');
+
+      return `
+        ${renderPageHero('Full catalog', 'All AI/ML/DL projects',
+          'Search every project in the atlas by title, tag, or description. Filter by category to narrow the view, and click any card to open its detail page.',
+          'Code2')}
+        <section class="catalog-toolbar">
+          <label class="search-box">
+            ${icon('Search', 18)}
+            <input id="search-input" type="text" placeholder="Search by title, tag, or description" aria-label="Search projects" />
+          </label>
+          <div class="filter-row" id="filter-row" role="tablist" aria-label="Filter by category">
+            ${icon('Filter', 16)}
+            ${filters}
+          </div>
+        </section>
+        <section class="content-band">
+          <div class="catalog-count" id="catalog-count">${PROJECTS.length} of ${PROJECTS.length} projects shown</div>
+          <div class="card-grid" id="project-grid">${cards}</div>
+        </section>
+      `;
+    }
+
+    function renderCategoryPage(slug) {
+      const category = getCategory(slug);
+      if (!category) {
+        return renderPageHero('404', 'Category not found',
+          'The category you are looking for does not exist in the atlas.', 'Network');
+      }
+      const list = projectsByCategory(slug);
+      const cards = list.map(p => renderProjectCard(p)).join('');
+      return `
+        ${renderPageHero('Category', category.name, category.description, category.icon)}
+        <section class="content-band">
+          <div class="catalog-count">${list.length} projects in this category</div>
+          <div class="card-grid">${cards}</div>
+        </section>
+      `;
+    }
+
+    function renderConnectPage() {
+      return `
+        ${renderPageHero('Get in touch', 'Connect with Adil Shamim',
+          'The atlas is maintained by Adil Shamim, an AI engineer with a decade of hands-on experience across research, industry, and open source. Reach out on any of the channels below.',
+          'Network')}
+        ${renderConnectBand()}
+      `;
+    }
+
+    function renderProjectDetailPage(id) {
+      const project = getProject(id);
+      if (!project) {
+        return renderPageHero('404', 'Project not found',
+          'The project you are looking for is not in the atlas.', 'Network');
+      }
+      const category = getCategory(project.category);
+      const related = relatedProjects(project, 3);
+      const repoName = project.url.split('/').pop() || 'project';
+      const runCommands = `# Clone the project\ngit clone ${project.url}\ncd ${repoName}\n\n# Follow the README for setup and usage instructions\n# Most projects use Python 3.10+ with a requirements.txt`;
+      const steps = deriveSteps(project);
+      const features = deriveFeatures(project);
+
+      const metaRows = [
+        ['Category', category ? category.name : '—'],
+        ['Number', '#' + String(project.number).padStart(3, '0')],
+        ['Tags', project.tags.join(', ')],
+        ['Source', repoName],
+        ['Author', REPO.author.name],
+      ].map(([label, value]) => `
+        <div class="meta-row">
+          <span>${escapeHtml(label)}</span>
+          <strong>${label === 'Source'
+            ? `<a href="${project.url}" target="_blank" rel="noreferrer" style="color:var(--cyan)">${escapeHtml(value)}</a>`
+            : escapeHtml(value)}</strong>
+        </div>
+      `).join('');
+
+      const stepsHtml = steps.map((step, i) => `
+        <div class="flow-step">
+          <span>${i + 1}</span>
+          <strong>${escapeHtml(step)}</strong>
+        </div>
+      `).join('');
+
+      const featuresHtml = features.map(f => `
+        <li>${icon('CheckCircle2', 16)} ${escapeHtml(f)}</li>
+      `).join('');
+
+      const tagsHtml = project.tags.map(t => `<span>${escapeHtml(t)}</span>`).join('');
+
+      const relatedHtml = related.length > 0 ? `
+        <section class="related-band">
+          <h2>Related projects in ${category ? category.name : ''}</h2>
+          <div class="mini-card-grid" style="margin-top:16px">
+            ${related.map(p => renderProjectCard(p)).join('')}
+          </div>
+        </section>
+      ` : '';
+
+      return `
+        ${renderPageHero(`${category ? category.name : 'Project'} · #${String(project.number).padStart(2, '0')}`,
+          project.title, project.description, 'GitBranch')}
+        <section class="detail-layout">
+          <aside class="detail-aside">
+            <section class="metadata-panel">
+              <h2>Project metadata</h2>
+              ${metaRows}
+            </section>
+            <h2>Quick start</h2>
+            ${renderCodeBlock(runCommands, true)}
+            <h2>Architecture flow</h2>
+            <div class="flow-trace">${stepsHtml}</div>
+          </aside>
+          <article class="detail-main">
+            <section class="explain-panel">
+              <h2>How it works</h2>
+              <p>${escapeHtml(project.description)}</p>
+              <ul class="check-list">${featuresHtml}</ul>
+            </section>
+            <section class="explain-panel">
+              <h2>Tags &amp; tech stack</h2>
+              <p>This project is tagged with the following concepts. Click any tag to look for related projects across the atlas.</p>
+              <div class="tag-list" style="margin-top:12px">${tagsHtml}</div>
+            </section>
+            <section class="explain-panel">
+              <h2>Open the source repository</h2>
+              <p>
+                Every project in this atlas lives in its own GitHub repository under
+                <a href="https://github.com/${REPO.owner}" target="_blank" rel="noreferrer" style="color:var(--cyan)">github.com/${REPO.owner}</a>.
+                Use the button below to open the full source code, README, and setup instructions.
+              </p>
+              <div class="card-actions" style="margin-top:16px">
+                <a href="${project.url}" target="_blank" rel="noreferrer">${icon('Github', 15)} View on GitHub</a>
+                <a href="${project.url}" target="_blank" rel="noreferrer">${icon('ExternalLink', 15)} Open README</a>
+              </div>
+            </section>
+            ${relatedHtml}
+          </article>
+        </section>
+      `;
+    }
+
+    // ============================================================
+    // Router
+    // ============================================================
+    function render() {
+      const route = getRoute();
+      let mainHtml;
+      if (route.startsWith('/project/')) {
+        mainHtml = renderProjectDetailPage(route.slice('/project/'.length));
+      } else if (route.startsWith('/category/')) {
+        mainHtml = renderCategoryPage(route.slice('/category/'.length));
+      } else if (route === '/categories') {
+        mainHtml = renderCategoriesPage();
+      } else if (route === '/projects') {
+        mainHtml = renderProjectsPage();
+      } else if (route === '/connect') {
+        mainHtml = renderConnectPage();
+      } else {
+        mainHtml = renderHomePage();
+      }
+      document.getElementById('app').innerHTML = renderShell(route, mainHtml);
+
+      // Attach interactivity for the projects page
+      if (route === '/projects') {
+        attachProjectsPageInteractivity();
+      }
+
+      // Re-render scroll progress + back-to-top
+      attachScrollProgress();
+
+      // Scroll to top on route change
+      window.scrollTo(0, 0);
+    }
+
+    // ============================================================
+    // Projects page interactivity (search + filter)
+    // ============================================================
+    let searchState = { query: '', filter: 'all' };
+
+    function attachProjectsPageInteractivity() {
+      const input = document.getElementById('search-input');
+      const filterRow = document.getElementById('filter-row');
+      const grid = document.getElementById('project-grid');
+      const countEl = document.getElementById('catalog-count');
+
+      function updateGrid() {
+        const filtered = PROJECTS.filter(p =>
+          matchesQuery(p, searchState.query) &&
+          (searchState.filter === 'all' || p.category === searchState.filter)
+        );
+        grid.innerHTML = filtered.map(p => renderProjectCard(p)).join('');
+        countEl.textContent = filtered.length + ' of ' + PROJECTS.length + ' projects shown';
+        if (filtered.length === 0) {
+          grid.innerHTML = '<div class="catalog-count" style="grid-column:1/-1;text-align:center;padding:40px 0">No projects match your search. Try a different keyword or clear the filter.</div>';
+        }
+      }
+
+      if (input) {
+        input.addEventListener('input', (e) => { searchState.query = e.target.value; updateGrid(); });
+      }
+
+      if (filterRow) {
+        filterRow.querySelectorAll('button').forEach(btn => {
+          btn.addEventListener('click', () => {
+            filterRow.querySelectorAll('button').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            searchState.filter = btn.dataset.filter;
+            updateGrid();
+          });
+        });
+      }
+    }
+
+    // ============================================================
+    // Scroll progress + back-to-top
+    // ============================================================
+    function attachScrollProgress() {
+      let bar = document.querySelector('.scroll-progress');
+      if (!bar) {
+        bar = document.createElement('div');
+        bar.className = 'scroll-progress';
+        bar.setAttribute('aria-hidden', 'true');
+        document.body.appendChild(bar);
+      }
+      let btn = document.querySelector('.back-to-top');
+      // remove old button if present (we'll re-add on scroll if needed)
+
+      function onScroll() {
+        const scrollTop = window.scrollY;
+        const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const pct = docHeight > 0 ? Math.min(100, (scrollTop / docHeight) * 100) : 0;
+        bar.style.width = pct + '%';
+
+        if (scrollTop > 600) {
+          if (!btn) {
+            btn = document.createElement('button');
+            btn.className = 'back-to-top';
+            btn.setAttribute('aria-label', 'Back to top');
+            btn.setAttribute('title', 'Back to top');
+            btn.innerHTML = icon('ArrowUpRight', 20);
+            btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+            document.body.appendChild(btn);
+          }
+        } else if (btn) {
+          btn.remove();
+          btn = null;
+        }
+      }
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+    }
+
+    // ============================================================
+    // Init
+    // ============================================================
+    window.addEventListener('hashchange', render);
+    window.addEventListener('DOMContentLoaded', render);
+    // Fallback in case DOMContentLoaded already fired
+    if (document.readyState !== 'loading') render();
+  </script>
+</body>
+</html>
