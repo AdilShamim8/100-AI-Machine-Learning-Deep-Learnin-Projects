@@ -1,6 +1,5 @@
 <div align="center">
 
-
 <!-- Header Banner -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=100%20AI%20%2B%20ML%20%2B%20DL%20Projects&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=A%20decade%20of%20real-world%20AI%20experience%20in%20one%20repository&descAlignY=58&descSize=16" />
 
