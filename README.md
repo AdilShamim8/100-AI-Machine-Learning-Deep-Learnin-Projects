@@ -148,6 +148,23 @@ Whether you're just entering the AI space or a seasoned practitioner looking for
 | 104 | [Deep Research](https://github.com/AdilShamim8/Deep-Research-104) | Deep research AI using web search, OpenAI o3, and DeepSeek-R1 with inference-time scaling | `Research` `LLM` `Agents` |
 | 105 | [Multi-Modal Generation](https://github.com/AdilShamim8/Multi-Modal-105) | Production T2I and T2V synthesis with full VAE, GAN, DiT, and DDPM/DDIM/DPM-Solver++ implementation | `T2I` `T2V` `Diffusion` `DL` |
 
+###  Agentic AI Roadmap — Practice Projects
+
+> **10 hands-on projects from the [Agentic AI Roadmap](https://github.com/AdilShamim8/Agentic-AI-Roadmap-with-Notes-and-Projects)**, taking single agents to production-grade multi-agent systems.
+
+| # | Project | Description | Tags |
+|---|---------|-------------|------|
+| 106 | [Research Agent](https://github.com/AdilShamim8/Agentic-AI-Roadmap-with-Notes-and-Projects/tree/main/projects/01-research-agent) | Autonomous agent that plans, searches, and synthesizes findings into a research report | `Agents` `Research` `LangGraph` |
+| 107 | [Customer Support Multi-Agent](https://github.com/AdilShamim8/Agentic-AI-Roadmap-with-Notes-and-Projects/tree/main/projects/02-customer-support-multi-agent) | Multi-agent system that routes and resolves customer support tickets via specialized sub-agents | `Multi-Agent` `Customer-Support` `LangGraph` |
+| 108 | [Knowledge Manager](https://github.com/AdilShamim8/Agentic-AI-Roadmap-with-Notes-and-Projects/tree/main/projects/03-knowledge-manager) | Agent that ingests, organizes, and retrieves knowledge base content on demand | `Agents` `RAG` `Knowledge-Base` |
+| 109 | [Self-Healing Code Agent](https://github.com/AdilShamim8/Agentic-AI-Roadmap-with-Notes-and-Projects/tree/main/projects/04-self-healing-code-agent) | Agent that detects failing code, diagnoses the issue, and applies a fix autonomously | `Agents` `Code` `Self-Healing` |
+| 110 | [MCP Universal Agent](https://github.com/AdilShamim8/Agentic-AI-Roadmap-with-Notes-and-Projects/tree/main/projects/05-mcp-universal-agent) | General-purpose agent that connects to any tool via the Model Context Protocol | `MCP` `Agents` `Tool-Use` |
+| 111 | [Multimodal Document Analyst](https://github.com/AdilShamim8/Agentic-AI-Roadmap-with-Notes-and-Projects/tree/main/projects/06-multimodal-document-analyst) | Agent that reads and reasons over documents combining text, tables, and images | `Multimodal` `Agents` `Document-AI` |
+| 112 | [Anomaly Monitor](https://github.com/AdilShamim8/Agentic-AI-Roadmap-with-Notes-and-Projects/tree/main/projects/07-anomaly-monitor) | Agent that watches system or data streams and flags anomalies in real time | `Agents` `Monitoring` `Anomaly-Detection` |
+| 113 | [Cross-Framework Network](https://github.com/AdilShamim8/Agentic-AI-Roadmap-with-Notes-and-Projects/tree/main/projects/08-cross-framework-network) | Multi-agent network that interoperates agents built across different frameworks | `Multi-Agent` `Interop` `A2A` |
+| 114 | [Agent-as-a-Service Platform](https://github.com/AdilShamim8/Agentic-AI-Roadmap-with-Notes-and-Projects/tree/main/projects/09-agent-as-a-service-platform) | Platform for deploying and serving agents as callable, production-grade services | `Agents` `Platform` `Deployment` |
+| 115 | [Eval Harness and Benchmark](https://github.com/AdilShamim8/Agentic-AI-Roadmap-with-Notes-and-Projects/tree/main/projects/10-eval-harness-and-benchmark) | Evaluation harness and benchmark suite for scoring agent performance | `Evals` `Benchmark` `Agents` |
+
 
 ## Connect With Me
 
