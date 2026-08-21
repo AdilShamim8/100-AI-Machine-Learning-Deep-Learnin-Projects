@@ -60,6 +60,16 @@ Whether you're just entering the AI space or a seasoned practitioner looking for
   </a>
 </div>
 
+## Star History
+
+<a href="https://www.star-history.com/?repos=AdilShamim8%2F100-AI-Machine-Learning-Deep-Learnin-Projects&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AdilShamim8/100-AI-Machine-Learning-Deep-Learnin-Projects&type=date&theme=dark&legend=top-left&sealed_token=72oM9NlnxXSgNOMKR237XFdr-AyDiEMZG2BQOjMB1QQnlx9dlOerSpOx9uiLYw8uu-rmuLgWtlX7ktOMmXpQzw8Sqr17wjNkjSRVrTIgjPEmUiIbcfw_Zg" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=AdilShamim8/100-AI-Machine-Learning-Deep-Learnin-Projects&type=date&legend=top-left&sealed_token=72oM9NlnxXSgNOMKR237XFdr-AyDiEMZG2BQOjMB1QQnlx9dlOerSpOx9uiLYw8uu-rmuLgWtlX7ktOMmXpQzw8Sqr17wjNkjSRVrTIgjPEmUiIbcfw_Zg" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=AdilShamim8/100-AI-Machine-Learning-Deep-Learnin-Projects&type=date&legend=top-left&sealed_token=72oM9NlnxXSgNOMKR237XFdr-AyDiEMZG2BQOjMB1QQnlx9dlOerSpOx9uiLYw8uu-rmuLgWtlX7ktOMmXpQzw8Sqr17wjNkjSRVrTIgjPEmUiIbcfw_Zg" />
+ </picture>
+</a>
+
 
 ## Project List
 
