@@ -135,6 +135,15 @@ Whether you're just entering the AI space or a seasoned practitioner looking for
 | 38 | [AI Engineering Research](https://github.com/AdilShamim8/AI-Engineering) | Research archive of real-world AI engineering interview assignments, take-home challenges, and hiring practices | `AI` `Career` `Research` |
 | 39 | [Kaggle Competitions](https://github.com/AdilShamim8/Kaggle_Competitions) | Collection of top-ranked competition solutions across ML, NLP, and time-series challenges | `Kaggle` `ML` `Competition` |
 | 40 | [Awesome AI/ML Startups](https://github.com/AdilShamim8/awesome-ai-ml-startups) | Monthly-updated community tracker of global AI/ML startups sourced from YC, Crunchbase, Forbes AI 50, and VC databases | `AI` `Startups` `Resource` |
+| 41 | [Agentic RAG Platform](https://github.com/AdilShamim8/Agentic-RAG-Platform) | Reproducible, evaluated, secured, and observable Agentic RAG platform for organizational knowledge | `RAG` `Agents` `Enterprise` |
+| 42 | [Agentic AI Eval Harness](https://github.com/AdilShamim8/Agentic-AI-Eval-Harness) | Production CI gate and evaluation benchmarking harness for AI agents across LangGraph and CrewAI | `Agents` `Evals` `CI-Gate` |
+| 43 | [System Design for AI](https://github.com/AdilShamim8/System-Design-For-AI) | Comprehensive curriculum on system design for AI from zero to production architecture | `System-Design` `Architecture` `MLOps` |
+| 44 | [FinTech AI Engineer Mastery](https://github.com/AdilShamim8/Fintech-AI-Engineer-Mastery) | Complete curriculum and engineering laboratory for AI Engineers specializing in Financial Technology | `FinTech` `Finance` `AI-Engineer` |
+| 45 | [Claude Research Excellence](https://github.com/AdilShamim8/claude-research-excellence) | AI-powered research paper creation and adversarial peer-review simulation framework | `Claude` `Research` `GenAI` |
+| 46 | [50 Days of Machine Learning](https://github.com/AdilShamim8/50-Days-of-Machine-Learning) | Structured 50-day hands-on journey through core machine learning concepts, algorithms, and real datasets | `ML` `Roadmap` `Practice` |
+| 47 | [AI for Everyone](https://github.com/AdilShamim8/AI-for-Everyone) | Free 30-day beginner roadmap teaching practical AI usage, prompting, and workflows in English & Bengali | `AI` `Beginner` `Roadmap` |
+| 48 | [FDE Field Guide](https://github.com/AdilShamim8/fde-field-guide) | Practical field guide for Forward Deployed Engineers turning ambiguous business problems into production systems | `Engineering` `Production` `FDE` |
+| 49 | [Python DSA](https://github.com/AdilShamim8/DSAwithPython) | Implementations of fundamental data structures and algorithms in Python for AI/CS engineering | `Python` `Algorithms` `DSA` |
 
 ###  Production AI Systems
 
