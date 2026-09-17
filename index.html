@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,22 +13,67 @@
 
   <style>
     /* ==========================================================================
-       Steve Jobs / Apple Minimalist Design System
+       Steve Jobs / Apple Minimalist Design System — Dark & Light Themes
        ========================================================================== */
-    :root {
+    :root, [data-theme="dark"] {
       --bg: #08090d;
       --surface: rgba(255, 255, 255, 0.025);
       --surface-hover: rgba(255, 255, 255, 0.05);
       --surface-active: rgba(255, 255, 255, 0.08);
       --surface-card: rgba(18, 20, 29, 0.7);
+      --surface-card-hover: rgba(26, 29, 42, 0.75);
       --border: rgba(255, 255, 255, 0.08);
       --border-hover: rgba(255, 255, 255, 0.18);
       --border-focus: rgba(255, 255, 255, 0.35);
       --text-primary: #ffffff;
       --text-secondary: #94a3b8;
       --text-tertiary: #64748b;
-      --accent: #f8fafc;
-      --accent-glow: rgba(255, 255, 255, 0.12);
+      --accent-pill: #38bdf8;
+      --header-bg: rgba(8, 9, 13, 0.82);
+      --controls-bg: rgba(8, 9, 13, 0.92);
+      --card-shadow: 0 16px 36px -10px rgba(0, 0, 0, 0.6);
+      --modal-bg: #0f111a;
+      --clone-bg: rgba(0, 0, 0, 0.4);
+      --footer-bg: rgba(5, 6, 9, 0.6);
+      --hero-grad-start: #ffffff;
+      --hero-grad-end: rgba(255, 255, 255, 0.55);
+      --btn-white-bg: #ffffff;
+      --btn-white-text: #000000;
+      --btn-white-hover: #e2e8f0;
+      --bg-glow: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(120, 119, 198, 0.12), transparent 70%),
+                 radial-gradient(ellipse 60% 40% at 100% 50%, rgba(56, 189, 248, 0.04), transparent 60%);
+    }
+
+    [data-theme="light"] {
+      --bg: #f5f5f7;
+      --surface: rgba(0, 0, 0, 0.035);
+      --surface-hover: rgba(0, 0, 0, 0.06);
+      --surface-active: rgba(0, 0, 0, 0.09);
+      --surface-card: rgba(255, 255, 255, 0.88);
+      --surface-card-hover: rgba(255, 255, 255, 1);
+      --border: rgba(0, 0, 0, 0.09);
+      --border-hover: rgba(0, 0, 0, 0.2);
+      --border-focus: rgba(0, 0, 0, 0.35);
+      --text-primary: #1d1d1f;
+      --text-secondary: #515154;
+      --text-tertiary: #86868b;
+      --accent-pill: #0284c7;
+      --header-bg: rgba(245, 245, 247, 0.85);
+      --controls-bg: rgba(245, 245, 247, 0.94);
+      --card-shadow: 0 16px 36px -10px rgba(0, 0, 0, 0.08);
+      --modal-bg: #ffffff;
+      --clone-bg: #f1f3f5;
+      --footer-bg: rgba(235, 235, 240, 0.6);
+      --hero-grad-start: #1d1d1f;
+      --hero-grad-end: #6e6e73;
+      --btn-white-bg: #1d1d1f;
+      --btn-white-text: #ffffff;
+      --btn-white-hover: #000000;
+      --bg-glow: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(99, 102, 241, 0.07), transparent 70%),
+                 radial-gradient(ellipse 60% 40% at 100% 50%, rgba(14, 165, 233, 0.05), transparent 60%);
+    }
+
+    :root {
       --radius-sm: 8px;
       --radius-md: 14px;
       --radius-lg: 20px;
@@ -36,7 +81,7 @@
       --radius-full: 9999px;
       --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif;
       --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-      --transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+      --transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
     }
 
     * {
@@ -52,24 +97,24 @@
       font-family: var(--font-sans);
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
+      transition: background-color 0.3s ease, color 0.3s ease;
     }
 
     body {
       min-height: 100vh;
       background-color: var(--bg);
-      background-image: 
-        radial-gradient(ellipse 80% 50% at 50% -20%, rgba(120, 119, 198, 0.12), transparent 70%),
-        radial-gradient(ellipse 60% 40% at 100% 50%, rgba(56, 189, 248, 0.04), transparent 60%);
+      background-image: var(--bg-glow);
       background-attachment: fixed;
       color: var(--text-secondary);
       line-height: 1.6;
       overflow-x: hidden;
+      transition: background-color 0.3s ease, color 0.3s ease;
     }
 
     /* Selection */
     ::selection {
-      background: rgba(255, 255, 255, 0.2);
-      color: #fff;
+      background: rgba(120, 119, 198, 0.25);
+      color: var(--text-primary);
     }
 
     a {
@@ -96,7 +141,7 @@
       width: 100%;
       backdrop-filter: blur(20px);
       -webkit-backdrop-filter: blur(20px);
-      background: rgba(8, 9, 13, 0.82);
+      background: var(--header-bg);
       border-bottom: 1px solid var(--border);
       transition: var(--transition);
     }
@@ -123,11 +168,16 @@
       height: 32px;
       border-radius: 9px;
       background: linear-gradient(135deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.03));
-      border: 1px solid rgba(255, 255, 255, 0.15);
+      border: 1px solid var(--border);
       display: flex;
       align-items: center;
       justify-content: center;
-      color: #fff;
+      color: var(--text-primary);
+    }
+
+    [data-theme="light"] .brand-mark {
+      background: linear-gradient(135deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.02));
+      border: 1px solid rgba(0, 0, 0, 0.1);
     }
 
     .brand-mark svg {
@@ -138,7 +188,7 @@
     .nav-actions {
       display: flex;
       align-items: center;
-      gap: 12px;
+      gap: 10px;
     }
 
     .shortcut-badge {
@@ -171,6 +221,32 @@
       color: var(--text-primary);
     }
 
+    [data-theme="light"] .shortcut-key {
+      background: rgba(0, 0, 0, 0.07);
+    }
+
+    /* Theme Toggle Button */
+    .theme-toggle-btn {
+      width: 34px;
+      height: 34px;
+      border-radius: var(--radius-full);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text-secondary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .theme-toggle-btn:hover {
+      background: var(--surface-hover);
+      border-color: var(--border-hover);
+      color: var(--text-primary);
+      transform: scale(1.05);
+    }
+
     .btn {
       display: inline-flex;
       align-items: center;
@@ -187,13 +263,13 @@
     }
 
     .btn-white {
-      background: #ffffff;
-      color: #000000;
+      background: var(--btn-white-bg);
+      color: var(--btn-white-text);
       font-weight: 600;
     }
 
     .btn-white:hover {
-      background: #e2e8f0;
+      background: var(--btn-white-hover);
       transform: translateY(-1px);
     }
 
@@ -222,8 +298,8 @@
       gap: 8px;
       padding: 6px 16px;
       border-radius: var(--radius-full);
-      background: rgba(255, 255, 255, 0.04);
-      border: 1px solid rgba(255, 255, 255, 0.09);
+      background: var(--surface);
+      border: 1px solid var(--border);
       color: var(--text-secondary);
       font-size: 12.5px;
       font-weight: 500;
@@ -244,13 +320,13 @@
       font-weight: 800;
       letter-spacing: -0.04em;
       line-height: 1.08;
-      color: #ffffff;
+      color: var(--text-primary);
       max-width: 900px;
       margin: 0 auto 20px;
     }
 
     .hero-title .gradient-text {
-      background: linear-gradient(180deg, #ffffff 30%, rgba(255, 255, 255, 0.55) 100%);
+      background: linear-gradient(180deg, var(--hero-grad-start) 30%, var(--hero-grad-end) 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
@@ -282,7 +358,7 @@
       margin: 0 auto;
       padding: 20px 28px;
       border-radius: var(--radius-xl);
-      background: rgba(255, 255, 255, 0.015);
+      background: var(--surface);
       border: 1px solid var(--border);
       backdrop-filter: blur(16px);
     }
@@ -316,11 +392,12 @@
       top: 64px;
       z-index: 40;
       padding: 16px 0;
-      background: rgba(8, 9, 13, 0.92);
+      background: var(--controls-bg);
       backdrop-filter: blur(20px);
       -webkit-backdrop-filter: blur(20px);
       border-bottom: 1px solid var(--border);
       margin-bottom: 36px;
+      transition: background 0.3s ease;
     }
 
     .controls-row {
@@ -352,7 +429,7 @@
       width: 100%;
       height: 42px;
       padding: 0 42px 0 42px;
-      background: rgba(255, 255, 255, 0.04);
+      background: var(--surface);
       border: 1px solid var(--border);
       border-radius: var(--radius-full);
       color: var(--text-primary);
@@ -363,9 +440,9 @@
     }
 
     .search-input:focus {
-      background: rgba(255, 255, 255, 0.07);
+      background: var(--surface-hover);
       border-color: var(--border-focus);
-      box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.06);
+      box-shadow: 0 0 0 3px rgba(120, 119, 198, 0.12);
     }
 
     .search-clear {
@@ -388,7 +465,7 @@
     .view-toggle-group {
       display: flex;
       align-items: center;
-      background: rgba(255, 255, 255, 0.03);
+      background: var(--surface);
       border: 1px solid var(--border);
       border-radius: var(--radius-full);
       padding: 3px;
@@ -414,8 +491,8 @@
     }
 
     .view-btn.active {
-      background: rgba(255, 255, 255, 0.12);
-      color: #ffffff;
+      background: var(--surface-active);
+      color: var(--text-primary);
       font-weight: 600;
     }
 
@@ -440,7 +517,7 @@
       gap: 6px;
       padding: 6px 14px;
       border-radius: var(--radius-full);
-      background: rgba(255, 255, 255, 0.03);
+      background: var(--surface);
       border: 1px solid var(--border);
       color: var(--text-secondary);
       font-size: 12.5px;
@@ -451,15 +528,15 @@
     }
 
     .cat-pill:hover {
-      background: rgba(255, 255, 255, 0.06);
+      background: var(--surface-hover);
       border-color: var(--border-hover);
       color: var(--text-primary);
     }
 
     .cat-pill.active {
-      background: #ffffff;
-      border-color: #ffffff;
-      color: #000000;
+      background: var(--btn-white-bg);
+      border-color: var(--btn-white-bg);
+      color: var(--btn-white-text);
       font-weight: 600;
     }
 
@@ -468,13 +545,21 @@
       padding: 1px 6px;
       border-radius: 999px;
       font-size: 11px;
-      background: rgba(255, 255, 255, 0.08);
+      background: rgba(255, 255, 255, 0.1);
       color: inherit;
     }
 
+    [data-theme="light"] .cat-pill .count {
+      background: rgba(0, 0, 0, 0.08);
+    }
+
     .cat-pill.active .count {
-      background: rgba(0, 0, 0, 0.15);
-      color: #000;
+      background: rgba(0, 0, 0, 0.18);
+      color: var(--btn-white-text);
+    }
+
+    [data-theme="light"] .cat-pill.active .count {
+      background: rgba(255, 255, 255, 0.25);
     }
 
     /* ==========================================================================
@@ -504,8 +589,8 @@
     .project-card:hover {
       transform: translateY(-2px);
       border-color: var(--border-hover);
-      background: rgba(26, 29, 42, 0.7);
-      box-shadow: 0 16px 36px -10px rgba(0, 0, 0, 0.6);
+      background: var(--surface-card-hover);
+      box-shadow: var(--card-shadow);
     }
 
     .card-top {
@@ -522,8 +607,8 @@
       color: var(--text-tertiary);
       padding: 3px 8px;
       border-radius: 6px;
-      background: rgba(255, 255, 255, 0.04);
-      border: 1px solid rgba(255, 255, 255, 0.06);
+      background: var(--surface);
+      border: 1px solid var(--border);
     }
 
     .card-category-badge {
@@ -531,7 +616,7 @@
       font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 0.06em;
-      color: #38bdf8;
+      color: var(--accent-pill);
     }
 
     .card-title {
@@ -576,7 +661,7 @@
       align-items: center;
       justify-content: space-between;
       padding-top: 16px;
-      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      border-top: 1px solid var(--border);
       gap: 12px;
       flex-wrap: wrap;
     }
@@ -590,9 +675,9 @@
     .tag-pill {
       font-size: 11px;
       font-weight: 500;
-      color: #94a3b8;
-      background: rgba(255, 255, 255, 0.035);
-      border: 1px solid rgba(255, 255, 255, 0.06);
+      color: var(--text-secondary);
+      background: var(--surface);
+      border: 1px solid var(--border);
       padding: 2px 8px;
       border-radius: var(--radius-full);
     }
@@ -607,7 +692,7 @@
       width: 28px;
       height: 28px;
       border-radius: 50%;
-      background: rgba(255, 255, 255, 0.04);
+      background: var(--surface);
       border: 1px solid var(--border);
       display: flex;
       align-items: center;
@@ -617,8 +702,8 @@
     }
 
     .card-icon-btn:hover {
-      background: rgba(255, 255, 255, 0.12);
-      color: #ffffff;
+      background: var(--surface-hover);
+      color: var(--text-primary);
       border-color: var(--border-hover);
     }
 
@@ -649,13 +734,13 @@
       text-transform: uppercase;
       letter-spacing: 0.06em;
       border-bottom: 1px solid var(--border);
-      background: rgba(255, 255, 255, 0.015);
+      background: var(--surface);
       white-space: nowrap;
     }
 
     .projects-table td {
       padding: 16px 18px;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+      border-bottom: 1px solid var(--border);
       color: var(--text-secondary);
       vertical-align: middle;
     }
@@ -666,7 +751,7 @@
     }
 
     .projects-table tbody tr:hover {
-      background: rgba(255, 255, 255, 0.035);
+      background: var(--surface-hover);
     }
 
     .projects-table td.col-num {
@@ -689,7 +774,7 @@
     .projects-table td.col-cat {
       width: 160px;
       font-size: 11.5px;
-      color: #38bdf8;
+      color: var(--accent-pill);
       white-space: nowrap;
     }
 
@@ -727,7 +812,7 @@
       position: fixed;
       inset: 0;
       z-index: 100;
-      background: rgba(0, 0, 0, 0.75);
+      background: rgba(0, 0, 0, 0.65);
       backdrop-filter: blur(14px);
       -webkit-backdrop-filter: blur(14px);
       display: none;
@@ -746,14 +831,14 @@
     .modal-content {
       width: 100%;
       max-width: 640px;
-      background: #0f111a;
+      background: var(--modal-bg);
       border: 1px solid var(--border-hover);
       border-radius: var(--radius-xl);
       padding: 32px;
       position: relative;
-      box-shadow: 0 24px 64px -12px rgba(0, 0, 0, 0.8);
+      box-shadow: 0 24px 64px -12px rgba(0, 0, 0, 0.6);
       transform: scale(0.96);
-      transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), background 0.3s ease;
     }
 
     .modal-backdrop.open .modal-content {
@@ -764,7 +849,7 @@
       position: absolute;
       top: 20px;
       right: 20px;
-      background: rgba(255, 255, 255, 0.06);
+      background: var(--surface);
       border: 1px solid var(--border);
       color: var(--text-secondary);
       border-radius: 50%;
@@ -778,8 +863,8 @@
     }
 
     .modal-close:hover {
-      background: rgba(255, 255, 255, 0.15);
-      color: #ffffff;
+      background: var(--surface-hover);
+      color: var(--text-primary);
     }
 
     .modal-eyebrow {
@@ -792,7 +877,7 @@
     .modal-title {
       font-size: 24px;
       font-weight: 700;
-      color: #ffffff;
+      color: var(--text-primary);
       letter-spacing: -0.02em;
       margin-bottom: 14px;
       line-height: 1.3;
@@ -807,7 +892,7 @@
 
     .clone-box {
       margin-bottom: 24px;
-      background: rgba(0, 0, 0, 0.4);
+      background: var(--clone-bg);
       border: 1px solid var(--border);
       border-radius: var(--radius-md);
       padding: 12px 16px;
@@ -820,7 +905,7 @@
     .clone-code {
       font-family: var(--font-mono);
       font-size: 12.5px;
-      color: #e2e8f0;
+      color: var(--text-primary);
       white-space: nowrap;
       overflow-x: auto;
     }
@@ -830,7 +915,7 @@
       border-radius: var(--radius-full);
       font-size: 11.5px;
       font-weight: 600;
-      background: rgba(255, 255, 255, 0.08);
+      background: var(--surface);
       border: 1px solid var(--border);
       color: var(--text-primary);
       cursor: pointer;
@@ -841,7 +926,7 @@
     }
 
     .copy-btn:hover {
-      background: rgba(255, 255, 255, 0.16);
+      background: var(--surface-hover);
     }
 
     .modal-actions {
@@ -857,8 +942,9 @@
     .site-footer {
       border-top: 1px solid var(--border);
       padding: 64px 0 48px;
-      background: rgba(5, 6, 9, 0.6);
+      background: var(--footer-bg);
       text-align: center;
+      transition: background 0.3s ease;
     }
 
     .star-chart-container {
@@ -866,7 +952,7 @@
       margin: 0 auto 40px;
       padding: 20px;
       border-radius: var(--radius-lg);
-      background: rgba(255, 255, 255, 0.015);
+      background: var(--surface);
       border: 1px solid var(--border);
     }
 
@@ -891,7 +977,7 @@
       gap: 6px;
       padding: 6px 14px;
       border-radius: var(--radius-full);
-      background: rgba(255, 255, 255, 0.035);
+      background: var(--surface);
       border: 1px solid var(--border);
       font-size: 12.5px;
       font-weight: 500;
@@ -900,7 +986,7 @@
     }
 
     .social-badge:hover {
-      background: rgba(255, 255, 255, 0.08);
+      background: var(--surface-hover);
       border-color: var(--border-hover);
       color: var(--text-primary);
     }
@@ -943,6 +1029,24 @@
           <span>Search</span>
           <span class="shortcut-key">⌘K</span>
         </button>
+
+        <!-- Theme Toggle (Dark / Light) -->
+        <button class="theme-toggle-btn" id="theme-toggle-btn" onclick="toggleTheme()" title="Toggle Dark / Light Mode" aria-label="Toggle Theme">
+          <span id="theme-icon">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+          </span>
+        </button>
+
         <a class="btn btn-secondary" href="https://github.com/AdilShamim8/100-AI-Machine-Learning-Deep-Learnin-Projects" target="_blank" rel="noreferrer">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
@@ -1111,7 +1215,7 @@
       <div class="star-chart-container">
         <p style="font-size: 12px; color: var(--text-tertiary); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; margin-bottom: 14px;">Star History</p>
         <a href="https://www.star-history.com/?repos=AdilShamim8%2F100-AI-Machine-Learning-Deep-Learnin-Projects&type=date&legend=top-left" target="_blank" rel="noreferrer">
-          <img src="https://api.star-history.com/chart?repos=AdilShamim8/100-AI-Machine-Learning-Deep-Learnin-Projects&type=date&theme=dark&legend=top-left" alt="Star History Chart" loading="lazy" />
+          <img id="star-history-chart" src="https://api.star-history.com/chart?repos=AdilShamim8/100-AI-Machine-Learning-Deep-Learnin-Projects&type=date&theme=dark&legend=top-left" alt="Star History Chart" loading="lazy" />
         </a>
       </div>
 
@@ -2019,14 +2123,64 @@
     let searchQuery = '';
     let viewMode = 'grid'; // 'grid' | 'table'
     let activeModalProject = null;
+    let currentTheme = localStorage.getItem('atlas-theme') || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
 
     // Initialize
     document.addEventListener('DOMContentLoaded', () => {
+      applyTheme(currentTheme);
       renderCategoryPills();
       renderProjects();
       setupSearchListener();
       setupKeyboardShortcuts();
     });
+
+    // Theme Management
+    function applyTheme(theme) {
+      currentTheme = theme;
+      document.documentElement.setAttribute('data-theme', theme);
+      document.body.setAttribute('data-theme', theme);
+      localStorage.setItem('atlas-theme', theme);
+
+      const iconElem = document.getElementById('theme-icon');
+      if (iconElem) {
+        if (theme === 'light') {
+          // Moon icon (to switch back to dark)
+          iconElem.innerHTML = `
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          `;
+        } else {
+          // Sun icon (to switch to light)
+          iconElem.innerHTML = `
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+          `;
+        }
+      }
+
+      // Update Star History Chart theme
+      const chartImg = document.getElementById('star-history-chart');
+      if (chartImg) {
+        chartImg.src = theme === 'light'
+          ? 'https://api.star-history.com/chart?repos=AdilShamim8/100-AI-Machine-Learning-Deep-Learnin-Projects&type=date&legend=top-left'
+          : 'https://api.star-history.com/chart?repos=AdilShamim8/100-AI-Machine-Learning-Deep-Learnin-Projects&type=date&theme=dark&legend=top-left';
+      }
+    }
+
+    function toggleTheme() {
+      const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+      applyTheme(newTheme);
+    }
 
     function getCategoryName(catId) {
       const c = CATEGORIES.find(x => x.id === catId || x.slug === catId);
