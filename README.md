@@ -129,19 +129,18 @@ Whether you're just entering the AI space or a seasoned practitioner looking for
 | 32 | [NeuroBridge](https://github.com/AdilShamim8/NeuroBridge) | Middleware layer bridging LLMs with real-world applications for seamless agentic integration | `LLM` `Agents` `Middleware` |
 | 33 | [PaperMap](https://github.com/AdilShamim8/PaperMap) | Interactive library transforming landmark AI papers into visual educational experiences | `Education` `GenAI` `Interactive` |
 | 34 | [Toolly Studio](https://github.com/AdilShamim8/Toolly_Studio) | A studio suite of developer and AI productivity tools | `Tools` `Productivity` |
-| 35 | [Echo AI](https://github.com/AdilShamim8/Echo_AI) | Conversational AI assistant with contextual memory | `LLM` `Chatbot` `GenAI` |
-| 36 | [Toolly](https://github.com/AdilShamim8/Toolly) | Lightweight utility toolkit for ML workflows | `Tools` `Utilities` `ML` |
-| 37 | [Training Data Bot](https://github.com/AdilShamim8/Training_Data_Bot) | Automated pipeline that converts raw documents (PDF, text, URLs) into clean, quality-scored LLM fine-tuning datasets | `LLM` `Fine-Tuning` `Dataset` `NLP` `Automation` |
-| 38 | [AI Engineering](https://github.com/AdilShamim8/AI-Engineering) | Research archive of real-world AI engineering interview assignments, take-home challenges, and hiring practices | `AI` `Career` `Research` |
-| 39 | [Kaggle Competitions](https://github.com/AdilShamim8/Kaggle_Competitions) | Collection of top-ranked competition solutions across ML, NLP, and time-series challenges | `Kaggle` `ML` `Competition` |
-| 40 | [Awesome AI/ML Startups](https://github.com/AdilShamim8/awesome-ai-ml-startups) | Monthly-updated community tracker of global AI/ML startups sourced from YC, Crunchbase, Forbes AI 50, and VC databases | `AI` `Startups` `Resource` |
-| 41 | [Agentic RAG Platform](https://github.com/AdilShamim8/Agentic-RAG-Platform) | Reproducible, evaluated, secured, and observable Agentic RAG platform for organizational knowledge | `RAG` `Agents` `Enterprise` |
-| 42 | [Agentic AI Eval Harness](https://github.com/AdilShamim8/Agentic-AI-Eval-Harness) | Production CI gate and evaluation benchmarking harness for AI agents across LangGraph and CrewAI | `Agents` `Evals` `CI-Gate` |
-| 43 | [System Design for AI](https://github.com/AdilShamim8/System-Design-For-AI) | Comprehensive curriculum on system design for AI from zero to production architecture | `System-Design` `Architecture` `MLOps` |
-| 44 | [FinTech AI Engineer Mastery](https://github.com/AdilShamim8/Fintech-AI-Engineer-Mastery) | Complete curriculum and engineering laboratory for AI Engineers specializing in Financial Technology | `FinTech` `Finance` `AI-Engineer` |
-| 45 | [Claude Research Excellence](https://github.com/AdilShamim8/claude-research-excellence) | AI-powered research paper creation and adversarial peer-review simulation framework | `Claude` `Research` `GenAI` |
-| 46 | [AI for Everyone](https://github.com/AdilShamim8/AI-for-Everyone) | Free 30-day beginner roadmap teaching practical AI usage, prompting, and workflows in English & Bengali | `AI` `Beginner` `Roadmap` |
-| 47 | [FDE Field Guide](https://github.com/AdilShamim8/fde-field-guide) | Practical field guide for Forward Deployed Engineers turning ambiguous business problems into production systems | `Engineering` `Production` `FDE` |
+| 35 | [Toolly](https://github.com/AdilShamim8/Toolly) | Lightweight utility toolkit for ML workflows | `Tools` `Utilities` `ML` |
+| 36 | [Training Data Bot](https://github.com/AdilShamim8/Training_Data_Bot) | Automated pipeline that converts raw documents (PDF, text, URLs) into clean, quality-scored LLM fine-tuning datasets | `LLM` `Fine-Tuning` `Dataset` `NLP` `Automation` |
+| 37 | [AI Engineering](https://github.com/AdilShamim8/AI-Engineering) | Research archive of real-world AI engineering interview assignments, take-home challenges, and hiring practices | `AI` `Career` `Research` |
+| 38 | [Kaggle Competitions](https://github.com/AdilShamim8/Kaggle_Competitions) | Collection of top-ranked competition solutions across ML, NLP, and time-series challenges | `Kaggle` `ML` `Competition` |
+| 39 | [Awesome AI/ML Startups](https://github.com/AdilShamim8/awesome-ai-ml-startups) | Monthly-updated community tracker of global AI/ML startups sourced from YC, Crunchbase, Forbes AI 50, and VC databases | `AI` `Startups` `Resource` |
+| 40 | [Agentic RAG Platform](https://github.com/AdilShamim8/Agentic-RAG-Platform) | Reproducible, evaluated, secured, and observable Agentic RAG platform for organizational knowledge | `RAG` `Agents` `Enterprise` |
+| 41 | [Agentic AI Eval Harness](https://github.com/AdilShamim8/Agentic-AI-Eval-Harness) | Production CI gate and evaluation benchmarking harness for AI agents across LangGraph and CrewAI | `Agents` `Evals` `CI-Gate` |
+| 42 | [System Design for AI](https://github.com/AdilShamim8/System-Design-For-AI) | Comprehensive curriculum on system design for AI from zero to production architecture | `System-Design` `Architecture` `MLOps` |
+| 43 | [FinTech AI Engineer Mastery](https://github.com/AdilShamim8/Fintech-AI-Engineer-Mastery) | Complete curriculum and engineering laboratory for AI Engineers specializing in Financial Technology | `FinTech` `Finance` `AI-Engineer` |
+| 44 | [Claude Research Excellence](https://github.com/AdilShamim8/claude-research-excellence) | AI-powered research paper creation and adversarial peer-review simulation framework | `Claude` `Research` `GenAI` |
+| 45 | [AI for Everyone](https://github.com/AdilShamim8/AI-for-Everyone) | Free 30-day beginner roadmap teaching practical AI usage, prompting, and workflows in English & Bengali | `AI` `Beginner` `Roadmap` |
+| 46 | [FDE Field Guide](https://github.com/AdilShamim8/fde-field-guide) | Practical field guide for Forward Deployed Engineers turning ambiguous business problems into production systems | `Engineering` `Production` `FDE` |
 
 ###  Production AI Systems
 
