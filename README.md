@@ -69,7 +69,7 @@ Whether you're just entering the AI space or a seasoned practitioner looking for
 | 02 | [GenAI Roadmap with LangChain](https://github.com/AdilShamim8/GenAI-Roadmap-with-Notes-and-Projects) | Generative AI roadmap with hands-on LangChain notes | `GenAI` `LangChain` `LLM` |
 | 03 | [Agentic AI Roadmap with LangGraph](https://github.com/AdilShamim8/Agentic-AI-Roadmap-with-Notes-and-Projects) | End-to-end agentic AI roadmap with structured notes and LangGraph implementations | `GenAI` `LangGraph` `Agents` |
 | 04 | [ML Algorithm Library](https://github.com/AdilShamim8/ML-Algorithm-Library) | Pure-Python implementations of core ML algorithms from scratch | `ML` `Algorithms` `From-Scratch` |
-| 05 | [GPT-2 Rebuild — nanoGPT](https://github.com/AdilShamim8/GPT-2-Rebuild-nanoGPT) | Step-by-step reproduction of GPT-2 and nanoGPT from scratch following Karpathy's architecture | `DL` `Transformers` `LLM` |
+| 05 | [GPT-2 Rebuild — nanoGPT](https://github.com/AdilShamim8/GPT) | Step-by-step reproduction of GPT-2 and nanoGPT from scratch following Karpathy's architecture | `DL` `Transformers` `LLM` |
 | 06 | [Prompt Engineering](https://github.com/AdilShamim8/Prompt-Engineering) | Techniques and best practices for effective LLM prompting | `LLM` `Prompting` `NLP` |
 | 07 | [RAG Roadmap and Projects](https://github.com/AdilShamim8/RAG-Roadmap-with-Notes-and-Projects) | End-to-end learning path for RAG — from document processing to agentic systems and production deployment | `RAG` `LangChain` `Roadmap` |
 | 08 | [Build with Claude Code](https://github.com/AdilShamim8/Build-with-Claude-Code) | Deep notes, real assignments, and working solutions for mastering Claude Code and agentic loops | `Claude` `Agents` `LLM` |
@@ -133,7 +133,7 @@ Whether you're just entering the AI space or a seasoned practitioner looking for
 | 36 | [Training Data Bot](https://github.com/AdilShamim8/Training_Data_Bot) | Automated pipeline that converts raw documents (PDF, text, URLs) into clean, quality-scored LLM fine-tuning datasets | `LLM` `Fine-Tuning` `Dataset` `NLP` `Automation` |
 | 37 | [AI Engineering](https://github.com/AdilShamim8/AI-Engineering) | Research archive of real-world AI engineering interview assignments, take-home challenges, and hiring practices | `AI` `Career` `Research` |
 | 38 | [Kaggle Competitions](https://github.com/AdilShamim8/Kaggle_Competitions) | Collection of top-ranked competition solutions across ML, NLP, and time-series challenges | `Kaggle` `ML` `Competition` |
-| 39 | [Awesome AI/ML Startups](https://github.com/AdilShamim8/awesome-ai-ml-startups) | Monthly-updated community tracker of global AI/ML startups sourced from YC, Crunchbase, Forbes AI 50, and VC databases | `AI` `Startups` `Resource` |
+| 39 | [Awesome AI/ML Startups](https://github.com/AdilShamim8/Awesome-AI_ML-Startups) | Monthly-updated community tracker of global AI/ML startups sourced from YC, Crunchbase, Forbes AI 50, and VC databases | `AI` `Startups` `Resource` |
 | 40 | [Agentic RAG Platform](https://github.com/AdilShamim8/Agentic-RAG-Platform) | Reproducible, evaluated, secured, and observable Agentic RAG platform for organizational knowledge | `RAG` `Agents` `Enterprise` |
 | 41 | [Agentic AI Eval Harness](https://github.com/AdilShamim8/Agentic-AI-Eval-Harness) | Production CI gate and evaluation benchmarking harness for AI agents across LangGraph and CrewAI | `Agents` `Evals` `CI-Gate` |
 | 42 | [System Design for AI](https://github.com/AdilShamim8/System-Design-For-AI) | Comprehensive curriculum on system design for AI from zero to production architecture | `System-Design` `Architecture` `MLOps` |
@@ -141,8 +141,10 @@ Whether you're just entering the AI space or a seasoned practitioner looking for
 | 44 | [Claude Research Excellence](https://github.com/AdilShamim8/claude-research-excellence) | AI-powered research paper creation and adversarial peer-review simulation framework | `Claude` `Research` `GenAI` |
 | 45 | [AI for Everyone](https://github.com/AdilShamim8/AI-for-Everyone) | Free 30-day beginner roadmap teaching practical AI usage, prompting, and workflows in English & Bengali | `AI` `Beginner` `Roadmap` |
 | 46 | [FDE Field Guide](https://github.com/AdilShamim8/fde-field-guide) | Practical field guide for Forward Deployed Engineers turning ambiguous business problems into production systems | `Engineering` `Production` `FDE` |
+| 47 | [50 Days of Machine Learning](https://github.com/AdilShamim8/50-Days-of-Machine-Learning) | Immersive project covering essential ML concepts, daily exercises, and real-world datasets | `ML` `Roadmap` `Data-Science` |
+| 48 | [ChessLM](https://github.com/AdilShamim8/ChessLM) | Chess AI platform enabling interactive gameplay and move analysis across language models | `AI` `Chess` `LLM` |
 
-###  Production AI Systems
+### 🚀 Production AI Systems
 
 | # | Project | Description | Tags |
 |---|---------|-------------|------|
@@ -152,7 +154,7 @@ Whether you're just entering the AI space or a seasoned practitioner looking for
 | 104 | [Deep Research](https://github.com/AdilShamim8/Deep-Research-104) | Deep research AI using web search, OpenAI o3, and DeepSeek-R1 with inference-time scaling | `Research` `LLM` `Agents` |
 | 105 | [Multi-Modal Generation](https://github.com/AdilShamim8/Multi-Modal-105) | Production T2I and T2V synthesis with full VAE, GAN, DiT, and DDPM/DDIM/DPM-Solver++ implementation | `T2I` `T2V` `Diffusion` `DL` |
 
-###  Agentic AI Roadmap — Practice Projects
+### 🤖 Agentic AI Roadmap — Practice Projects
 
 > **10 hands-on projects from the [Agentic AI Roadmap](https://github.com/AdilShamim8/Agentic-AI-Roadmap-with-Notes-and-Projects)**, taking single agents to production-grade multi-agent systems.
 
