@@ -12,7 +12,6 @@
 Whether you're just entering the AI space or a seasoned practitioner looking for reference implementations, this repository covers the full stack of modern AI engineering — from classical ML to cutting-edge generative models.
 
 ---
-
 ## What's Inside
 
 <table>
